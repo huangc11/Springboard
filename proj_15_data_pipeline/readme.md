@@ -25,14 +25,16 @@ pip install mysql-connector-python
 #### Step 3: Create database and table in mysql database
 
  1) At dos prompt,  run mysql shell to connect to mysql server using following command (assume you have set up a credential,  'dbuser1' as username and a password):
+ 
      mysql -u dbuser1 -p
  
  2) After  connecting to mysql serer, run follow command to create database if it is not existing:
+ 
   create database ticket_system
   
  3) Type command 'use ticket_system' to connect to the database.
  
- 3) Run the DDL statement in  of one of the downloaded file, 'cr_table_sales.sql',  to create table 'sales'
+ 4) Run the DDL statement in  of one of the downloaded file, 'cr_table_sales.sql',  to create table 'sales'
  
 
 #### Step 4: Run python script
