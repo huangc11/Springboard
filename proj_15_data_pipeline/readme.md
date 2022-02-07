@@ -24,7 +24,7 @@ pip install mysql-connector-python
 
 #### Step 3: Create database and table in mysql database
 
- 1) At dos prompt,  run mysql shell to connect to mysql server using following command (assume you have set up a credential,  'dbuser1' as username and a password):
+ 1) At dos prompt,  launch mysql shell to connect to mysql server using following command (assume you have set up a credential,  'dbuser1' as username and a password):
  
      mysql -u dbuser1 -p
  
