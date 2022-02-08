@@ -11,5 +11,5 @@ successfully connected.
 
 ---- Analysys completed.
 Here are the top 2 most popular tickets:
-- Christmas Spectacular(35)
-- Washington Spirits vs Sky Blue FC(35)
+- Christmas Spectacular(5)
+- Washington Spirits vs Sky Blue FC(5)
