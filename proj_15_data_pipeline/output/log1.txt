@@ -1,0 +1,15 @@
+Please enter the databse username:
+Please enter the databse password:
+please enter the port(default=3306):
+Please enter the localhost(default="localhost"):
+Please enter the databse(default='ticket_system'):
+---- connecting to database at localhost, 3306
+successfully connected.
+
+---- Data loading process started...
+---- Data loaded to database....
+
+---- Analysys completed.
+Here are the top 2 most popular tickets:
+- Christmas Spectacular(35)
+- Washington Spirits vs Sky Blue FC(35)
