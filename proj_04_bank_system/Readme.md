@@ -12,7 +12,7 @@ Here are the system functionalities that the system is targetting. More details 
 #### Module and funciton  
 
 #### 1.Customer management: 
-- Create or retrieve customer
+- Create or retrieve a customer 
 #### 2.Account management: 
 - Create checking or savings accounts
 - Assign an account to a customer (for sharing account)
@@ -22,7 +22,7 @@ Here are the system functionalities that the system is targetting. More details 
 - Approval credit card applicaiton
 - Generte new credit cards
 ####  5. Others
-- Create employes
+- Create a employee
 
 
 ### Design 
@@ -82,9 +82,12 @@ pip install pytest
 
 
 #### Step 1. Download source code
-Create a work folder on your compulter and download all the files in following github folder to it
+Create a work folder on your compulter and 
+
+1. download all the files in following github folder to it
 https://github.com/huangc11/Springboard/tree/main/proj_04_bank_system
 
+2. Make sure subfolder 'logs' is created under the root folder
 
 
 #### Step 2. Install MySQL Python connector using pip
@@ -104,11 +107,11 @@ Run following  pip command to install the pyhton module:
  
      create database bank;
   
- 3) Type command 'use ticket_system' to connect to the database.
+ 3) Type command 'use bank' to connect to the database.
  
- 4) Run the DDL statement in  of one of the downloaded file, 'sql_creat_table.sql',  to create all needed tables.
+ 4) Locate file 'sql_creat_table.sql' in the root folder.  In msql shell, run all the DDL statements in this file to create all needed tables.
  
- 5) Please make sure table 'sequence' is not empty.  Otherwise, run following SQL statement to insert one record:
+ 5) Please make sure table 'sequence' is not empty.  If it is empy, run following SQL statement to insert one record:
      insert into sequence (note) values ('');
      commit;
  
@@ -119,9 +122,8 @@ Run following  pip command to install the pyhton module:
 -  __db_host ='localhost'
 -  __db_port = '3306'
   
-2) (Optional) You can  test database connection using pytest(If you have pytest module installed). Navigate to the script root folder, launch Windows 10 Dos prompt and run the following command:
+2) (Optional) You can  test database connection using pytest(If you have pytest module installed). Navigate to the root folder, launch Windows 10 Dos prompt and run the following command:
 pytest  test_database.py -v
-
 
 
 #### Step 5: Run python script
