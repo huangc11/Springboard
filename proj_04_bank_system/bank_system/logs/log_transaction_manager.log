@@ -1,0 +1,210 @@
+2022-02-05 08:44:55,780:transaction_mngmt:INFO:***** Requested to withdraw from account
+2022-02-05 08:49:45,809:transaction_mngmt:INFO:Deposit transaction succeeded
+2022-02-05 08:49:45,809:transaction_mngmt:INFO:Transaction id: 45; amount deposited: 30.0; account balance: 575.0 
+2022-02-05 08:51:05,628:transaction_mngmt:INFO:!!!!!!!!! Deposit transaction succeeded
+2022-02-05 08:51:05,628:transaction_mngmt:INFO:Transaction id: 46; amount deposited: 30.0; account balance: 605.0 
+2022-02-05 08:58:53,974:transaction_mngmt:INFO:hello
+2022-02-05 09:01:17,515:transaction_mngmt:INFO:!!!!!!!! hello
+2022-02-05 10:10:00,756:transaction_mngmt:INFO:!!!!!!!! hello-request
+2022-02-05 10:10:49,107:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-05 10:10:49,250:transaction_mngmt:INFO:Withdraw transaction succeeded
+2022-02-05 10:10:49,257:transaction_mngmt:INFO:Transaction id: 20172; amount withdrawn: 30 account balance: 575.0 
+2022-02-05 10:18:52,902:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-05 10:18:52,962:transaction_mngmt:INFO:Withdraw transaction succeeded
+2022-02-05 10:18:52,965:transaction_mngmt:INFO:Transaction id: 20172; amount withdrawn: 30 account balance: 545.0 
+2022-02-05 10:21:04,127:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-05 10:21:04,191:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-05 10:21:04,194:transaction_mngmt:INFO:Transaction id: 20172; amount withdrawn: 30 account balance: 515.0 
+2022-02-05 10:22:14,131:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20172, amount=40.
+2022-02-05 10:22:14,185:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-05 10:22:14,188:transaction_mngmt:INFO:Transaction id: 50; amount deposited: 40.0; account balance: 555.0 
+2022-02-05 10:22:50,392:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20999, amount=40.
+2022-02-05 10:22:50,438:transaction_mngmt:INFO:Deposit transaction failed -- account not found.
+2022-02-05 10:27:39,010:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20999, amount=40.
+2022-02-05 10:27:54,936:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20999, amount=40.
+2022-02-05 10:28:48,787:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20999, amount=40.
+2022-02-05 10:28:48,819:transaction_mngmt:INFO:Deposit transaction failed -- account not found.
+2022-02-05 10:29:00,030:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20999, amount=40.
+2022-02-05 10:29:00,076:transaction_mngmt:INFO:Deposit transaction failed -- account not found.
+2022-02-11 12:02:34,293:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=40.
+2022-02-11 12:02:34,418:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-11 12:02:34,418:transaction_mngmt:INFO:Transaction id: 51; amount deposited: 40.0; account balance: 2040.0 
+2022-02-11 12:04:05,484:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=40.
+2022-02-11 12:04:05,531:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-11 12:04:05,531:transaction_mngmt:INFO:Transaction id: 52; amount deposited: 40.0; account balance: 2080.0 
+2022-02-11 12:04:05,531:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:04:05,547:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:04:05,547:transaction_mngmt:INFO:Transaction id: 30720; amount withdrawn: 90 account balance: 1990.0 
+2022-02-11 12:07:38,621:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=40.
+2022-02-11 12:07:38,668:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-11 12:07:38,668:transaction_mngmt:INFO:Transaction id: 54; amount deposited: 40.0; account balance: 2030.0 
+2022-02-11 12:07:38,668:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:07:38,683:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+-------------------------
+2022-02-11 12:10:35,291:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=40.
+2022-02-11 12:10:35,322:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-11 12:10:35,322:transaction_mngmt:INFO:Transaction id: 56; amount deposited: 40.0; account balance: 1980.0 
+2022-02-11 12:10:35,322:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:10:35,353:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:12:14,404:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=40.
+2022-02-11 12:12:14,451:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-11 12:12:14,451:transaction_mngmt:INFO:Transaction id: 58; amount deposited: 40.0; account balance: 1930.0 
+2022-02-11 12:12:14,451:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:12:14,467:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:12:14,467:transaction_mngmt:INFO:Transaction id: 59;  amount withdrawn: 90 account balance: 1840.0 
+----------------
+2022-02-11 12:12:58,040:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=40.
+2022-02-11 12:12:58,071:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-11 12:12:58,087:transaction_mngmt:INFO:Transaction id: 60; amount deposited: 40.0; account balance: 1880.0 
+--------
+2022-02-11 12:13:20,663:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=40.
+2022-02-11 12:13:20,714:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-11 12:13:20,716:transaction_mngmt:INFO:Transaction id: 61; amount deposited: 40.0; account balance: 1920.0 
+----------
+2022-02-11 12:13:41,504:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:13:41,550:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:13:41,550:transaction_mngmt:INFO:Transaction id: 62;  amount withdrawn: 90 account balance: 1830.0 
+2022-02-11 12:14:00,324:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:14:00,355:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:14:00,355:transaction_mngmt:INFO:Transaction id: 63;  amount withdrawn: 90 account balance: 1740.0 
+2022-02-11 12:14:50,858:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:14:50,889:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:14:50,889:transaction_mngmt:INFO:Transaction id: 64;  amount withdrawn: 90 account balance: 1650.0 
+2022-02-11 12:15:27,937:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:15:27,968:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:15:27,984:transaction_mngmt:INFO:Transaction id: 65;  amount withdrawn: 1650.0 account balance: 0.0 
+2022-02-11 12:19:43,839:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:19:43,886:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:20:15,361:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:20:15,424:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:20:15,424:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is0.0
+2022-02-11 12:20:15,424:transaction_mngmt:INFO:Transaction id: 67;  amount withdrawn: 0.0 account balance: 0.0 
+2022-02-11 12:20:49,791:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=400.
+2022-02-11 12:20:49,823:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-11 12:20:49,838:transaction_mngmt:INFO:Transaction id: 68; amount deposited: 400.0; account balance: 400.0 
+2022-02-11 12:21:12,105:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no={}, amount={}.
+2022-02-11 12:21:12,136:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:21:12,136:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is 400.0
+2022-02-11 12:21:12,152:transaction_mngmt:INFO:Transaction id: 69;  amount withdrawn: 400.0 account balance: 0.0 
+2022-02-11 12:22:22,065:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=30720, amount=450.
+2022-02-11 12:22:22,097:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-11 12:22:22,097:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is 0.0
+2022-02-11 12:22:22,097:transaction_mngmt:INFO:Transaction id: 70;  amount withdrawn: 0.0 account balance: 0.0 
+2022-02-11 12:22:44,333:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=400.
+2022-02-11 12:22:44,364:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-11 12:22:44,380:transaction_mngmt:INFO:Transaction id: 71; amount deposited: 400.0; account balance: 400.0 
+2022-02-12 06:37:26,863:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30720, amount=400.
+2022-02-12 06:39:14,083:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=400.
+2022-02-12 06:42:07,746:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=400.
+2022-02-12 06:42:07,777:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 06:42:07,793:transaction_mngmt:INFO:Transaction id: 79; amount deposited: 400.0; account balance: 900.0 
+2022-02-12 06:42:30,623:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=400.
+2022-02-12 06:42:30,685:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 06:42:30,701:transaction_mngmt:INFO:Transaction id: 80; amount deposited: 400.0; account balance: 1300.0 
+2022-02-12 06:43:55,576:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=100.
+2022-02-12 06:43:55,623:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 06:43:55,623:transaction_mngmt:INFO:Transaction id: 81;  amount withdrawn: 100 account balance: 1200.0 
+2022-02-12 06:44:02,703:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=100.
+2022-02-12 06:44:02,734:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 06:44:02,734:transaction_mngmt:INFO:Transaction id: 82;  amount withdrawn: 100 account balance: 1100.0 
+2022-02-12 06:44:24,452:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=x.
+2022-02-12 06:44:36,547:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=1300.
+2022-02-12 06:44:36,578:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 06:44:36,578:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is 1100.0
+2022-02-12 06:44:36,578:transaction_mngmt:INFO:Transaction id: 83;  amount withdrawn: 1100.0 account balance: 0.0 
+2022-02-12 06:44:55,107:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=1300.
+2022-02-12 06:44:55,138:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 06:44:55,138:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is 0.0
+2022-02-12 06:44:55,138:transaction_mngmt:INFO:Transaction id: 84;  amount withdrawn: 0.0 account balance: 0.0 
+2022-02-12 06:46:29,679:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=400.
+2022-02-12 06:46:29,711:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 06:46:29,711:transaction_mngmt:INFO:Transaction id: 85; amount deposited: 400.0; account balance: 400.0 
+2022-02-12 06:46:29,711:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=500.
+2022-02-12 06:46:29,726:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 06:46:29,726:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is 400.0
+2022-02-12 06:46:29,726:transaction_mngmt:INFO:Transaction id: 86;  amount withdrawn: 400.0 account balance: 0.0 
+2022-02-12 06:47:10,911:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=400.
+2022-02-12 06:47:10,943:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 06:47:10,943:transaction_mngmt:INFO:Transaction id: 87; amount deposited: 400.0; account balance: 400.0 
+2022-02-12 06:47:10,943:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=300.
+2022-02-12 06:47:10,958:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 06:47:10,958:transaction_mngmt:INFO:Transaction id: 88;  amount withdrawn: 300 account balance: 100.0 
+2022-02-12 06:47:10,958:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=500.
+2022-02-12 06:47:10,974:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 06:47:10,974:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is 100.0
+2022-02-12 06:47:10,989:transaction_mngmt:INFO:Transaction id: 89;  amount withdrawn: 100.0 account balance: 0.0 
+----------------
+2022-02-12 06:47:37,495:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=400.
+2022-02-12 06:47:37,526:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 06:47:37,526:transaction_mngmt:INFO:Transaction id: 90; amount deposited: 400.0; account balance: 400.0 
+2022-02-12 06:47:37,526:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=300.
+2022-02-12 06:47:37,542:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 06:47:37,542:transaction_mngmt:INFO:Transaction id: 91;  amount withdrawn: 300 account balance: 100.0 
+2022-02-12 06:47:37,557:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=500.
+2022-02-12 06:47:37,573:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 06:47:37,573:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is 100.0
+2022-02-12 06:47:37,573:transaction_mngmt:INFO:Transaction id: 92;  amount withdrawn: 100.0 account balance: 0.0 
+2022-02-12 07:07:57,046:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=33.0.
+2022-02-12 07:07:57,140:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:07:57,155:transaction_mngmt:INFO:Transaction id: 93; amount deposited: 33.0; account balance: 33.0 
+2022-02-12 07:08:21,361:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=22.0.
+2022-02-12 07:08:21,376:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 07:08:21,376:transaction_mngmt:INFO:Transaction id: 94;  amount withdrawn: 22.0 account balance: 11.0 
+2022-02-12 07:09:13,171:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=299999, amount=93.0.
+2022-02-12 07:09:13,171:transaction_mngmt:INFO:Deposit transaction failed -- account not found.
+2022-02-12 07:21:05,049:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=100.0.
+2022-02-12 07:21:05,111:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:21:05,111:transaction_mngmt:INFO:Transaction id: 95; amount deposited: 100.0; account balance: 111.0 
+2022-02-12 07:21:15,946:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=300.0.
+2022-02-12 07:21:15,977:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 07:21:15,977:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is 111.0
+2022-02-12 07:21:15,977:transaction_mngmt:INFO:Transaction id: 96;  amount withdrawn: 111.0 account balance: 0.0 
+2022-02-12 07:21:29,676:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=500.0.
+2022-02-12 07:21:29,692:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:21:29,692:transaction_mngmt:INFO:Transaction id: 97; amount deposited: 500.0; account balance: 500.0 
+2022-02-12 07:21:37,341:transaction_mngmt:INFO:Input error. Please input again
+2022-02-12 07:22:25,918:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20701, amount=200.0.
+2022-02-12 07:22:25,965:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:22:25,965:transaction_mngmt:INFO:Transaction id: 98; amount deposited: 200.0; account balance: 700.0 
+2022-02-12 07:22:43,272:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20701, amount=120.0.
+2022-02-12 07:22:43,287:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 07:22:43,287:transaction_mngmt:INFO:Transaction id: 99;  amount withdrawn: 120.0 account balance: 580.0
+_________----------------------_______________
+
+2022-02-12 07:49:33,069:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20721, amount=300.0.
+2022-02-12 07:49:33,135:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:49:33,138:transaction_mngmt:INFO:Transaction id: 100; amount deposited: 300.0; account balance: 1300.0 
+2022-02-12 07:50:01,078:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20721, amount=600.0.
+2022-02-12 07:50:01,105:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 07:50:01,106:transaction_mngmt:INFO:Transaction id: 101;  amount withdrawn: 600.0 account balance: 700.0 
+2022-02-12 07:50:20,769:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20721, amount=800.0.
+2022-02-12 07:50:20,783:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 07:50:20,784:transaction_mngmt:INFO:%%% Warning: Account balance is less than desired amount. Actual amount withdrawn is 700.0
+2022-02-12 07:50:20,785:transaction_mngmt:INFO:Transaction id: 102;  amount withdrawn: 700.0 account balance: 0.0 
+2022-02-12 07:51:15,885:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30714, amount=500.0.
+2022-02-12 07:51:15,901:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:51:15,903:transaction_mngmt:INFO:Transaction id: 103; amount deposited: 500.0; account balance: 1500.0 
+2022-02-12 07:51:36,860:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30714, amount=700.0.
+2022-02-12 07:51:36,873:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:51:36,875:transaction_mngmt:INFO:Transaction id: 104; amount deposited: 700.0; account balance: 2200.0 
+2022-02-12 07:52:16,753:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20715, amount=800.0.
+2022-02-12 07:52:16,771:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:52:16,773:transaction_mngmt:INFO:Transaction id: 105; amount deposited: 800.0; account balance: 1300.0 
+2022-02-12 07:52:31,886:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20715, amount=100.0.
+2022-02-12 07:52:31,901:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 07:52:31,903:transaction_mngmt:INFO:Transaction id: 106;  amount withdrawn: 100.0 account balance: 1200.0 
+2022-02-12 07:53:34,053:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=30718, amount=1000.0.
+2022-02-12 07:53:34,069:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:53:34,071:transaction_mngmt:INFO:Transaction id: 107; amount deposited: 1000.0; account balance: 1500.0 
+2022-02-12 07:54:48,789:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=20719, amount=500.0.
+2022-02-12 07:54:48,806:transaction_mngmt:INFO:!!!!!!!! Deposit transaction succeeded
+2022-02-12 07:54:48,808:transaction_mngmt:INFO:Transaction id: 108; amount deposited: 500.0; account balance: 800.0 
+2022-02-12 07:55:03,356:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=20719, amount=200.0.
+2022-02-12 07:55:03,374:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-12 07:55:03,376:transaction_mngmt:INFO:Transaction id: 109;  amount withdrawn: 200.0 account balance: 600.0 
+2022-02-12 07:55:31,736:transaction_mngmt:INFO:******** Requested to deposit to account: account_no=207139393, amount=30.0.
+2022-02-12 07:55:31,739:transaction_mngmt:INFO:Deposit transaction failed -- account not found.
+2022-02-12 07:55:44,087:transaction_mngmt:INFO:Input error. Please input again
+2022-02-13 06:58:47,244:transaction_mngmt:INFO:******** Requested to withdraw from account: account_no=30718, amount=400.0.
+2022-02-13 06:58:47,322:transaction_mngmt:INFO:!!!!!!!! Withdraw transaction succeeded
+2022-02-13 06:58:47,329:transaction_mngmt:INFO:Transaction id: 110;  amount withdrawn: 400.0 account balance: 1100.0 

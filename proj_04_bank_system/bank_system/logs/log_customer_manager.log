@@ -1,0 +1,19 @@
+2022-02-10 22:27:44,436:log_customer:INFO:customer has been created: id=1, name=Tom, addr=Seattle
+2022-02-10 22:28:55,330:log_customer:INFO:Rquested to create customer: name =Tom, address=Seattle
+2022-02-10 22:28:55,392:log_customer:INFO:customer has been created: id=1, name=Tom, addr=Seattle
+2022-02-10 22:29:08,963:log_customer:INFO:Rquested to create customer: name =Tom, address=Seattle
+2022-02-10 22:29:08,963:log_customer:INFO:Customer already exsited. Can not create a new one
+2022-02-10 22:29:19,879:log_customer:INFO:Rquested to create customer: name =Jerry, address=Kenmore
+2022-02-10 22:29:19,899:log_customer:INFO:customer has been created: id=2, name=Jerry, addr=Kenmore
+2022-02-10 22:31:25,981:log_customer:INFO:Rquested to create customer: name =Adam Redmond, address=Shoreline
+2022-02-10 22:31:25,996:log_customer:INFO:customer has been created: id=3, name=Adam Redmond, addr=Shoreline
+2022-02-10 22:31:34,363:log_customer:INFO:Rquested to create customer: name =Susan, address=Bellevue
+2022-02-10 22:31:34,394:log_customer:INFO:customer has been created: id=4, name=Susan, addr=Bellevue
+2022-02-10 22:32:21,605:log_customer:INFO:Rquested to create customer: name =Lisa Hiller, address=Kirkland
+2022-02-10 22:32:21,682:log_customer:INFO:customer has been created: id=5, name=Lisa Hiller, addr=Kirkland
+2022-02-10 22:32:32,468:log_customer:INFO:Rquested to create customer: name =Sam Hiller, address=Kirkland
+2022-02-10 22:32:32,483:log_customer:INFO:customer has been created: id=6, name=Sam Hiller, addr=Kirkland
+2022-02-11 11:50:38,217:log_customer:INFO:Rquested to create customer: name =Alice, address=Seattle
+2022-02-11 11:50:38,264:log_customer:INFO:customer has been created: id=7, name=Alice, addr=Seattle
+2022-02-13 21:11:33,847:log_customer:INFO:Rquested to create customer: name =Jerry, address=Kenmore
+2022-02-13 21:11:33,918:log_customer:INFO:Customer already exsited. Can not create a new one

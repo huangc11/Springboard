@@ -1,0 +1,341 @@
+2022-02-05 08:18:30,678:log_account:INFO:Creating account:  customer(id=101), account_type='checking', balance=3000, intr_rate=None
+2022-02-05 08:20:39,869:log_account:INFO:Creating account:  customer(id=101), account_type='checking', balance=3000, intr_rate=None
+2022-02-05 08:20:39,916:log_account:INFO:account creation failed -- customer with id=101 not found.
+2022-02-05 08:22:38,238:log_account:INFO:Requested to create account:  customer(id=169), account_type='savings', balance=3000, intr_rate=0.012
+2022-02-05 08:27:15,315:log_account:INFO:Requested to create account:  customer(id=169), account_type='savings', balance=3000, intr_rate=0.012
+2022-02-05 08:27:15,440:log_account:INFO:Account (id =218) successfully created and assgined to customer (id=169).
+2022-02-05 08:27:15,440:log_account:INFO:	 BankAccount(id=218, account_no=30600, account_type='savings', balance=3000.0)
+2022-02-05 08:27:15,440:log_account:INFO:	 Customer(169, 'Jack', 'Kenmore')
+2022-02-05 08:33:28,625:log_account:INFO:Requested to create account:  customer(id=169), account_type='savings', balance=3000, intr_rate=0.012
+2022-02-05 08:33:28,719:log_account:INFO:Account (id =219) successfully created and assgined to customer (id=169).
+2022-02-05 08:33:28,719:log_account:INFO:	 BankAccount(id=219, account_no=30601, account_type='savings', balance=3000.0, intrst_rate=0.01 )
+2022-02-05 08:33:28,719:log_account:INFO:	 Customer(169, 'Jack', 'Kenmore')
+2022-02-05 11:04:40,358:log_account:INFO:Requested to create account:  customer(id=169), account_type='savings', balance=3000, intr_rate=0.012
+2022-02-05 11:04:40,522:log_account:INFO:Account (id =220) successfully created and assgined to customer (id=169).
+2022-02-05 11:04:40,522:log_account:INFO:	 BankAccount(id=220, account_no=30602, account_type='savings', balance=3000.0, intrst_rate=0.01 )
+2022-02-05 11:04:40,522:log_account:INFO:	 Customer(169, 'Jack', 'Kenmore')
+2022-02-05 11:07:56,568:log_account:INFO:Customer-account connection: (169, 30601) failed-- account_id not found
+2022-02-05 11:08:31,949:log_account:INFO:Customer-account connection: (169, 218) created.
+2022-02-05 11:09:00,342:log_account:INFO:Customer-account connection: (169, 218) created.
+2022-02-05 11:10:48,930:log_account:INFO:Customer-account connection: (169, 218) created.
+2022-02-05 11:11:12,062:log_account:INFO:Customer-account connection: (169, 218) created.
+2022-02-05 11:11:13,469:log_account:INFO:Customer-account connection: (169, 218) created.
+2022-02-05 11:12:13,345:log_account:INFO:Customer-account connection: (169, 218) created.
+2022-02-06 15:43:59,827:log_account:INFO:Customer-account connection: (169, 218) failed-- customer_id not found
+2022-02-06 16:44:17,407:log_account:INFO:Customer-account connection: (169, 218) failed-- customer_id not found
+2022-02-06 16:44:17,749:log_account:INFO:this is a success
+2022-02-06 16:44:17,749:log_account:INFO:this is a failure
+2022-02-06 16:44:17,749:log_account:INFO:this is a message
+2022-02-10 22:59:27,120:log_account:INFO:Requested to create account:  customer(id=8), account_type='savings', balance=9, intr_rate=9
+2022-02-10 22:59:27,303:log_account:INFO:account creation failed -- customer with id=8 not found.
+2022-02-10 22:59:43,117:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=200, intr_rate=
+2022-02-10 22:59:43,384:log_account:INFO:Account (id =221) successfully created and assgined to customer (id=1).
+2022-02-10 22:59:43,384:log_account:INFO:	 BankAccount(id=221, account_no=30606, account_type='savings', balance=200.0, intrst_rate=0.01 )
+2022-02-10 22:59:43,384:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-10 23:12:38,744:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=2000.0, intr_rate=0.01
+2022-02-10 23:12:38,948:log_account:INFO:Account (id =222) successfully created and assgined to customer (id=1).
+2022-02-10 23:12:38,948:log_account:INFO:	 BankAccount(id=222, account_no=30607, account_type='savings', balance=2000.0, intrst_rate=0.01 )
+2022-02-10 23:12:38,948:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-10 23:25:28,209:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=2000.0, intr_rate=0.01
+2022-02-10 23:25:48,037:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=500.0, intr_rate=0.01
+2022-02-10 23:26:01,477:log_account:INFO:Requested to create account:  customer(id=2), account_type='checking', balance=300.0, intr_rate=0.01
+2022-02-10 23:26:44,941:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200.0, intr_rate=0.01
+2022-02-10 23:28:37,452:log_account:INFO:Requested to create account:  customer(id=2), account_type='checking', balance=23.0, intr_rate=None
+2022-02-10 23:30:18,687:log_account:INFO:Requested to create account:  customer(id=2), account_type='checking', balance=30.0, intr_rate=None
+2022-02-10 23:32:33,858:log_account:INFO:Requested to create account:  customer(id=2), account_type='checking', balance=200, intr_rate=None
+2022-02-10 23:47:33,926:log_account:INFO:Requested to create account:  customer(id=2), account_type='checking', balance=200, intr_rate=None
+2022-02-10 23:55:42,497:log_account:INFO:Requested to create account:  customer(id=2), account_type='checking', balance=200, intr_rate=None
+2022-02-11 00:04:56,340:log_account:INFO:Requested to create account:  customer(id=2), account_type='checking', balance=200, intr_rate=None
+2022-02-11 00:07:21,127:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 00:12:02,245:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 00:13:49,012:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 00:17:53,394:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 00:18:53,114:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 00:20:23,001:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:33:06,937:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:33:07,090:log_account:INFO:Account (id =17) successfully created and assgined to customer (id=2).
+2022-02-11 06:35:52,709:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:35:52,772:log_account:INFO:Account (id =18) successfully created and assgined to customer (id=2).
+2022-02-11 06:37:39,610:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:37:39,689:log_account:INFO:Account (id =19) successfully created and assgined to customer (id=2).
+2022-02-11 06:37:39,689:log_account:INFO:	 BankAccount(account_id=19, account_no=30626, account_type='savings', balance=200.0, intrst_rate=0.01 )
+2022-02-11 06:37:39,689:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 06:38:17,964:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:38:18,058:log_account:INFO:Account (id =20) successfully created and assgined to customer (id=2).
+2022-02-11 06:38:18,058:log_account:INFO:	 BankAccount(account_id=20, account_no=30627, account_type='savings', balance=200.0, intrst_rate=0.01 )
+2022-02-11 06:38:18,058:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 06:38:18,058:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=88, intr_rate=None
+2022-02-11 06:38:18,104:log_account:INFO:Account (id =21) successfully created and assgined to customer (id=1).
+2022-02-11 06:38:18,104:log_account:INFO:	 BankAccount(account_id=21, account_no=30628, account_type='savings', balance=88.0, intrst_rate=0.01 )
+2022-02-11 06:38:18,104:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 06:39:10,224:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:39:10,318:log_account:INFO:Account (id =22) successfully created and assgined to customer (id=2).
+2022-02-11 06:39:10,318:log_account:INFO:	 BankAccount(account_id=22, account_no=30629, account_type='savings', balance=200.0, intrst_rate=0.01 )
+2022-02-11 06:39:10,318:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 06:39:10,318:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=88, intr_rate=0.02
+2022-02-11 06:39:10,365:log_account:INFO:Account (id =23) successfully created and assgined to customer (id=1).
+2022-02-11 06:39:10,365:log_account:INFO:	 BankAccount(account_id=23, account_no=30630, account_type='savings', balance=88.0, intrst_rate=0.01 )
+2022-02-11 06:39:10,365:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 06:39:10,365:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=99, intr_rate=None
+2022-02-11 06:39:10,412:log_account:INFO:Account (id =24) successfully created and assgined to customer (id=1).
+2022-02-11 06:39:10,412:log_account:INFO:	 BankAccount(account_id=24, account_no=20631, account_type='checking', balance=99.0)
+2022-02-11 06:39:10,412:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 06:48:49,194:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:48:49,335:log_account:INFO:Account (id =25) successfully created and assgined to customer (id=2).
+2022-02-11 06:48:49,335:log_account:INFO:	 BankAccount(account_id=25, account_no=30632, account_type='savings', balance=200.0, intrst_rate=None )
+2022-02-11 06:48:49,335:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 06:48:49,335:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=88, intr_rate=0.02
+2022-02-11 06:48:49,381:log_account:INFO:Account (id =26) successfully created and assgined to customer (id=1).
+2022-02-11 06:48:49,381:log_account:INFO:	 BankAccount(account_id=26, account_no=30633, account_type='savings', balance=88.0, intrst_rate=0.02 )
+2022-02-11 06:48:49,381:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 06:48:49,381:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=99, intr_rate=None
+2022-02-11 06:48:49,444:log_account:INFO:Account (id =27) successfully created and assgined to customer (id=1).
+2022-02-11 06:48:49,444:log_account:INFO:	 BankAccount(account_id=27, account_no=20634, account_type='checking', balance=99.0)
+2022-02-11 06:48:49,444:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 06:50:16,135:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:50:16,213:log_account:INFO:Account (id =28) successfully created and assgined to customer (id=2).
+2022-02-11 06:50:16,213:log_account:INFO:	 BankAccount(account_id=28, account_no=30635, account_type='savings', balance=200.0, intrst_rate=None )
+2022-02-11 06:50:16,213:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 06:50:16,213:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=88, intr_rate=0.08
+2022-02-11 06:50:16,254:log_account:INFO:Account (id =29) successfully created and assgined to customer (id=1).
+2022-02-11 06:50:16,254:log_account:INFO:	 BankAccount(account_id=29, account_no=30636, account_type='savings', balance=88.0, intrst_rate=0.08 )
+2022-02-11 06:50:16,254:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 06:50:16,254:log_account:INFO:Requested to create account:  customer(id=99), account_type='checking', balance=99, intr_rate=None
+2022-02-11 06:50:16,254:log_account:INFO:account creation failed -- customer with id=99 not found.
+2022-02-11 06:57:25,182:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:58:12,535:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 06:59:29,625:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:00:35,721:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:00:35,799:log_account:INFO:Account (id =30) successfully created and assgined to customer (id=2).
+2022-02-11 07:00:35,799:log_account:INFO:	 BankAccount(account_id=30, account_no=30637, account_type='savings', balance=200.0, intrst_rate=None )
+2022-02-11 07:00:35,799:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 07:00:35,799:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=88, intr_rate=0.08
+2022-02-11 07:00:35,846:log_account:INFO:Account (id =31) successfully created and assgined to customer (id=1).
+2022-02-11 07:00:35,846:log_account:INFO:	 BankAccount(account_id=31, account_no=30638, account_type='savings', balance=88.0, intrst_rate=0.08 )
+2022-02-11 07:00:35,846:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 07:00:35,846:log_account:INFO:Requested to create account:  customer(id=99), account_type='checking', balance=99, intr_rate=None
+2022-02-11 07:00:35,846:log_account:INFO:account creation failed -- customer with id=99 not found.
+2022-02-11 07:10:19,862:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:13:18,059:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:14:09,055:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:14:30,084:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:14:53,735:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:16:32,649:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:32:41,584:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:34:54,639:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:37:08,215:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:40:32,775:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:41:12,265:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=None
+2022-02-11 07:41:44,595:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 07:41:44,736:log_account:INFO:Account (id =39) successfully created and assgined to customer (id=2).
+2022-02-11 07:41:44,736:log_account:INFO:	 BankAccount(account_id=39, account_no=30656, account_type='savings', balance=200.0, intrst_rate=0.0 )
+2022-02-11 07:41:44,736:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 07:41:44,736:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=88, intr_rate=0.08
+2022-02-11 07:41:44,783:log_account:INFO:Account (id =40) successfully created and assgined to customer (id=1).
+2022-02-11 07:41:44,798:log_account:INFO:	 BankAccount(account_id=40, account_no=30657, account_type='savings', balance=88.0, intrst_rate=0.03 )
+2022-02-11 07:41:44,798:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 07:41:44,798:log_account:INFO:Requested to create account:  customer(id=99), account_type='checking', balance=99, intr_rate=0
+2022-02-11 07:41:44,798:log_account:INFO:account creation failed -- customer with id=99 not found.
+2022-02-11 07:41:50,050:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 07:41:50,144:log_account:INFO:Account (id =41) successfully created and assgined to customer (id=2).
+2022-02-11 07:41:50,144:log_account:INFO:	 BankAccount(account_id=41, account_no=30658, account_type='savings', balance=200.0, intrst_rate=0.0 )
+2022-02-11 07:41:50,144:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 07:41:50,144:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=88, intr_rate=0.08
+2022-02-11 07:41:50,191:log_account:INFO:Account (id =42) successfully created and assgined to customer (id=1).
+2022-02-11 07:41:50,191:log_account:INFO:	 BankAccount(account_id=42, account_no=30659, account_type='savings', balance=88.0, intrst_rate=0.03 )
+2022-02-11 07:41:50,191:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 07:41:50,191:log_account:INFO:Requested to create account:  customer(id=99), account_type='checking', balance=99, intr_rate=0
+2022-02-11 07:41:50,191:log_account:INFO:account creation failed -- customer with id=99 not found.
+2022-02-11 07:42:57,011:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 07:42:57,134:log_account:INFO:Account (id =43) successfully created and assgined to customer (id=2).
+2022-02-11 07:42:57,134:log_account:INFO:	 BankAccount(account_id=43, account_no=30660, account_type='savings', balance=200.0, intrst_rate=0.0 )
+2022-02-11 07:42:57,135:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 07:42:57,145:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=95, intr_rate=0.08
+2022-02-11 07:42:57,193:log_account:INFO:Account (id =44) successfully created and assgined to customer (id=1).
+2022-02-11 07:42:57,193:log_account:INFO:	 BankAccount(account_id=44, account_no=30661, account_type='savings', balance=95.0, intrst_rate=0.03 )
+2022-02-11 07:42:57,193:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 07:42:57,193:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=97, intr_rate=0
+2022-02-11 07:42:57,234:log_account:INFO:Account (id =45) successfully created and assgined to customer (id=1).
+2022-02-11 07:42:57,234:log_account:INFO:	 BankAccount(account_id=45, account_no=20662, account_type='checking', balance=97.0)
+2022-02-11 07:42:57,234:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 07:44:27,255:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 07:45:18,975:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 07:45:19,037:log_account:INFO:Account (id =46) successfully created and assgined to customer (id=2).
+2022-02-11 07:45:19,037:log_account:INFO:	 BankAccount(account_id=46, account_no=30663, account_type='savings', balance=200.0, intrst_rate=0.0 )
+2022-02-11 07:45:19,037:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 07:45:19,037:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=95, intr_rate=0.08
+2022-02-11 07:45:19,068:log_account:INFO:Account (id =47) successfully created and assgined to customer (id=1).
+2022-02-11 07:45:19,068:log_account:INFO:	 BankAccount(account_id=47, account_no=30664, account_type='savings', balance=95.0, intrst_rate=0.025 )
+2022-02-11 07:45:19,068:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 07:45:19,084:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=97, intr_rate=0
+2022-02-11 07:45:19,132:log_account:INFO:Account (id =48) successfully created and assgined to customer (id=1).
+2022-02-11 07:45:19,133:log_account:INFO:	 BankAccount(account_id=48, account_no=20665, account_type='checking', balance=97.0)
+2022-02-11 07:45:19,133:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 08:32:23,521:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 08:35:30,034:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 08:35:30,096:log_account:INFO:Account (id =56) successfully created and assgined to customer (id=2).
+2022-02-11 08:35:30,096:log_account:INFO:	 BankAccount(account_id=56, account_no=30684, account_type='savings', balance=200.0, intrst_rate=0.0 )
+2022-02-11 08:35:30,096:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 08:35:30,096:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=95, intr_rate=0.08
+2022-02-11 08:35:30,127:log_account:INFO:Account (id =57) successfully created and assgined to customer (id=1).
+2022-02-11 08:35:30,127:log_account:INFO:	 BankAccount(account_id=57, account_no=30685, account_type='savings', balance=95.0, intrst_rate=0.025 )
+2022-02-11 08:35:30,127:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 08:35:30,143:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=97, intr_rate=0
+2022-02-11 08:35:30,190:log_account:INFO:Account (id =58) successfully created and assgined to customer (id=1).
+2022-02-11 08:35:30,190:log_account:INFO:	 BankAccount(account_id=58, account_no=20686, account_type='checking', balance=97.0)
+2022-02-11 08:35:30,190:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 08:36:20,166:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 08:36:20,244:log_account:INFO:Account (id =59) successfully created and assgined to customer (id=2).
+2022-02-11 08:36:20,244:log_account:INFO:	 BankAccount(account_id=59, account_no=30687, account_type='savings', balance=200.0, intrst_rate=0.0 )
+2022-02-11 08:36:20,244:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 08:36:20,260:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=95, intr_rate=0.08
+2022-02-11 08:36:20,307:log_account:INFO:Account (id =60) successfully created and assgined to customer (id=1).
+2022-02-11 08:36:20,307:log_account:INFO:	 BankAccount(account_id=60, account_no=30688, account_type='savings', balance=95.0, intrst_rate=0.025 )
+2022-02-11 08:36:20,307:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 08:36:20,307:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=97, intr_rate=0
+2022-02-11 08:36:20,354:log_account:INFO:Account (id =61) successfully created and assgined to customer (id=1).
+2022-02-11 08:36:20,354:log_account:INFO:	 BankAccount(account_id=61, account_no=20689, account_type='checking', balance=97.0)
+2022-02-11 08:36:20,354:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 09:04:54,487:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 09:04:54,565:log_account:INFO:Account (id =62) successfully created and assgined to customer (id=2).
+2022-02-11 09:04:54,565:log_account:INFO:	 BankAccount(account_id=62, account_no=30690, account_type='savings', balance=200.0, intrst_rate=0.0 )
+2022-02-11 09:04:54,565:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 09:04:54,565:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=95, intr_rate=0.08
+2022-02-11 09:04:54,831:log_account:INFO:Account (id =63) successfully created and assgined to customer (id=1).
+2022-02-11 09:04:54,831:log_account:INFO:	 BankAccount(account_id=63, account_no=30691, account_type='savings', balance=95.0, intrst_rate=0.025 )
+2022-02-11 09:04:54,831:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 09:04:54,831:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=97, intr_rate=0
+2022-02-11 09:04:54,878:log_account:INFO:Account (id =64) successfully created and assgined to customer (id=1).
+2022-02-11 09:04:54,878:log_account:INFO:	 BankAccount(account_id=64, account_no=20692, account_type='checking', balance=97.0)
+2022-02-11 09:04:54,878:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 09:10:57,928:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 09:10:57,975:log_account:INFO:Account (id =65) successfully created and assgined to customer (id=2).
+2022-02-11 09:10:57,975:log_account:INFO:	 BankAccount(account_id=65, account_no=30693, account_type='savings', balance=200.0, intrst_rate=0.0 )
+2022-02-11 09:10:57,975:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 09:10:57,991:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=95, intr_rate=0.08
+2022-02-11 09:10:58,006:log_account:INFO:Account (id =66) successfully created and assgined to customer (id=1).
+2022-02-11 09:10:58,006:log_account:INFO:	 BankAccount(account_id=66, account_no=30694, account_type='savings', balance=95.0, intrst_rate=0.025 )
+2022-02-11 09:10:58,006:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 09:10:58,006:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=97, intr_rate=0
+2022-02-11 09:10:58,038:log_account:INFO:Account (id =67) successfully created and assgined to customer (id=1).
+2022-02-11 09:10:58,038:log_account:INFO:	 BankAccount(account_id=67, account_no=20695, account_type='checking', balance=97.0)
+2022-02-11 09:10:58,038:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 09:12:03,320:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=200, intr_rate=0
+2022-02-11 09:12:03,367:log_account:INFO:Account (id =68) successfully created and assgined to customer (id=2).
+2022-02-11 09:12:03,367:log_account:INFO:	 BankAccount(account_id=68, account_no=30696, account_type='savings', balance=200.0, intrst_rate=0.0 )
+2022-02-11 09:12:03,367:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 09:12:03,367:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=92, intr_rate=0.021
+2022-02-11 09:12:03,398:log_account:INFO:Account (id =69) successfully created and assgined to customer (id=1).
+2022-02-11 09:12:03,398:log_account:INFO:	 BankAccount(account_id=69, account_no=30697, account_type='savings', balance=92.0, intrst_rate=0.021 )
+2022-02-11 09:12:03,398:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 09:12:03,414:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=91, intr_rate=0
+2022-02-11 09:12:03,430:log_account:INFO:Account (id =70) successfully created and assgined to customer (id=1).
+2022-02-11 09:12:03,430:log_account:INFO:	 BankAccount(account_id=70, account_no=20698, account_type='checking', balance=91.0)
+2022-02-11 09:12:03,430:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 10:20:36,347:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=500.0, intr_rate=0
+2022-02-11 10:20:36,435:log_account:INFO:Account (id =1) successfully created and assgined to customer (id=1).
+___________________________________  user case -----------------------------
+2022-02-11 10:20:36,435:log_account:INFO:	 BankAccount(account_id=1, account_no=20701, account_type='checking', balance=500.0)
+2022-02-11 10:20:36,435:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 10:20:52,832:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=2000.0, intr_rate=0.01
+2022-02-11 10:20:52,882:log_account:INFO:Account (id =2) successfully created and assgined to customer (id=1).
+2022-02-11 10:20:52,882:log_account:INFO:	 BankAccount(account_id=2, account_no=30702, account_type='savings', balance=2000.0, intrst_rate=0.01 )
+2022-02-11 10:20:52,882:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 10:21:24,389:log_account:INFO:Requested to create account:  customer(id=2), account_type='checking', balance=200.0, intr_rate=0
+2022-02-11 10:21:24,435:log_account:INFO:Account (id =3) successfully created and assgined to customer (id=2).
+2022-02-11 10:21:24,435:log_account:INFO:	 BankAccount(account_id=3, account_no=20703, account_type='checking', balance=200.0)
+2022-02-11 10:21:24,435:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 10:22:42,869:log_account:INFO:Requested to create account:  customer(id=99), account_type='savings', balance=150.0, intr_rate=0.01
+2022-02-11 10:22:42,869:log_account:INFO:account creation failed -- customer with id=99 not found.
+2022-02-11 10:23:12,542:log_account:INFO:Requested to create account:  customer(id=999), account_type='checking', balance=150.0, intr_rate=0
+2022-02-11 10:23:12,542:log_account:INFO:account creation failed -- customer with id=999 not found.
+2022-02-11 10:23:49,465:log_account:INFO:Requested to create account:  customer(id=329), account_type='checking', balance=150.0, intr_rate=0
+2022-02-11 10:23:49,465:log_account:INFO:account creation failed -- customer with id=329 not found.
+2022-02-11 10:24:06,487:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=150.0, intr_rate=0
+2022-02-11 10:24:06,549:log_account:INFO:Account (id =4) successfully created and assgined to customer (id=1).
+2022-02-11 10:24:06,549:log_account:INFO:	 BankAccount(account_id=4, account_no=20704, account_type='checking', balance=150.0)
+2022-02-11 10:24:06,549:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 10:24:20,351:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=150.0, intr_rate=0
+2022-02-11 10:24:20,413:log_account:INFO:Account (id =5) successfully created and assgined to customer (id=1).
+2022-02-11 10:24:20,413:log_account:INFO:	 BankAccount(account_id=5, account_no=20705, account_type='checking', balance=150.0)
+2022-02-11 10:24:20,413:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 10:49:28,257:log_account:INFO:Requested to create account:  customer(id=329), account_type='savings', balance=160.0, intr_rate=0.01
+2022-02-11 10:49:28,288:log_account:INFO:account creation failed -- customer with id=329 not found.
+2022-02-11 10:50:05,784:log_account:INFO:Requested to create account:  customer(id=99), account_type='checking', balance=170.0, intr_rate=0
+2022-02-11 10:50:05,784:log_account:INFO:account creation failed -- customer with id=99 not found.
+2022-02-11 10:56:26,025:log_account:INFO:Requested to create account:  customer(id=2), account_type='checking', balance=3223.0, intr_rate=0
+2022-02-11 10:56:26,134:log_account:INFO:Account (id =6) successfully created and assgined to customer (id=2).
+2022-02-11 10:56:26,134:log_account:INFO:	 BankAccount(account_id=6, account_no=20706, account_type='checking', balance=3223.0)
+2022-02-11 10:56:26,134:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 11:03:36,100:log_account:INFO:Input error. Please input again
+2022-02-11 11:03:42,970:log_account:INFO:Input error. Please input again
+2022-02-11 11:03:53,860:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=299.0, intr_rate=0
+2022-02-11 11:03:53,959:log_account:INFO:Account (id =7) successfully created and assgined to customer (id=1).
+2022-02-11 11:03:53,959:log_account:INFO:	 BankAccount(account_id=7, account_no=20707, account_type='checking', balance=299.0)
+2022-02-11 11:03:53,959:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 11:10:18,696:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=300.0, intr_rate=0
+2022-02-11 11:10:18,774:log_account:INFO:Account (id =8) successfully created and assgined to customer (id=1).
+2022-02-11 11:10:18,774:log_account:INFO:	 BankAccount(account_id=8, account_no=20708, account_type='checking', balance=300.0)
+2022-02-11 11:10:18,774:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 11:10:28,070:log_account:INFO:###################Input error. Please input again####################
+2022-02-11 11:10:40,466:log_account:INFO:###################Input error. Please input again####################
+2022-02-11 11:12:22,864:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=23.0, intr_rate=0.01
+2022-02-11 11:12:22,947:log_account:INFO:Account (id =9) successfully created and assgined to customer (id=1).
+2022-02-11 11:12:22,947:log_account:INFO:	 BankAccount(account_id=9, account_no=30709, account_type='savings', balance=23.0, intrst_rate=0.01 )
+2022-02-11 11:12:22,947:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 11:21:50,636:log_account:INFO:Requested to create account:  customer(id=1), account_type='checking', balance=300.0, intr_rate=0
+2022-02-11 11:21:50,721:log_account:INFO:!!!!!!!!!!!!!!!Account (id =10) successfully created and assgined to customer (id=1).!!!!!!!!!!!!!!!
+2022-02-11 11:21:50,721:log_account:INFO:	 BankAccount(account_id=10, account_no=20710, account_type='checking', balance=300.0)
+2022-02-11 11:21:50,723:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 11:21:57,742:log_account:INFO:Requested to create account:  customer(id=1), account_type='savings', balance=200.0, intr_rate=0.01
+2022-02-11 11:21:57,803:log_account:INFO:!!!!!!!!!!!!!!!Account (id =11) successfully created and assgined to customer (id=1).!!!!!!!!!!!!!!!
+2022-02-11 11:21:57,804:log_account:INFO:	 BankAccount(account_id=11, account_no=30711, account_type='savings', balance=200.0, intrst_rate=0.01 )
+2022-02-11 11:21:57,805:log_account:INFO:	 Customer(1, 'Tom', 'Seattle')
+2022-02-11 11:31:32,772:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=1500.0, intr_rate=0.02
+2022-02-11 11:31:32,881:log_account:INFO:!!!!!!!!!!!!!!!Account (id =12) successfully created and assgined to customer (id=2).!!!!!!!!!!!!!!!
+2022-02-11 11:31:32,881:log_account:INFO:	 BankAccount(account_id=12, account_no=30712, account_type='savings', balance=1500.0, intrst_rate=0.02 )
+2022-02-11 11:31:32,881:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 11:31:56,880:log_account:INFO:Requested to create account:  customer(id=2), account_type='savings', balance=600.0, intr_rate=0.01
+2022-02-11 11:31:56,926:log_account:INFO:!!!!!!!!!!!!!!!Account (id =13) successfully created and assgined to customer (id=2).!!!!!!!!!!!!!!!
+2022-02-11 11:31:56,926:log_account:INFO:	 BankAccount(account_id=13, account_no=30713, account_type='savings', balance=600.0, intrst_rate=0.01 )
+2022-02-11 11:31:56,926:log_account:INFO:	 Customer(2, 'Jerry', 'Kenmore')
+2022-02-11 11:32:34,149:log_account:INFO:Requested to create account:  customer(id=3), account_type='savings', balance=1000.0, intr_rate=0.01
+2022-02-11 11:32:34,196:log_account:INFO:!!!!!!!!!!!!!!!Account (id =14) successfully created and assgined to customer (id=3).!!!!!!!!!!!!!!!
+2022-02-11 11:32:34,196:log_account:INFO:	 BankAccount(account_id=14, account_no=30714, account_type='savings', balance=1000.0, intrst_rate=0.01 )
+2022-02-11 11:32:34,196:log_account:INFO:	 Customer(3, 'Adam Redmond', 'Shoreline')
+2022-02-11 11:32:48,255:log_account:INFO:Requested to create account:  customer(id=4), account_type='checking', balance=500.0, intr_rate=0
+2022-02-11 11:32:48,301:log_account:INFO:!!!!!!!!!!!!!!!Account (id =15) successfully created and assgined to customer (id=4).!!!!!!!!!!!!!!!
+2022-02-11 11:32:48,317:log_account:INFO:	 BankAccount(account_id=15, account_no=20715, account_type='checking', balance=500.0)
+2022-02-11 11:32:48,317:log_account:INFO:	 Customer(4, 'Susan', 'Bellevue')
+2022-02-11 11:32:58,106:log_account:INFO:Requested to create account:  customer(id=5), account_type='savings', balance=1999.0, intr_rate=0.01
+2022-02-11 11:32:58,137:log_account:INFO:!!!!!!!!!!!!!!!Account (id =16) successfully created and assgined to customer (id=5).!!!!!!!!!!!!!!!
+2022-02-11 11:32:58,137:log_account:INFO:	 BankAccount(account_id=16, account_no=30716, account_type='savings', balance=1999.0, intrst_rate=0.01 )
+2022-02-11 11:32:58,137:log_account:INFO:	 Customer(5, 'Lisa Hiller', 'Kirkland')
+2022-02-11 11:33:20,219:log_account:INFO:Requested to create account:  customer(id=6), account_type='savings', balance=600.0, intr_rate=0.01
+2022-02-11 11:33:20,277:log_account:INFO:!!!!!!!!!!!!!!!Account (id =17) successfully created and assgined to customer (id=6).!!!!!!!!!!!!!!!
+2022-02-11 11:33:20,277:log_account:INFO:	 BankAccount(account_id=17, account_no=30717, account_type='savings', balance=600.0, intrst_rate=0.01 )
+2022-02-11 11:33:20,277:log_account:INFO:	 Customer(6, 'Sam Hiller', 'Kirkland')
+2022-02-11 11:34:08,482:log_account:INFO:Requested to create account:  customer(id=6), account_type='savings', balance=500.0, intr_rate=0.01
+2022-02-11 11:34:08,529:log_account:INFO:!!!!!!!!!!!!!!!Account (id =18) successfully created and assgined to customer (id=6).!!!!!!!!!!!!!!!
+2022-02-11 11:34:08,529:log_account:INFO:	 BankAccount(account_id=18, account_no=30718, account_type='savings', balance=500.0, intrst_rate=0.01 )
+2022-02-11 11:34:08,529:log_account:INFO:	 Customer(6, 'Sam Hiller', 'Kirkland')
+2022-02-11 11:35:26,740:log_account:INFO:Requested to create account:  customer(id=5), account_type='checking', balance=300.0, intr_rate=0
+2022-02-11 11:35:26,818:log_account:INFO:!!!!!!!!!!!!!!!Account (id =19) successfully created and assgined to customer (id=5).!!!!!!!!!!!!!!!
+2022-02-11 11:35:26,818:log_account:INFO:	 BankAccount(account_id=19, account_no=20719, account_type='checking', balance=300.0)
+2022-02-11 11:35:26,818:log_account:INFO:	 Customer(5, 'Lisa Hiller', 'Kirkland')
+2022-02-11 11:50:59,921:log_account:INFO:Requested to create account:  customer(id=7), account_type='savings', balance=2000.0, intr_rate=0.01
+2022-02-11 11:51:00,016:log_account:INFO:!!!!!!!!!!!!!!!Account (id =20) successfully created and assgined to customer (id=7).!!!!!!!!!!!!!!!
+2022-02-11 11:51:00,016:log_account:INFO:	 BankAccount(account_id=20, account_no=30720, account_type='savings', balance=2000.0, intrst_rate=0.01 )
+2022-02-11 11:51:00,016:log_account:INFO:	 Customer(7, 'Alice', 'Seattle')
+2022-02-11 11:51:09,585:log_account:INFO:Requested to create account:  customer(id=7), account_type='checking', balance=1000.0, intr_rate=0
+2022-02-11 11:51:09,632:log_account:INFO:!!!!!!!!!!!!!!!Account (id =21) successfully created and assgined to customer (id=7).!!!!!!!!!!!!!!!
+2022-02-11 11:51:09,632:log_account:INFO:	 BankAccount(account_id=21, account_no=20721, account_type='checking', balance=1000.0)
+2022-02-11 11:51:09,632:log_account:INFO:	 Customer(7, 'Alice', 'Seattle')
+2022-02-15 15:00:50,857:log_account:INFO:Requested to create account:  customer(id=7), account_type='savings', balance=92, intr_rate=0.021
+2022-02-15 15:00:51,107:log_account:INFO:!!!!!!!!!!!!!!!Account (id =22) successfully created and assgined to customer (id=7).!!!!!!!!!!!!!!!
+2022-02-15 15:00:51,107:log_account:INFO:	 BankAccount(account_id=22, account_no=30744, account_type='savings', balance=92.0, intrst_rate=0.021 )
+2022-02-15 15:00:51,107:log_account:INFO:	 Customer(7, 'Alice', 'Seattle')
+2022-02-15 15:00:51,107:log_account:INFO:Requested to create account:  customer(id=7), account_type='checking', balance=91, intr_rate=0
+2022-02-15 15:00:51,154:log_account:INFO:!!!!!!!!!!!!!!!Account (id =23) successfully created and assgined to customer (id=7).!!!!!!!!!!!!!!!
+2022-02-15 15:00:51,154:log_account:INFO:	 BankAccount(account_id=23, account_no=20745, account_type='checking', balance=91.0)
+2022-02-15 15:00:51,154:log_account:INFO:	 Customer(7, 'Alice', 'Seattle')
