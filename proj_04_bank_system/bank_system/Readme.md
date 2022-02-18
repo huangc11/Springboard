@@ -82,12 +82,13 @@ pip install pytest
 
 
 #### Step 1. Download source code
-Create a work folder on your compulter and 
+Create a folder where you will store and run python scripts, which will be called 'root folder': 
 
-1. download all the files in following github folder to it
-https://github.com/huangc11/Springboard/tree/main/proj_04_bank_system
+1. download all the files in following github folder to the root folder:
 
-2. Make sure subfolder 'logs' is created under the root folder
+https://github.com/huangc11/Springboard/tree/main/proj_04_bank_system/bank_system
+
+2. Make sure subfolder 'logs' is created in the root folder
 
 
 #### Step 2. Install MySQL Python connector using pip
