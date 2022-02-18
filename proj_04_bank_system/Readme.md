@@ -1,91 +1,175 @@
 # Bank System Case Study
 
-One Paragraph of project description goes here
+
+This project is to implment a simpler version of a banking system, tthrough which we can create customers, bank accounts, preform account transactions(deposit and withdrawal), process credit card applicaitons and create credit cards.
 
 
-## Overview
+### Business requirements
 
-This is a  simpler version of a banking system. In this system 
-Customer management: create  a customer 
-Account management:  create a checking/savings account in the system
-Transaction management :  perform deposits to or withdrawals from these accounts. During process account balance will be modfied
+Here are the system functionalities that the system is targetting. More details of the functions and their business logic can be found here: 
+[Bank system function specification](https://github.com/huangc11/Springboard/blob/main/proj_04_bank_system/doc/OOP%20Project%20banking%20system%20function%20specification.pdf)
 
-Getting Started
+#### Module and funciton  
+- 
+#### 1.Customer management: 
+- Create or retrieve customer
+#### 2.Account management: 
+- Create checking or savings accounts
+- Assign an account to a customer (for sharing account)
+#### 3.Transaction management: 
+- Perform deposits to or withdrawals from bank accounts.
+####  4.Credit card manangment:
+- Approval credit card applicaiton
+- Generte new credit cards
+####  5. Others
+- Create employes
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Design 
+
+#### 1. Data storage
+
+   We will use relational database to store the data. 
+
+#### 2. Classes
+
+   The system will be implemented using  Object Oriented Methodology.  We will have 3 layers of classes:
+
+1. Bottom level class that talks to database
+-  We have a bottom level class class,  Database, which directly talks to  MySQL database. 
+-  It stores our configuration parameters of the database,  provides methods of initializing database connections, providing db sessions,  and saving a new/updated record or to the database. 
+-  All other classes can import this class and call its methods to talk to database
+
+
+2. Classes of  baisc entities
+- These are classes which represent the very basic entities, such as customer,  account, employee, credit card, account transactions and etc. They provide methods of creation, saving to or retrieving  from database for individual entity of a single type.  
+- In most cases it won't talk to database directly but sometimes will do, when certain specific functions are not provided by class 'Database'.
+
+
+3.  Classes of  application modules
+- These are highest  level classes that interact with different bottom level entities and provides systems functions the user need.  
+- They provide interfaces for human-computer interaction so system can accept commands and input from the users, and send feedback/users to the users.
+- They will call methods provided by classes of the other two types, and never talk directly to database
+
+
+More details can be found: [Bank System Class specification](https://github.com/huangc11/Springboard/blob/main/proj_04_bank_system/doc/OOP%20Project%20bank%20system%20class%20specification.pdf)
+
+
+
+### Implementation
+	
+- Database: MySQL
+	
+- Programming language: python 3
+	
+- SQLAlchemy ORM is used for applicaiton interacting with database
+
+
+## Installation and set up
+
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+1. python 3 needs to installed  
 
-```
-Give examples
-```
+2. Mysql server needs to be installed and a database credtional need to be set up. 
 
-### Installing
-
-- For pyp
+3. python pytest module is installed (if you want do test). Otherwise, run the following command to install it:
+pip install pytest
 
 
-- Database
-Step 1. Install MySQL Python connector
+### Installing and set up
 
 
-Step 2: Create database and table
+#### Step 1. Download source code
+Create a work folder on your compulter and download all the files in following github folder to it
+https://github.com/huangc11/Springboard/tree/main/proj_04_bank_system
 
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+#### Step 2. Install MySQL Python connector using pip
+Run following  pip command to install the pyhton module:
+- pip install pymysql
+- pip install sqlalchemy
+- pip install pytest
 
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
+#### Step 3: Create database and table in mysql database
 
-Explain what these tests test and why
+ 1) At dos prompt,  launch mysql shell to connect to mysql server using following command (assume you have set up a credential,  'dbuser1' as username and a password):
+ 
+     mysql -u dbuser1 -p
+ 
+ 2) After  connecting to mysql serer, run follow command to create database if it is not existing:
+ 
+     create database bank;
+  
+ 3) Type command 'use ticket_system' to connect to the database.
+ 
+ 4) Run the DDL statement in  of one of the downloaded file, 'sql_creat_table.sql',  to create all needed tables.
+ 
+ 5) Please make sure table 'sequence' is not empty.  Otherwise, run following SQL statement to insert one record:
+     insert into sequence (note) values ('');
+     commit;
+ 
+#### Step 4: Config database connection for applications
+1) At python script root folder, locate file 'database.py' and modify it by setting the following 4 variables to the proper values:
+-  __db_username = 'xxx'
+-  __db_password = 'xxx'
+-  __db_host ='localhost'
+-  __db_port = '3306'
+  
+2) (Optional) You can  test database connection using pytest(If you have pytest module installed). Navigate to the script root folder, launch Windows 10 Dos prompt and run the following command:
+pytest  test_database.py -v
 
-```
-Give an example
-```
 
-### And coding style tests
 
-Explain what these tests test and why
+#### Step 5: Run python script
 
-```
-Give an example
-```
+At Windows 10 Dos prompt, navigate to the work folder created at step 1, typing one following command to launch the relevant application module:
+python  manager_account.py
+python manager_creditcard.py
+python  manager_customer.py
+python manager_transaction.py
 
-## Deployment
+ 
+ 
+## Test
 
-Add additional notes about how to deploy this on a live system
+#### Unit test
 
-## Built With
+- We provide baunch of scripts to do unit testing.  The testing scripts will be placed in the root folder.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- Note:  Python pytest module needs to be installed. 
 
-## Contributing
+- Run test (on Windows) :
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+1) At  dos prompt, navigate to the root folder
 
-## Versioning
+2) To run a single test script, run one the following commands at doc prompt ( assume test_xxxx is the file name)
+  pytest test_xxxx.py 
+  pytest test_xxxx.py -v
+  
+  
+3) To run all test scripts, run one the following command at dos prompt
+  pytest   
+  pytest -v
+ 
+ 
+Please note that, a lot of test scripts require that sample data has been set up in database.  So you may need to set up sample data or change the test scripts before the run.
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+#### Integration test
+
+We have designed test cases, set up sample data, and performed integration tests.  Please find the information in the reference section. 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Chun Huang** - *Initial work* 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+## References
 
-## License
+Bank system integration test case and sample data set up: [here](https://github.com/huangc11/Springboard/blob/main/proj_04_bank_system/doc/OOP%20Project%20integration%20test%20case%20and%20sample%20data.pdf)
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Bank system integration test case running results: [here](https://github.com/huangc11/Springboard/blob/main/proj_04_bank_system/doc/OOP%20project%20integration%20test%20case%20running%20result.pdf)
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
