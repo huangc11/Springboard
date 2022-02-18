@@ -10,7 +10,7 @@ Here are the system functionalities that the system is targetting. More details 
 [Bank system function specification](https://github.com/huangc11/Springboard/blob/main/proj_04_bank_system/doc/OOP%20Project%20banking%20system%20function%20specification.pdf)
 
 #### Module and funciton  
-- 
+
 #### 1.Customer management: 
 - Create or retrieve customer
 #### 2.Account management: 
