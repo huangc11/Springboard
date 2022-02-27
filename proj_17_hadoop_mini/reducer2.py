@@ -1,0 +1,40 @@
+#! /usr/bin/python
+"""reducer2"""                                                                                                                                                                                              
+import sys                                                                                                                                                                                                         
+# [Define group level master information]                                                                                                                                                                          
+                                                                                                                                                                                                                   
+current_key= None                                                                                                                                                                                                  
+current_grpcnt =0                                                                                                                                                                                                  
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                   
+def print_grpcnt():                                                                                                                                                                                                
+    pass                                                                                                                                                                                                           
+    #print('current_grpcnt={}'.format(current_grpcnt))                                                                                                                                                             
+                                                                                                                                                                                                                   
+def reset():                                                                                                                                                                                                       
+                                                                                                                                                                                                                   
+    global current_grpcnt                                                                                                                                                                                          
+    current_grpcnt = 0                                                                                                                                                                                             
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                   
+# Run for end of every group                                                                                                                                                                                       
+def flush():                                                                                                                                                                                                       
+    # [Write the output]                                                                                                                                                                                           
+    print('%s,%d'%( current_key, current_grpcnt) )                                                                                                                                                                 
+                                                                                                                                                                                                                   
+# input comes from STDIN                                                                                                                                                                                           
+for line_raw in sys.stdin:                                                                                                                                                                                         
+    # [parse the input we got from mapper and update the master info]                                                                                                                                              
+    line =line_raw.strip().split(',')                                                                                                                                                                              
+    key, val = line[0],line[1]                                                                                                                                                                                     
+    # [detect key changes]                                                                                                                                                                                         
+    if current_key != key:                                                                                                                                                                                         
+        if current_key != None:                                                                                                                                                                                    
+            flush()                                                                                                                                                                                                
+        reset()                                                                                                                                                                                                    
+    # [update more master info after the key change handling]                                                                                                                                                      
+                                                                                                                                                                                                                   
+    current_grpcnt = current_grpcnt+1                                                                                                                                                                              
+    current_key = key                                                                                                                                                                                              
+# do not forget to output the last group if needed!                                                                                                                                                                
+flush()          

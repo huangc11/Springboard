@@ -1,0 +1,1 @@
+/usr/hdp/current/spark-client/bin/spark-submit autoinc_spark.py
