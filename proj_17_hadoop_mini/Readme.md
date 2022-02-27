@@ -54,18 +54,21 @@ This Video includes:
 #### Preparation
 
 1. Upload data file to HDFS
-  1) visit  'localhost:8080' and login as 'admin'
-  2) Navigate to 'file view' and craete ollowing new folder
+  - visit  'localhost:8080' and login as 'admin'
+  - Navigate to 'file view' and craete ollowing new folder
      user/hduser
-  3) upload souce data ile 'data.csv'
+  - upload souce data ile 'data.csv'
      
 2. Login to sandbox as 'hduser', navigate to /home/hduser, create following python scripts by copying and paste (note: uploading the scripts created at Windows may not work):
  mapper1.py, reducer1.py, mapper2.py, reducer2.py
 
 3. At /home/hduser,  create following shell scripts:
-  1) map_reduce1.sh, which includes:
+  - **map_reduce1.sh**, which includes following content (it will read  hdfs file: /user/hduser/data.csv and write to intermidiate files on hdfs under /user/hduser/output/all_inc)
+  
    hadoop jar /usr/hdp/2.5.0.0-1245/hadoop-mapreduce/hadoop-streaming.jar -file mapper1.py -mapper mapper1.py -file reducer1.py -reducer reducer1.py -input /user/hduser/data.csv -output output/all_inc
-  2) map_reduce2.sh, which includes
+   
+  - **map_reduce2.sh**, which includes following content (it will read from hdfs at /user/hduser/output/all_inc and write  output to hdfs at /user/hduser/output/make_year_count)
+  
   hadoop jar /usr/hdp/2.5.0.0-1245/hadoop-mapreduce/hadoop-streaming.jar -file mapper2.py -mapper mapper2.py -file reducer2.py -reducer reducer2.py -input  output/all_inc -output output/make_year_count
 
 
