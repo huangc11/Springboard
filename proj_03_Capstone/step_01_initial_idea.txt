@@ -1,0 +1,53 @@
+===========================
+= Dataset 1:  ＵＳ　Airline on time data
+=========================
+
+Link：
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7
+
+The data consists of flight arrival and departure details for all commercial flights within the USA, from October 1987 to April 2008. This is a large dataset: there are nearly 120 million records in total, and takes up 1.6 gigabytes of space compressed
+ and 12 gigabytes when uncompressed.  The dataset consists of 22  compressed csv files, one file for each  yer.
+
+The  dataset include following information:  year,, month, day, origin airport, destination airport,  scheduled/actual departure time,  scheduled/actual arrival time,   delay in minutes by category,  plane tail number,  carrier identification etc
+
+In addition,  3 other csv files of the entities that are related to the on time data are also provided:
+
+1.  Airports (airports.csv)
+ airport， city, state, country, latitude, longitude 
+
+2.  Planes  (plane-data.csv)
+tailnum, issue_date, type, model, aircraft_type, engine_type, year
+
+3.Carries(carriers.csv)
+ code, description
+
+We can use the data to analyze and answer following questions:
+
+When is the best time of day/day of week/time of year to fly to minimum delays?
+Do older planes suffer more delays?
+How does the number of people flying between different locations change over time?
+
+===========================
+= Dataset 2:  San Francisco Calls-For-Service 
+=========================
+
+Ｌｉｎｋ：　
+https://data.sfgov.org/Public-Safety/Fire-Department-Calls-for-Service/nuek-vuh3/data
+
+This dataset  includes all fire units responses to calls  in San Francisco.  Each record includes the call number, incident number, address, unit identifier, call type, and disposition.  Because this dataset is based on responses, and since most calls involved multiple units, there are multiple records for each call number. 
+
+This dataset has  nearly 6 million records.  The data is  included in one data file and takes up about 2 gigabytes of space.  The data  is updated in real time.
+
+we can use the data to  predict how long the response time is for an emergency call,  based on the neighborhood the call came from and what type of call, such as medical incident or structure fire. 
+
+========================================
+= Comparison
+========================================
+
+For  #1 Airline on time data, it has larger volume and  consists of multiple data files.  There other  related datasets are also provided which allows us to combine them . This Increases the difficulty and fun. But data is static and it would be  a one-time load. 
+
+For  #2 fire call data, it is  updated real time, which may allow us to practice ongoing  loads.
+
+
+
+
