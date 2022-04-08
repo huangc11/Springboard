@@ -1,0 +1,9 @@
+Deliverables:
+1. A Jupyter Notebook demonstrating the steps that you performed in the exploration of
+the dataset
+2. A write-up of the insights from data exploration
+3. A write-up explaining how you plan to store the data for optimal query speed and
+compression of storage files
+4. An Entity-Relationship diagram for your data model
+5. Update the project’s GitHub repo with the work you complete for this step of the project
+and update the README Markdown file
