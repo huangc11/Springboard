@@ -1,0 +1,79 @@
+2022-04-22 15:29:20,577:INFO: 
+2022-04-22 15:29:20,577:INFO:**************** Download manager execution started at 2022-04-22_15:29:20****************
+2022-04-22 15:29:20,577:INFO: 
+2022-04-22 15:29:20,577:INFO:---------------- Downloading-small-datasets started at 2022-04-22_15:29:20----------------
+2022-04-22 15:29:20,577:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY...
+2022-04-22 15:29:21,969:INFO:Downloading airport.csv completed.
+2022-04-22 15:29:21,969:INFO:Downloading carrier.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/3NOQ6Q...
+2022-04-22 15:29:22,933:INFO:Downloading carrier.csv completed.
+2022-04-22 15:29:22,933:INFO:Downloading plane.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XXSL8A...
+2022-04-22 15:29:24,252:INFO:Downloading plane.csv completed.
+2022-04-22 15:29:24,252:INFO:--------------- Downloading-small-datasets completed at 2022-04-22_15:29:24---------------
+2022-04-22 15:29:24,252:INFO: 
+2022-04-22 15:29:24,252:INFO:---------------- Downloading-dataset_flight started at 2022-04-22_15:29:24----------------
+2022-04-22 15:29:24,252:INFO:Downloading 2001.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CI5CEM...
+2022-04-22 15:29:49,315:INFO:Downloading 2001.csv.bz2 completed.
+2022-04-22 15:29:49,316:INFO:Downloading 2002.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/OWJXH3...
+2022-04-22 15:30:13,980:INFO:Downloading 2002.csv.bz2 completed.
+2022-04-22 15:30:13,981:INFO:Downloading 2008.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/EIR0RA...
+2022-04-22 15:30:30,203:INFO:Downloading 2008.csv.bz2 completed.
+2022-04-22 15:30:30,203:INFO:--------------- Downloading-dataset_flight completed at 2022-04-22_15:30:30---------------
+2022-04-22 15:30:30,203:INFO:*************** Download manager execution completed at 2022-04-22_15:30:30***************
+2022-04-22 15:30:40,764:INFO: 
+2022-04-22 15:30:40,764:INFO:*********************** ETL Process started at 2022-04-22_15:30:40************************
+2022-04-22 15:30:40,764:INFO: 
+2022-04-22 15:30:40,764:INFO:------------------------ ETL-Plane started at 2022-04-22_15:30:40-------------------------
+2022-04-22 15:30:40,764:INFO:Read data from raw files started...
+2022-04-22 15:30:45,545:INFO:ETL-Plane,04/22/2022-15:30:45,read,C:\demo\capstone\raw\plane.csv,9,5029,ETL-Plane_20220422_153040
+2022-04-22 15:30:45,561:INFO:Write cleaned data to file started...
+2022-04-22 15:30:46,577:INFO:ETL-Plane,04/22/2022-15:30:46,write,C:\demo\capstone\processed\plane,9,4480,ETL-Plane_20220422_153040
+2022-04-22 15:30:46,577:INFO:----------------------- ETL-Plane completed at 2022-04-22_15:30:46------------------------
+2022-04-22 15:30:46,577:INFO: 
+2022-04-22 15:30:46,577:INFO:----------------------- ETL-Carrier started at 2022-04-22_15:30:46------------------------
+2022-04-22 15:30:46,577:INFO:Read data from raw files started...
+2022-04-22 15:30:46,820:INFO:ETL-Carrier,04/22/2022-15:30:46,read,C:\demo\capstone\raw\carrier.csv,2,1491,ETL-Carrier_20220422_153046
+2022-04-22 15:30:46,927:INFO:Write cleaned data to file started...
+2022-04-22 15:30:47,291:INFO:ETL-Carrier,04/22/2022-15:30:47,write,C:\demo\capstone\processed\carrier,2,1491,ETL-Carrier_20220422_153046
+2022-04-22 15:30:47,291:INFO:---------------------- ETL-Carrier completed at 2022-04-22_15:30:47-----------------------
+2022-04-22 15:30:47,291:INFO: 
+2022-04-22 15:30:47,291:INFO:----------------------- ETL-Airport started at 2022-04-22_15:30:47------------------------
+2022-04-22 15:30:47,291:INFO:Read data from raw files started...
+2022-04-22 15:30:47,782:INFO:ETL-Airport,04/22/2022-15:30:47,read,C:\demo\capstone\raw\airport.csv,7,3376,ETL-Airport_20220422_153047
+2022-04-22 15:30:48,085:INFO:Write cleaned data to file started...
+2022-04-22 15:30:48,366:INFO:ETL-Airport,04/22/2022-15:30:48,write,C:\demo\capstone\processed\airport,8,3376,ETL-Airport_20220422_153047
+2022-04-22 15:30:48,368:INFO:---------------------- ETL-Airport completed at 2022-04-22_15:30:48-----------------------
+2022-04-22 15:30:48,368:INFO: 
+2022-04-22 15:30:48,368:INFO:------------------------ ETL-Flight started at 2022-04-22_15:30:48------------------------
+2022-04-22 15:30:48,368:INFO:Read data from raw file(s) started...
+2022-04-22 15:30:52,149:INFO:ETL-Flight,04/22/2022-15:30:52,read,C:\demo\capstone\raw\2008.csv.bz2,29,2389217,ETL-Flight_20220422_153048
+2022-04-22 15:30:55,056:INFO:Write cleaned data to file started...
+2022-04-22 15:31:19,398:INFO:ETL-Flight,04/22/2022-15:31:19,write,C:\demo\capstone\processed\flight,30,2319121,ETL-Flight_20220422_153048
+2022-04-22 15:31:19,398:INFO:----------------------- ETL-Flight completed at 2022-04-22_15:31:19-----------------------
+2022-04-22 15:31:19,398:INFO:********************** ETL Process completed at 2022-04-22_15:31:19***********************
+2022-04-22 15:31:19,398:INFO: 
+2022-04-22 15:31:19,399:INFO:******************* Intgeration Process started at 2022-04-22_15:31:19********************
+2022-04-22 15:31:19,399:INFO: 
+2022-04-22 15:31:19,399:INFO:-------------------- create-stg_flight started at 2022-04-22_15:31:19---------------------
+2022-04-22 15:31:19,772:INFO:Intgr-Create-stg_flight,04/22/2022-15:31:19,read,C:\demo\capstone\processed\flight,30,2319121,2022-04-22_15:31:19
+2022-04-22 15:31:41,000:INFO:Intgr-Create-stg_flight,04/22/2022-15:31:41,write,C:\demo\capstone\integrated\stg_flight_detail,33,2319121,2022-04-22_15:31:40
+2022-04-22 15:31:41,000:INFO:------------------- create-stg_flight completed at 2022-04-22_15:31:41--------------------
+2022-04-22 15:31:41,001:INFO: 
+2022-04-22 15:31:41,001:INFO:------------ Ingration--Create Dimension tables started at 2022-04-22_15:31:41------------
+2022-04-22 15:31:41,001:INFO: 
+2022-04-22 15:31:41,001:INFO:--------------------- create-dim_plane started at 2022-04-22_15:31:41---------------------
+2022-04-22 15:31:41,353:INFO:Intgr-Create-dim_date,04/22/2022-15:31:41,write,C:\demo\capstone\integrated\dim_plane,10,4480,2022-04-22_15:31:41
+2022-04-22 15:31:41,353:INFO: 
+2022-04-22 15:31:41,353:INFO:------------------ create-dim_origin_dest started at 2022-04-22_15:31:41------------------
+2022-04-22 15:31:43,198:INFO:Intgr-Create-dim_origin_dest,04/22/2022-15:31:43,write,C:\demo\capstone\integrated\dim_origin_dest,12,4839,2022-04-22_15:31:42
+2022-04-22 15:31:43,198:INFO: 
+2022-04-22 15:31:43,198:INFO:--------------------- create-dim_date started at 2022-04-22_15:31:43----------------------
+2022-04-22 15:31:43,966:INFO:Intgr-Create-dim_date,04/22/2022-15:31:43,write,C:\demo\capstone\integrated\dim_date,6,121,2022-04-22_15:31:43
+2022-04-22 15:31:43,966:INFO: 
+2022-04-22 15:31:43,966:INFO:-------------------- create-dim_carrier started at 2022-04-22_15:31:43--------------------
+2022-04-22 15:31:44,170:INFO:Intgr-Create-dim_date,04/22/2022-15:31:44,write,C:\demo\capstone\integrated\dim_plane,3,1491,2022-04-22_15:31:44
+2022-04-22 15:31:44,170:INFO:----------- Ingration--Create Dimension tables completed at 2022-04-22_15:31:44-----------
+2022-04-22 15:31:44,170:INFO: 
+2022-04-22 15:31:44,170:INFO:-------------------- create-fact_flight started at 2022-04-22_15:31:44--------------------
+2022-04-22 15:31:50,495:INFO:Intgr-Create-fact_flight,04/22/2022-15:31:50,write,C:\demo\capstone\integrated\fact_flight,19,2319121,2022-04-22_15:31:50
+2022-04-22 15:31:50,495:INFO:------------------- create-fact_flight completed at 2022-04-22_15:31:50-------------------
+2022-04-22 15:31:50,495:INFO:****************** Integration Process completed at 2022-04-22_15:31:50*******************

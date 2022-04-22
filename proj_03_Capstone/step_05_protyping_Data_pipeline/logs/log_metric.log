@@ -1,0 +1,15 @@
+ETL-Plane,04/22/2022-15:30:45,read,C:\demo\capstone\raw\plane.csv,9,5029,ETL-Plane_20220422_153040
+ETL-Plane,04/22/2022-15:30:46,write,C:\demo\capstone\processed\plane,9,4480,ETL-Plane_20220422_153040
+ETL-Carrier,04/22/2022-15:30:46,read,C:\demo\capstone\raw\carrier.csv,2,1491,ETL-Carrier_20220422_153046
+ETL-Carrier,04/22/2022-15:30:47,write,C:\demo\capstone\processed\carrier,2,1491,ETL-Carrier_20220422_153046
+ETL-Airport,04/22/2022-15:30:47,read,C:\demo\capstone\raw\airport.csv,7,3376,ETL-Airport_20220422_153047
+ETL-Airport,04/22/2022-15:30:48,write,C:\demo\capstone\processed\airport,8,3376,ETL-Airport_20220422_153047
+ETL-Flight,04/22/2022-15:30:52,read,C:\demo\capstone\raw\2008.csv.bz2,29,2389217,ETL-Flight_20220422_153048
+ETL-Flight,04/22/2022-15:31:19,write,C:\demo\capstone\processed\flight,30,2319121,ETL-Flight_20220422_153048
+Intgr-Create-stg_flight,04/22/2022-15:31:19,read,C:\demo\capstone\processed\flight,30,2319121,2022-04-22_15:31:19
+Intgr-Create-stg_flight,04/22/2022-15:31:41,write,C:\demo\capstone\integrated\stg_flight_detail,33,2319121,2022-04-22_15:31:40
+Intgr-Create-dim_date,04/22/2022-15:31:41,write,C:\demo\capstone\integrated\dim_plane,10,4480,2022-04-22_15:31:41
+Intgr-Create-dim_origin_dest,04/22/2022-15:31:43,write,C:\demo\capstone\integrated\dim_origin_dest,12,4839,2022-04-22_15:31:42
+Intgr-Create-dim_date,04/22/2022-15:31:43,write,C:\demo\capstone\integrated\dim_date,6,121,2022-04-22_15:31:43
+Intgr-Create-dim_date,04/22/2022-15:31:44,write,C:\demo\capstone\integrated\dim_plane,3,1491,2022-04-22_15:31:44
+Intgr-Create-fact_flight,04/22/2022-15:31:50,write,C:\demo\capstone\integrated\fact_flight,19,2319121,2022-04-22_15:31:50
