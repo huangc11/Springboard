@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b16d2dea-5ded-426b-8102-80df5cc48475" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AOTA_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ETL_Airport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ETL_Carrier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ETL_Flight.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ETL_Manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ETL_Plane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Introduction of AOTAS  modules and source code.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReadMe.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../download_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../downloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intgr_Manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intgr_dim_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intgr_fact_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intgr_stg_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log_download.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log_metric.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/log_pipeline.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ut_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ut_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ut_pipeline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ut_spark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ut_store.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="28Zv088s6wixFU5aQf6GVtrQFnS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b16d2dea-5ded-426b-8102-80df5cc48475" name="Default Changelist" comment="" />
+      <created>1651436698869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651436698869</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
