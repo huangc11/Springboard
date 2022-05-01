@@ -1,12 +1,12 @@
-import pprint as ppr
+from pathlib import Path
 
-from ut_base import ut_base as ut_base
 from ut_log import ut_log
+from  ut_store import ut_store
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import count, col
 from pyspark.sql import functions as f
-
+#from pyspark.sql.functions import spark_partition_id
 
 
 from pyspark.sql.types import \
@@ -30,9 +30,15 @@ class ut_spark:
 
     c_succ = True
     c_fail = False
-    c_spark_sql_shuffle_partitions = 4
+    c_spark_sql_shuffle_partitions = ut_store.sparksql_shuffle_partition_num
 
     __spark =None
+
+    @staticmethod
+    def isFile(f_path):
+        # Checking if a file exists with Pathlib
+        file_path = Path(f_path)
+        return file_path.is_file()
 
     @classmethod
     def log1_disp_error(cls, msg):
@@ -90,33 +96,12 @@ class ut_spark:
     ***********************************************************************'''
 
     @classmethod
-    def df_read_from_csv1(cls, file_path):
-        ''' Create a dataframe from a csv file, with header, infer schema'''
-
-        msg_file_not_exist = 'Spark-read-from-csv1 of {} failed --File does not exist!'.format((file_path))
-        if ut_base.isFile(file_path) != True:
-            ut_log.log_error(msg_file_not_exist)
-            return None
-
-        try:
-          spark =cls.get_sparksession()
-          return spark.read\
-           .option("header","true")\
-           .option("inferSchema","true")\
-           .csv(file_path)
-        except Exception as e:
-            ut_log.log_error('Spark-read-from-csv1 of {} failed.'.format((file_path)))
-            ut_log.log_exeption(e)
-            return None
-
-
-    @classmethod
-    def df_read_from_csv2(cls, file_path, schema=None):
+    def df_read_from_csv(cls, file_path, schema=None):
         ''' Create a dataframe from a csv file,with header, with/without schema'''
 
         msg_fail = 'Spark-read-from-csv2 of {} failed --File does not exist!'.format((file_path))
 
-        if ut_base.isFile(file_path) != True:
+        if cls.isFile(file_path) != True:
             msg_fail_on_file = 'Spark-read-from-csv1 of {} failed --File does not exist!'.format((file_path))
             ut_log.log_error(msg_fail_on_file)
             return None
@@ -126,8 +111,9 @@ class ut_spark:
             if schema==None:
                   try:
                       return spark.read\
-                       .option("header","true")\
-                       .csv(file_path)
+                       .option("header","true") \
+                        .option("inferSchema","true") \
+                        .csv(file_path)
                   except Exception as e:
                       ut_log.log_error(msg_fail)
                       ut_log.log_exeption(e)
@@ -143,8 +129,8 @@ class ut_spark:
                       return None
         except Exception as e:
             ut_log.log_error(msg_fail)
-
             ut_log.log_exeption(e)
+            return None
 
 
 
@@ -220,12 +206,6 @@ class ut_spark:
         return (structSchema)
 
 
-    @staticmethod
-    def schema_tupple_tolow(field_tuple_list):
-        for field in field_tuple_list:
-            print("('" + field[0].lower() + "','" + field[1] + "'),")
-
-
     '''***********************************************************************
     
     Other tools
@@ -238,6 +218,12 @@ class ut_spark:
         except Exception as e:
             ut_log.log_exeption(e)
             ut_log.log_warning(('Dataframe ({}) temp view creation failed.').format(df))
+
+
+
+    @staticmethod
+    def show_partition_count(df):
+        df.groupBy(f.spark_partition_id()).count().show()
 
     @staticmethod
     def add_col(df, new_col, exp):

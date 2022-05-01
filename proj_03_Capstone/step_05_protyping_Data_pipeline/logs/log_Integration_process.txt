@@ -1,0 +1,18 @@
+022-05-01 08:48:43,028:INFO:******************* Intgeration Process started at 2022-05-01_08:48:43********************
+2022-05-01 08:48:43,028:INFO: 
+2022-05-01 08:48:43,028:INFO:-------------------- create-dim_carrier started at 2022-05-01_08:48:43--------------------
+2022-05-01 08:48:47,975:INFO:Intgr-Create-dim_date,05/01/2022-08:48:47,write,C:\demo\capstone\integrated\dim_plane,None,3,1491,2022-05-01_08:48:47
+2022-05-01 08:48:47,976:INFO: 
+2022-05-01 08:48:47,976:INFO:--------------------- create-dim_plane started at 2022-05-01_08:48:47---------------------
+2022-05-01 08:48:48,395:INFO:Intgr-Create-dim_date,05/01/2022-08:48:48,write,C:\demo\capstone\integrated\dim_plane,None,10,4480,2022-05-01_08:48:48
+2022-05-01 08:48:48,395:INFO: 
+2022-05-01 08:48:48,395:INFO:------------------ fact-table-generation started at 2022-05-01_08:48:48-------------------
+2022-05-01 08:48:49,004:INFO:fact-table-generation,05/01/2022-08:48:49,read,C:\demo\capstone\processed\flight,None,23,52648161,2022-05-01_08:48:48
+2022-05-01 08:49:38,482:INFO:dim_date created.
+2022-05-01 08:50:23,007:INFO:dim_orig_dest created.
+2022-05-01 08:50:23,051:INFO:df_fact_flt created.
+2022-05-01 08:50:37,108:INFO:Started writing fact_flight to files...at 20220501_085037
+2022-05-01 08:56:41,769:INFO:fact-table-generation,05/01/2022-08:56:41,write,C:\demo\capstone\integrated\fact_flight,None,23,52648161,2022-05-01_08:48:48
+2022-05-01 08:56:41,769:INFO:fact_flight created.
+2022-05-01 08:56:41,769:INFO:----------------- fact-table-generation completed at 2022-05-01_08:56:41------------------
+2022-05-01 08:56:41,769:INFO:****************** Integration Process completed at 2022-05-01_08:56:41*******************

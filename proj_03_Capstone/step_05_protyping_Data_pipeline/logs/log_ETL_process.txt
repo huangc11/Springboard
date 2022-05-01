@@ -1,0 +1,106 @@
+2022-05-01 09:18:37,267:INFO:*********************** ETL Process started at 2022-05-01_09:18:37************************
+2022-05-01 09:18:43,647:INFO: 
+2022-05-01 09:18:43,647:INFO:----------------------- ETL-airport started at 2022-05-01_09:18:43------------------------
+2022-05-01 09:18:43,647:INFO:Read data from raw files started...
+2022-05-01 09:18:48,158:INFO:ETL-airport,05/01/2022-09:18:48,read,C:\demo\capstone\raw\airport.csv,csv,7,3376,ETL-airport_20220501_091843
+2022-05-01 09:18:48,696:INFO:Write cleaned data to file started...
+2022-05-01 09:18:49,446:INFO:Write cleaned data succeeded.
+2022-05-01 09:18:49,524:INFO:ETL-airport,05/01/2022-09:18:49,write,C:\demo\capstone\processed\airport,parquet,8,3376,ETL-airport_20220501_091843
+2022-05-01 09:18:49,524:INFO:---------------------- ETL-airport completed at 2022-05-01_09:18:49-----------------------
+2022-05-01 09:18:49,524:INFO: 
+2022-05-01 09:18:49,524:INFO:------------------------ ETL-plane started at 2022-05-01_09:18:49-------------------------
+2022-05-01 09:18:49,524:INFO:Read data from raw files started...
+2022-05-01 09:18:49,908:INFO:ETL-plane,05/01/2022-09:18:49,read,C:\demo\capstone\raw\plane.csv,csv,9,5029,ETL-plane_20220501_091849
+2022-05-01 09:18:50,002:INFO:Write cleaned data to file started...
+2022-05-01 09:18:50,174:INFO:Write cleaned data succeeded.
+2022-05-01 09:18:50,236:INFO:ETL-plane,05/01/2022-09:18:50,write,C:\demo\capstone\processed\plane,parquet,9,4480,ETL-plane_20220501_091849
+2022-05-01 09:18:50,236:INFO:----------------------- ETL-plane completed at 2022-05-01_09:18:50------------------------
+2022-05-01 09:18:50,236:INFO: 
+2022-05-01 09:18:50,236:INFO:----------------------- ETL-carrier started at 2022-05-01_09:18:50------------------------
+2022-05-01 09:18:50,236:INFO:Read data from raw files started...
+2022-05-01 09:18:50,486:INFO:ETL-carrier,05/01/2022-09:18:50,read,C:\demo\capstone\raw\carrier.csv,csv,0,0,ETL-carrier_20220501_091850
+2022-05-01 09:18:50,518:INFO:Write cleaned data to file started...
+2022-05-01 09:18:50,533:ERROR:Writing file (file=C:\demo\capstone\processed\carrier, format=parquet) failed.
+2022-05-01 09:18:50,533:ERROR:-----------An excepiton raised at 2022-05-01_09:18:50: AnalysisException
+2022-05-01 09:18:50,533:INFO:Write cleaned data succeeded.
+2022-05-01 09:18:50,580:INFO:ETL-carrier,05/01/2022-09:18:50,write,C:\demo\capstone\processed\carrier,parquet,0,0,ETL-carrier_20220501_091850
+2022-05-01 09:18:50,580:INFO:---------------------- ETL-carrier completed at 2022-05-01_09:18:50-----------------------
+2022-05-01 09:18:50,580:INFO: 
+2022-05-01 09:18:50,580:INFO:------------------------ ETL-flight started at 2022-05-01_09:18:50------------------------
+2022-05-01 09:18:50,580:INFO:Read data from raw files started...
+2022-05-01 09:18:57,787:INFO:ETL-flight,05/01/2022-09:18:57,read,C:\demo\capstone\raw\1997.csv.bz2,csv,29,5411843,ETL-flight_20220501_091850
+2022-05-01 09:18:57,974:INFO:Write cleaned data to file started...
+2022-05-01 09:19:41,674:INFO:Write cleaned data succeeded.
+2022-05-01 09:19:51,574:INFO:ETL-flight,05/01/2022-09:19:51,write,C:\demo\capstone\processed\flight,parquet,23,5301999,ETL-flight_20220501_091850
+2022-05-01 09:19:51,574:INFO:----------------------- ETL-flight completed at 2022-05-01_09:19:51-----------------------
+2022-05-01 09:19:51,574:INFO: 
+2022-05-01 09:19:51,574:INFO:------------------------ ETL-flight started at 2022-05-01_09:19:51------------------------
+2022-05-01 09:19:51,574:INFO:Read data from raw files started...
+2022-05-01 09:19:58,323:INFO:ETL-flight,05/01/2022-09:19:58,read,C:\demo\capstone\raw\1998.csv.bz2,csv,29,5384721,ETL-flight_20220501_091951
+2022-05-01 09:19:58,433:INFO:Write cleaned data to file started...
+2022-05-01 09:20:41,458:INFO:Write cleaned data succeeded.
+2022-05-01 09:20:51,082:INFO:ETL-flight,05/01/2022-09:20:51,write,C:\demo\capstone\processed\flight,parquet,23,5227051,ETL-flight_20220501_091951
+2022-05-01 09:20:51,082:INFO:----------------------- ETL-flight completed at 2022-05-01_09:20:51-----------------------
+2022-05-01 09:20:51,082:INFO: 
+2022-05-01 09:20:51,082:INFO:------------------------ ETL-flight started at 2022-05-01_09:20:51------------------------
+2022-05-01 09:20:51,082:INFO:Read data from raw files started...
+2022-05-01 09:20:57,571:INFO:ETL-flight,05/01/2022-09:20:57,read,C:\demo\capstone\raw\1999.csv.bz2,csv,29,5527884,ETL-flight_20220501_092051
+2022-05-01 09:20:57,696:INFO:Write cleaned data to file started...
+2022-05-01 09:21:40,711:INFO:Write cleaned data succeeded.
+2022-05-01 09:21:49,402:INFO:ETL-flight,05/01/2022-09:21:49,write,C:\demo\capstone\processed\flight,parquet,23,5360018,ETL-flight_20220501_092051
+2022-05-01 09:21:49,402:INFO:----------------------- ETL-flight completed at 2022-05-01_09:21:49-----------------------
+2022-05-01 09:21:49,402:INFO: 
+2022-05-01 09:21:49,402:INFO:------------------------ ETL-flight started at 2022-05-01_09:21:49------------------------
+2022-05-01 09:21:49,402:INFO:Read data from raw files started...
+2022-05-01 09:21:56,088:INFO:ETL-flight,05/01/2022-09:21:56,read,C:\demo\capstone\raw\2000.csv.bz2,csv,29,5683047,ETL-flight_20220501_092149
+2022-05-01 09:21:56,203:INFO:Write cleaned data to file started...
+2022-05-01 09:22:41,175:INFO:Write cleaned data succeeded.
+2022-05-01 09:22:49,856:INFO:ETL-flight,05/01/2022-09:22:49,write,C:\demo\capstone\processed\flight,parquet,23,5481303,ETL-flight_20220501_092149
+2022-05-01 09:22:49,856:INFO:----------------------- ETL-flight completed at 2022-05-01_09:22:49-----------------------
+2022-05-01 09:22:49,856:INFO: 
+2022-05-01 09:22:49,856:INFO:------------------------ ETL-flight started at 2022-05-01_09:22:49------------------------
+2022-05-01 09:22:49,856:INFO:Read data from raw files started...
+2022-05-01 09:22:57,259:INFO:ETL-flight,05/01/2022-09:22:57,read,C:\demo\capstone\raw\2001.csv.bz2,csv,29,5967780,ETL-flight_20220501_092249
+2022-05-01 09:22:57,369:INFO:Write cleaned data to file started...
+2022-05-01 09:23:45,574:INFO:Write cleaned data succeeded.
+2022-05-01 09:23:55,145:INFO:ETL-flight,05/01/2022-09:23:55,write,C:\demo\capstone\processed\flight,parquet,23,5723673,ETL-flight_20220501_092249
+2022-05-01 09:23:55,145:INFO:----------------------- ETL-flight completed at 2022-05-01_09:23:55-----------------------
+2022-05-01 09:23:55,145:INFO: 
+2022-05-01 09:23:55,145:INFO:------------------------ ETL-flight started at 2022-05-01_09:23:55------------------------
+2022-05-01 09:23:55,145:INFO:Read data from raw files started...
+2022-05-01 09:24:01,797:INFO:ETL-flight,05/01/2022-09:24:01,read,C:\demo\capstone\raw\2002.csv.bz2,csv,29,5271359,ETL-flight_20220501_092355
+2022-05-01 09:24:01,906:INFO:Write cleaned data to file started...
+2022-05-01 09:24:45,815:INFO:Write cleaned data succeeded.
+2022-05-01 09:24:54,184:INFO:ETL-flight,05/01/2022-09:24:54,write,C:\demo\capstone\processed\flight,parquet,23,5197860,ETL-flight_20220501_092355
+2022-05-01 09:24:54,184:INFO:----------------------- ETL-flight completed at 2022-05-01_09:24:54-----------------------
+2022-05-01 09:24:54,184:INFO: 
+2022-05-01 09:24:54,184:INFO:------------------------ ETL-flight started at 2022-05-01_09:24:54------------------------
+2022-05-01 09:24:54,184:INFO:Read data from raw files started...
+2022-05-01 09:25:02,025:INFO:ETL-flight,05/01/2022-09:25:02,read,C:\demo\capstone\raw\2003.csv.bz2,csv,29,6488540,ETL-flight_20220501_092454
+2022-05-01 09:25:02,119:INFO:Write cleaned data to file started...
+2022-05-01 09:25:49,506:INFO:Write cleaned data succeeded.
+2022-05-01 09:25:59,635:INFO:ETL-flight,05/01/2022-09:25:59,write,C:\demo\capstone\processed\flight,parquet,23,6375690,ETL-flight_20220501_092454
+2022-05-01 09:25:59,635:INFO:----------------------- ETL-flight completed at 2022-05-01_09:25:59-----------------------
+2022-05-01 09:25:59,635:INFO: 
+2022-05-01 09:25:59,635:INFO:------------------------ ETL-flight started at 2022-05-01_09:25:59------------------------
+2022-05-01 09:25:59,635:INFO:Read data from raw files started...
+2022-05-01 09:26:08,219:INFO:ETL-flight,05/01/2022-09:26:08,read,C:\demo\capstone\raw\2004.csv.bz2,csv,29,7129270,ETL-flight_20220501_092559
+2022-05-01 09:26:08,313:INFO:Write cleaned data to file started...
+2022-05-01 09:26:38,174:INFO:Write cleaned data succeeded.
+2022-05-01 09:26:49,368:INFO:ETL-flight,05/01/2022-09:26:49,write,C:\demo\capstone\processed\flight,parquet,23,6987729,ETL-flight_20220501_092559
+2022-05-01 09:26:49,368:INFO:----------------------- ETL-flight completed at 2022-05-01_09:26:49-----------------------
+2022-05-01 09:26:49,368:INFO: 
+2022-05-01 09:26:49,368:INFO:------------------------ ETL-flight started at 2022-05-01_09:26:49------------------------
+2022-05-01 09:26:49,368:INFO:Read data from raw files started...
+2022-05-01 09:26:57,974:INFO:ETL-flight,05/01/2022-09:26:57,read,C:\demo\capstone\raw\2005.csv.bz2,csv,29,7140596,ETL-flight_20220501_092649
+2022-05-01 09:26:58,067:INFO:Write cleaned data to file started...
+2022-05-01 09:27:27,406:INFO:Write cleaned data succeeded.
+2022-05-01 09:27:38,939:INFO:ETL-flight,05/01/2022-09:27:38,write,C:\demo\capstone\processed\flight,parquet,23,6992838,ETL-flight_20220501_092649
+2022-05-01 09:27:38,939:INFO:----------------------- ETL-flight completed at 2022-05-01_09:27:38-----------------------
+2022-05-01 09:27:38,939:INFO: 
+2022-05-01 09:27:38,939:INFO:------------------------ ETL-flight started at 2022-05-01_09:27:38------------------------
+2022-05-01 09:27:38,939:INFO:Read data from raw files started...
+2022-05-01 09:27:38,955:ERROR:Spark-read-from-csv1 of C:\demo\capstone\raw\2006.csv.bz2 failed --File does not exist!
+2022-05-01 09:27:38,955:ERROR:ETL-flight: read raw file "2006.csv.bz2" failed.
+2022-05-01 09:27:38,955:INFO:----- ETL-flight at 2022-05-01_09:27:38 aborted, due to read from raw file failure..------
+2022-05-01 09:27:38,955:INFO:********************** ETL Process completed at 2022-05-01_09:27:38***********************

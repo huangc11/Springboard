@@ -1,0 +1,41 @@
+C:\ProgramData\Anaconda3\envs\demo-ex1\python.exe C:/Users/huang/OneDrive/14-code/springboard-project_work/pyspark_code/capstone_ATOA/downloadManager.py
+********************* downloadManager started at 2022-05-01_09:57:09**********************
+----------------- downloading airport.csv started at 2022-05-01_09:57:09------------------
+Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY...
+Downloading completed.
+----------------- downloading carrier.csv started at 2022-05-01_09:57:10------------------
+Downloading carrier.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/3NOQ6Q...
+Downloading completed.
+------------------ downloading plane.csv started at 2022-05-01_09:57:11-------------------
+Downloading plane.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XXSL8A...
+Downloading completed.
+-------- downloading flight dataset -- year of 1997 started at 2022-05-01_09:57:12--------
+Downloading 1997.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/RUGDRW...
+Downloading completed.
+-------- downloading flight dataset -- year of 1998 started at 2022-05-01_09:57:41--------
+Downloading 1998.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/H07RX8...
+Downloading completed.
+-------- downloading flight dataset -- year of 1999 started at 2022-05-01_09:58:13--------
+Downloading 1999.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/IP6BL3...
+Downloading completed.
+-------- downloading flight dataset -- year of 2000 started at 2022-05-01_09:58:42--------
+Downloading 2000.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/YGU3TD...
+Downloading completed.
+-------- downloading flight dataset -- year of 2001 started at 2022-05-01_09:59:10--------
+Downloading 2001.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CI5CEM...
+Downloading completed.
+-------- downloading flight dataset -- year of 2002 started at 2022-05-01_09:59:39--------
+Downloading 2002.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/OWJXH3...
+Downloading completed.
+-------- downloading flight dataset -- year of 2003 started at 2022-05-01_10:00:07--------
+Downloading 2003.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/KM2QOA...
+Downloading completed.
+-------- downloading flight dataset -- year of 2004 started at 2022-05-01_10:00:44--------
+Downloading 2004.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CCAZGT...
+Downloading completed.
+-------- downloading flight dataset -- year of 2005 started at 2022-05-01_10:01:25--------
+Downloading 2005.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/JTFT25...
+Downloading completed.
+******************** downloadManager completed at 2022-05-01_10:02:04*********************
+
+Process finished with exit code 0
