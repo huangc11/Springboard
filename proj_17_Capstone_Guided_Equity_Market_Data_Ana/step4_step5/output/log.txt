@@ -1,0 +1,3 @@
+2022-05-15 20:17:54,922:INFO:analytical_etl started...
+2022-05-15 20:18:11,543:INFO:analytical_etl failed due to AnalysisException
+2022-05-15 20:18:11,543:INFO:Can not create the managed table('`temp_trade_moving_avg`'). The associated location('file:/C:/Users/huang/OneDrive/14-code/sprb-project-code/pyspark_code/capstone2/spark-warehouse/temp_trade_moving_avg') already exists.;
