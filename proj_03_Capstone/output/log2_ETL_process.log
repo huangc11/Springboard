@@ -1,0 +1,153 @@
+2022-05-29 17:44:40,491:INFO: 
+2022-05-29 17:44:40,491:INFO:----------------------- ETL-airport started at 2022-05-29_17:44:40------------------------
+2022-05-29 17:44:40,491:INFO:Read data from raw files started...
+2022-05-29 17:45:18,341:INFO:ETL-airport,05/29/2022-17:45:18,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv,csv,7,3376,ETL-airport_20220529_174440
+2022-05-29 17:45:24,342:INFO:Write cleaned data to file started...
+2022-05-29 17:45:27,651:INFO:Write cleaned data succeeded.
+2022-05-29 17:45:27,966:INFO:ETL-airport,05/29/2022-17:45:27,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/airport,parquet,8,3376,ETL-airport_20220529_174440
+2022-05-29 17:45:27,966:INFO:---------------------- ETL-airport completed at 2022-05-29_17:45:27-----------------------
+2022-05-29 17:47:18,966:INFO: 
+2022-05-29 17:47:18,967:INFO:*********************** ETL Process started at 2022-05-29_17:47:18************************
+2022-05-29 17:47:37,027:INFO: 
+2022-05-29 17:47:37,027:INFO:----------------------- ETL-airport started at 2022-05-29_17:47:37------------------------
+2022-05-29 17:47:37,027:INFO:Read data from raw files started...
+2022-05-29 17:47:49,772:INFO:ETL-airport,05/29/2022-17:47:49,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv,csv,7,3376,ETL-airport_20220529_174737
+2022-05-29 17:47:56,113:INFO:Write cleaned data to file started...
+2022-05-29 17:47:58,903:INFO:Write cleaned data succeeded.
+2022-05-29 17:47:59,253:INFO:ETL-airport,05/29/2022-17:47:59,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/airport,parquet,8,3376,ETL-airport_20220529_174737
+2022-05-29 17:47:59,253:INFO:---------------------- ETL-airport completed at 2022-05-29_17:47:59-----------------------
+2022-05-29 17:47:59,254:INFO: 
+2022-05-29 17:47:59,254:INFO:------------------------ ETL-plane started at 2022-05-29_17:47:59-------------------------
+2022-05-29 17:47:59,254:INFO:Read data from raw files started...
+2022-05-29 17:48:02,425:INFO:ETL-plane,05/29/2022-17:48:02,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/plane.csv,csv,9,5029,ETL-plane_20220529_174759
+2022-05-29 17:48:02,766:INFO:Write cleaned data to file started...
+2022-05-29 17:48:04,076:INFO:Write cleaned data succeeded.
+2022-05-29 17:48:04,548:INFO:ETL-plane,05/29/2022-17:48:04,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/plane,parquet,9,4480,ETL-plane_20220529_174759
+2022-05-29 17:48:04,549:INFO:----------------------- ETL-plane completed at 2022-05-29_17:48:04------------------------
+2022-05-29 17:48:04,550:INFO: 
+2022-05-29 17:48:04,550:INFO:----------------------- ETL-carrier started at 2022-05-29_17:48:04------------------------
+2022-05-29 17:48:04,550:INFO:Read data from raw files started...
+2022-05-29 17:48:05,551:INFO:ETL-carrier,05/29/2022-17:48:05,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/carrier.csv,csv,2,1491,ETL-carrier_20220529_174804
+2022-05-29 17:48:05,741:INFO:Write cleaned data to file started...
+2022-05-29 17:48:06,915:INFO:Write cleaned data succeeded.
+2022-05-29 17:48:07,102:INFO:ETL-carrier,05/29/2022-17:48:07,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/carrier,parquet,2,1491,ETL-carrier_20220529_174804
+2022-05-29 17:48:07,102:INFO:---------------------- ETL-carrier completed at 2022-05-29_17:48:07-----------------------
+2022-05-29 17:48:07,104:INFO: 
+2022-05-29 17:48:07,104:INFO:------------------------ ETL-flight started at 2022-05-29_17:48:07------------------------
+2022-05-29 17:48:07,104:INFO:Read data from raw files started...
+2022-05-29 17:48:16,531:INFO:ETL-flight,05/29/2022-17:48:16,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2000.csv.bz2,csv,29,5683047,ETL-flight_20220529_174807
+2022-05-29 17:48:17,090:INFO:Write cleaned data to file started...
+2022-05-29 17:48:43,244:INFO:Write cleaned data succeeded.
+2022-05-29 17:48:53,965:INFO:ETL-flight,05/29/2022-17:48:53,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5481303,ETL-flight_20220529_174807
+2022-05-29 17:48:53,966:INFO:----------------------- ETL-flight completed at 2022-05-29_17:48:53-----------------------
+2022-05-29 17:48:53,966:INFO:********************** ETL Process completed at 2022-05-29_17:48:53***********************
+2022-05-29 17:56:22,257:INFO: 
+2022-05-29 17:56:22,257:INFO:*********************** ETL Process started at 2022-05-29_17:56:22************************
+2022-05-29 17:56:40,213:INFO: 
+2022-05-29 17:56:40,213:INFO:----------------------- ETL-airport started at 2022-05-29_17:56:40------------------------
+2022-05-29 17:56:40,213:INFO:Read data from raw files started...
+2022-05-29 17:56:55,454:INFO:ETL-airport,05/29/2022-17:56:55,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv,csv,7,3376,ETL-airport_20220529_175640
+2022-05-29 17:57:00,720:INFO:Write cleaned data to file started...
+2022-05-29 17:57:03,604:INFO:Write cleaned data succeeded.
+2022-05-29 17:57:03,929:INFO:ETL-airport,05/29/2022-17:57:03,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/airport,parquet,8,3376,ETL-airport_20220529_175640
+2022-05-29 17:57:03,931:INFO:---------------------- ETL-airport completed at 2022-05-29_17:57:03-----------------------
+2022-05-29 17:57:03,931:INFO: 
+2022-05-29 17:57:03,931:INFO:------------------------ ETL-plane started at 2022-05-29_17:57:03-------------------------
+2022-05-29 17:57:03,931:INFO:Read data from raw files started...
+2022-05-29 17:57:06,800:INFO:ETL-plane,05/29/2022-17:57:06,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/plane.csv,csv,9,5029,ETL-plane_20220529_175703
+2022-05-29 17:57:07,082:INFO:Write cleaned data to file started...
+2022-05-29 17:57:08,328:INFO:Write cleaned data succeeded.
+2022-05-29 17:57:08,617:INFO:ETL-plane,05/29/2022-17:57:08,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/plane,parquet,9,4480,ETL-plane_20220529_175703
+2022-05-29 17:57:08,617:INFO:----------------------- ETL-plane completed at 2022-05-29_17:57:08------------------------
+2022-05-29 17:57:08,618:INFO: 
+2022-05-29 17:57:08,618:INFO:----------------------- ETL-carrier started at 2022-05-29_17:57:08------------------------
+2022-05-29 17:57:08,618:INFO:Read data from raw files started...
+2022-05-29 17:57:09,440:INFO:ETL-carrier,05/29/2022-17:57:09,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/carrier.csv,csv,2,1491,ETL-carrier_20220529_175708
+2022-05-29 17:57:09,612:INFO:Write cleaned data to file started...
+2022-05-29 17:57:11,965:INFO:Write cleaned data succeeded.
+2022-05-29 17:57:12,144:INFO:ETL-carrier,05/29/2022-17:57:12,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/carrier,parquet,2,1491,ETL-carrier_20220529_175708
+2022-05-29 17:57:12,145:INFO:---------------------- ETL-carrier completed at 2022-05-29_17:57:12-----------------------
+2022-05-29 17:57:12,146:INFO: 
+2022-05-29 17:57:12,147:INFO:------------------------ ETL-flight started at 2022-05-29_17:57:12------------------------
+2022-05-29 17:57:12,147:INFO:Read data from raw files started...
+2022-05-29 17:57:20,889:INFO:ETL-flight,05/29/2022-17:57:20,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/1997.csv.bz2,csv,29,5411843,ETL-flight_20220529_175712
+2022-05-29 17:57:21,469:INFO:Write cleaned data to file started...
+2022-05-29 17:57:45,993:INFO:Write cleaned data succeeded.
+2022-05-29 17:57:56,354:INFO:ETL-flight,05/29/2022-17:57:56,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5301999,ETL-flight_20220529_175712
+2022-05-29 17:57:56,354:INFO:----------------------- ETL-flight completed at 2022-05-29_17:57:56-----------------------
+2022-05-29 17:57:56,354:INFO: 
+2022-05-29 17:57:56,354:INFO:------------------------ ETL-flight started at 2022-05-29_17:57:56------------------------
+2022-05-29 17:57:56,355:INFO:Read data from raw files started...
+2022-05-29 17:58:04,477:INFO:ETL-flight,05/29/2022-17:58:04,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/1998.csv.bz2,csv,29,5384721,ETL-flight_20220529_175756
+2022-05-29 17:58:04,862:INFO:Write cleaned data to file started...
+2022-05-29 17:58:27,540:INFO:Write cleaned data succeeded.
+2022-05-29 17:58:37,868:INFO:ETL-flight,05/29/2022-17:58:37,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5227051,ETL-flight_20220529_175756
+2022-05-29 17:58:37,869:INFO:----------------------- ETL-flight completed at 2022-05-29_17:58:37-----------------------
+2022-05-29 17:58:37,869:INFO: 
+2022-05-29 17:58:37,869:INFO:------------------------ ETL-flight started at 2022-05-29_17:58:37------------------------
+2022-05-29 17:58:37,869:INFO:Read data from raw files started...
+2022-05-29 17:58:46,243:INFO:ETL-flight,05/29/2022-17:58:46,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/1999.csv.bz2,csv,29,5527884,ETL-flight_20220529_175837
+2022-05-29 17:58:46,591:INFO:Write cleaned data to file started...
+2022-05-29 17:59:09,542:INFO:Write cleaned data succeeded.
+2022-05-29 17:59:20,118:INFO:ETL-flight,05/29/2022-17:59:20,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5360018,ETL-flight_20220529_175837
+2022-05-29 17:59:20,118:INFO:----------------------- ETL-flight completed at 2022-05-29_17:59:20-----------------------
+2022-05-29 17:59:20,118:INFO: 
+2022-05-29 17:59:20,119:INFO:------------------------ ETL-flight started at 2022-05-29_17:59:20------------------------
+2022-05-29 17:59:20,119:INFO:Read data from raw files started...
+2022-05-29 17:59:28,617:INFO:ETL-flight,05/29/2022-17:59:28,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2000.csv.bz2,csv,29,5683047,ETL-flight_20220529_175920
+2022-05-29 17:59:29,202:INFO:Write cleaned data to file started...
+2022-05-29 17:59:54,090:INFO:Write cleaned data succeeded.
+2022-05-29 18:00:05,124:INFO:ETL-flight,05/29/2022-18:00:05,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5481303,ETL-flight_20220529_175920
+2022-05-29 18:00:05,124:INFO:----------------------- ETL-flight completed at 2022-05-29_18:00:05-----------------------
+2022-05-29 18:00:05,125:INFO: 
+2022-05-29 18:00:05,125:INFO:------------------------ ETL-flight started at 2022-05-29_18:00:05------------------------
+2022-05-29 18:00:05,125:INFO:Read data from raw files started...
+2022-05-29 18:00:14,012:INFO:ETL-flight,05/29/2022-18:00:14,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2001.csv.bz2,csv,29,5967780,ETL-flight_20220529_180005
+2022-05-29 18:00:14,323:INFO:Write cleaned data to file started...
+2022-05-29 18:00:40,173:INFO:Write cleaned data succeeded.
+2022-05-29 18:00:51,679:INFO:ETL-flight,05/29/2022-18:00:51,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5723673,ETL-flight_20220529_180005
+2022-05-29 18:00:51,679:INFO:----------------------- ETL-flight completed at 2022-05-29_18:00:51-----------------------
+2022-05-29 18:00:51,681:INFO: 
+2022-05-29 18:00:51,681:INFO:------------------------ ETL-flight started at 2022-05-29_18:00:51------------------------
+2022-05-29 18:00:51,682:INFO:Read data from raw files started...
+2022-05-29 18:00:59,596:INFO:ETL-flight,05/29/2022-18:00:59,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2002.csv.bz2,csv,29,5271359,ETL-flight_20220529_180051
+2022-05-29 18:00:59,886:INFO:Write cleaned data to file started...
+2022-05-29 18:01:22,167:INFO:Write cleaned data succeeded.
+2022-05-29 18:01:32,455:INFO:ETL-flight,05/29/2022-18:01:32,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5197860,ETL-flight_20220529_180051
+2022-05-29 18:01:32,455:INFO:----------------------- ETL-flight completed at 2022-05-29_18:01:32-----------------------
+2022-05-29 18:01:32,456:INFO: 
+2022-05-29 18:01:32,456:INFO:------------------------ ETL-flight started at 2022-05-29_18:01:32------------------------
+2022-05-29 18:01:32,456:INFO:Read data from raw files started...
+2022-05-29 18:01:42,193:INFO:ETL-flight,05/29/2022-18:01:42,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2003.csv.bz2,csv,29,6488540,ETL-flight_20220529_180132
+2022-05-29 18:01:42,555:INFO:Write cleaned data to file started...
+2022-05-29 18:02:08,911:INFO:Write cleaned data succeeded.
+2022-05-29 18:02:21,372:INFO:ETL-flight,05/29/2022-18:02:21,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,6375690,ETL-flight_20220529_180132
+2022-05-29 18:02:21,373:INFO:----------------------- ETL-flight completed at 2022-05-29_18:02:21-----------------------
+2022-05-29 18:02:21,373:INFO: 
+2022-05-29 18:02:21,373:INFO:------------------------ ETL-flight started at 2022-05-29_18:02:21------------------------
+2022-05-29 18:02:21,373:INFO:Read data from raw files started...
+2022-05-29 18:02:31,863:INFO:ETL-flight,05/29/2022-18:02:31,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2004.csv.bz2,csv,29,7129270,ETL-flight_20220529_180221
+2022-05-29 18:02:32,214:INFO:Write cleaned data to file started...
+2022-05-29 18:03:01,866:INFO:Write cleaned data succeeded.
+2022-05-29 18:03:15,397:INFO:ETL-flight,05/29/2022-18:03:15,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,6987729,ETL-flight_20220529_180221
+2022-05-29 18:03:15,397:INFO:----------------------- ETL-flight completed at 2022-05-29_18:03:15-----------------------
+2022-05-29 18:03:15,398:INFO: 
+2022-05-29 18:03:15,398:INFO:------------------------ ETL-flight started at 2022-05-29_18:03:15------------------------
+2022-05-29 18:03:15,398:INFO:Read data from raw files started...
+2022-05-29 18:03:26,028:INFO:ETL-flight,05/29/2022-18:03:26,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2005.csv.bz2,csv,29,7140596,ETL-flight_20220529_180315
+2022-05-29 18:03:26,315:INFO:Write cleaned data to file started...
+2022-05-29 18:03:56,562:INFO:Write cleaned data succeeded.
+2022-05-29 18:04:10,226:INFO:ETL-flight,05/29/2022-18:04:10,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,6992838,ETL-flight_20220529_180315
+2022-05-29 18:04:10,226:INFO:----------------------- ETL-flight completed at 2022-05-29_18:04:10-----------------------
+2022-05-29 18:04:10,228:INFO: 
+2022-05-29 18:04:10,228:INFO:------------------------ ETL-flight started at 2022-05-29_18:04:10------------------------
+2022-05-29 18:04:10,228:INFO:Read data from raw files started...
+2022-05-29 18:04:20,911:INFO:ETL-flight,05/29/2022-18:04:20,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2006.csv.bz2,csv,29,7141922,ETL-flight_20220529_180410
+2022-05-29 18:04:21,225:INFO:Write cleaned data to file started...
+2022-05-29 18:04:50,634:INFO:Write cleaned data succeeded.
+2022-05-29 18:05:04,416:INFO:ETL-flight,05/29/2022-18:05:04,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,7003802,ETL-flight_20220529_180410
+2022-05-29 18:05:04,416:INFO:----------------------- ETL-flight completed at 2022-05-29_18:05:04-----------------------
+2022-05-29 18:05:04,416:INFO:********************** ETL Process completed at 2022-05-29_18:05:04***********************
+2022-05-29 18:14:42,917:INFO: 
+2022-05-29 18:14:42,918:INFO:-------------------- create-dim_carrier started at 2022-05-29_18:14:42--------------------
+2022-05-29 18:15:17,171:INFO:Intgr-dim_carrier,05/29/2022-18:15:17,write,wasbs://aota@east8aota8blob.blob.core.windows.net/integrated/dim_carrier,None,3,1491,2022-05-29_18:15:15

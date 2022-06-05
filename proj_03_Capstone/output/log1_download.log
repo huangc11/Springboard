@@ -1,0 +1,193 @@
+2022-05-29 16:14:58,574:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /mnt/capaota/raw/airport.csv started...
+2022-05-29 16:14:58,828:ERROR:-----------An excepiton raised at 2022-05-29_16:14:58: PermissionError
+2022-05-29 16:14:58,828:ERROR:Downloading failed.
+2022-05-29 16:16:44,519:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /mnt/capaota/raw/airport.csv started...
+2022-05-29 16:16:45,068:INFO:Downloading completed.
+2022-05-29 16:21:05,074:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /mnt/capaota/raw/airport.csv started...
+2022-05-29 16:21:05,743:INFO:Downloading completed.
+2022-05-29 16:21:37,635:INFO: 
+2022-05-29 16:21:37,635:INFO:********************* downloadManager started at 2022-05-29_16:21:37**********************
+2022-05-29 16:21:37,636:INFO: 
+2022-05-29 16:21:37,636:INFO:----------------- downloading airport.csv started at 2022-05-29_16:21:37------------------
+2022-05-29 16:21:37,636:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /mnt/capaota/raw/airport.csv started...
+2022-05-29 16:21:38,073:INFO:Downloading completed.
+2022-05-29 16:21:38,073:INFO: 
+2022-05-29 16:21:38,074:INFO:----------------- downloading carrier.csv started at 2022-05-29_16:21:38------------------
+2022-05-29 16:21:38,074:INFO:Downloading carrier.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/3NOQ6Q to /mnt/capaota/raw/carrier.csv started...
+2022-05-29 16:21:38,630:INFO:Downloading completed.
+2022-05-29 16:21:38,630:INFO: 
+2022-05-29 16:21:38,630:INFO:------------------ downloading plane.csv started at 2022-05-29_16:21:38-------------------
+2022-05-29 16:21:38,631:INFO:Downloading plane.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XXSL8A to /mnt/capaota/raw/plane.csv started...
+2022-05-29 16:21:39,229:INFO:Downloading completed.
+2022-05-29 16:21:39,229:INFO: 
+2022-05-29 16:21:39,230:INFO:-------- downloading flight dataset -- year of 1997 started at 2022-05-29_16:21:39--------
+2022-05-29 16:21:39,230:INFO:Downloading 1997.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/RUGDRW to /mnt/capaota/raw/1997.csv.bz2 started...
+2022-05-29 16:21:43,458:INFO:Downloading completed.
+2022-05-29 16:21:43,461:INFO: 
+2022-05-29 16:21:43,461:INFO:-------- downloading flight dataset -- year of 1998 started at 2022-05-29_16:21:43--------
+2022-05-29 16:21:43,461:INFO:Downloading 1998.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/H07RX8 to /mnt/capaota/raw/1998.csv.bz2 started...
+2022-05-29 16:21:51,782:INFO:Downloading completed.
+2022-05-29 16:21:51,786:INFO: 
+2022-05-29 16:21:51,786:INFO:-------- downloading flight dataset -- year of 1999 started at 2022-05-29_16:21:51--------
+2022-05-29 16:21:51,786:INFO:Downloading 1999.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/IP6BL3 to /mnt/capaota/raw/1999.csv.bz2 started...
+2022-05-29 16:22:00,616:INFO:Downloading completed.
+2022-05-29 16:22:00,623:INFO: 
+2022-05-29 16:22:00,623:INFO:-------- downloading flight dataset -- year of 2000 started at 2022-05-29_16:22:00--------
+2022-05-29 16:22:00,623:INFO:Downloading 2000.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/YGU3TD to /mnt/capaota/raw/2000.csv.bz2 started...
+2022-05-29 16:22:08,392:INFO:Downloading completed.
+2022-05-29 16:22:08,397:INFO: 
+2022-05-29 16:22:08,397:INFO:-------- downloading flight dataset -- year of 2001 started at 2022-05-29_16:22:08--------
+2022-05-29 16:22:08,397:INFO:Downloading 2001.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CI5CEM to /mnt/capaota/raw/2001.csv.bz2 started...
+2022-05-29 16:22:15,147:INFO:Downloading completed.
+2022-05-29 16:22:15,156:INFO: 
+2022-05-29 16:22:15,157:INFO:-------- downloading flight dataset -- year of 2002 started at 2022-05-29_16:22:15--------
+2022-05-29 16:22:15,158:INFO:Downloading 2002.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/OWJXH3 to /mnt/capaota/raw/2002.csv.bz2 started...
+2022-05-29 16:22:24,236:INFO:Downloading completed.
+2022-05-29 16:22:24,239:INFO: 
+2022-05-29 16:22:24,240:INFO:-------- downloading flight dataset -- year of 2003 started at 2022-05-29_16:22:24--------
+2022-05-29 16:22:24,240:INFO:Downloading 2003.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/KM2QOA to /mnt/capaota/raw/2003.csv.bz2 started...
+2022-05-29 16:22:32,195:INFO:Downloading completed.
+2022-05-29 16:22:32,200:INFO: 
+2022-05-29 16:22:32,200:INFO:-------- downloading flight dataset -- year of 2004 started at 2022-05-29_16:22:32--------
+2022-05-29 16:22:32,200:INFO:Downloading 2004.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CCAZGT to /mnt/capaota/raw/2004.csv.bz2 started...
+2022-05-29 16:22:41,992:INFO:Downloading completed.
+2022-05-29 16:22:42,001:INFO: 
+2022-05-29 16:22:42,001:INFO:-------- downloading flight dataset -- year of 2005 started at 2022-05-29_16:22:42--------
+2022-05-29 16:22:42,001:INFO:Downloading 2005.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/JTFT25 to /mnt/capaota/raw/2005.csv.bz2 started...
+2022-05-29 16:22:50,703:INFO:Downloading completed.
+2022-05-29 16:22:50,709:INFO: 
+2022-05-29 16:22:50,710:INFO:-------- downloading flight dataset -- year of 2006 started at 2022-05-29_16:22:50--------
+2022-05-29 16:22:50,710:INFO:Downloading 2006.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/EPIFFT to /mnt/capaota/raw/2006.csv.bz2 started...
+2022-05-29 16:22:59,853:INFO:Downloading completed.
+2022-05-29 16:22:59,860:INFO:******************** downloadManager completed at 2022-05-29_16:22:59*********************
+2022-05-29 16:24:41,678:INFO: 
+2022-05-29 16:24:41,678:INFO:----------------------- ETL-airport started at 2022-05-29_16:24:41------------------------
+2022-05-29 16:24:41,678:INFO:Read data from raw files started...
+2022-05-29 16:25:00,178:ERROR:Spark-read-from-csv of /mnt/capaota/raw/airport.csv failed!
+2022-05-29 16:25:00,179:ERROR:-----------An excepiton raised at 2022-05-29_16:25:00: AnalysisException
+2022-05-29 16:25:00,195:ERROR:ETL-airport: read raw file "airport.csv" failed.
+2022-05-29 16:25:00,195:INFO:----- ETL-airport at 2022-05-29_16:25:00 aborted, due to read from raw file failure..-----
+2022-05-29 17:12:13,776:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv started...
+2022-05-29 17:12:14,037:ERROR:-----------An excepiton raised at 2022-05-29_17:12:14: FileNotFoundError
+2022-05-29 17:12:14,037:ERROR:Downloading failed.
+2022-05-29 17:38:24,530:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /home/sshuser/aota/rawairport.csv started...
+2022-05-29 17:38:24,977:INFO:Downloading completed.
+2022-05-29 17:38:34,409:INFO: 
+2022-05-29 17:38:34,409:INFO:********************* downloadManager started at 2022-05-29_17:38:34**********************
+2022-05-29 17:38:34,409:INFO: 
+2022-05-29 17:38:34,409:INFO:----------------- downloading airport.csv started at 2022-05-29_17:38:34------------------
+2022-05-29 17:38:34,409:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /home/sshuser/aota/rawairport.csv started...
+2022-05-29 17:38:34,822:INFO:Downloading completed.
+2022-05-29 17:38:34,822:INFO: 
+2022-05-29 17:38:34,822:INFO:----------------- downloading carrier.csv started at 2022-05-29_17:38:34------------------
+2022-05-29 17:38:34,822:INFO:Downloading carrier.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/3NOQ6Q to /home/sshuser/aota/rawcarrier.csv started...
+2022-05-29 17:38:35,427:INFO:Downloading completed.
+2022-05-29 17:38:35,427:INFO: 
+2022-05-29 17:38:35,427:INFO:------------------ downloading plane.csv started at 2022-05-29_17:38:35-------------------
+2022-05-29 17:38:35,428:INFO:Downloading plane.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XXSL8A to /home/sshuser/aota/rawplane.csv started...
+2022-05-29 17:38:36,096:INFO:Downloading completed.
+2022-05-29 17:38:36,096:INFO: 
+2022-05-29 17:38:36,096:INFO:-------- downloading flight dataset -- year of 1997 started at 2022-05-29_17:38:36--------
+2022-05-29 17:38:36,097:INFO:Downloading 1997.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/RUGDRW to /home/sshuser/aota/raw1997.csv.bz2 started...
+2022-05-29 17:38:38,356:INFO:Downloading completed.
+2022-05-29 17:38:38,360:INFO: 
+2022-05-29 17:38:38,360:INFO:-------- downloading flight dataset -- year of 1998 started at 2022-05-29_17:38:38--------
+2022-05-29 17:38:38,360:INFO:Downloading 1998.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/H07RX8 to /home/sshuser/aota/raw1998.csv.bz2 started...
+2022-05-29 17:38:41,013:INFO:Downloading completed.
+2022-05-29 17:38:41,016:INFO: 
+2022-05-29 17:38:41,016:INFO:-------- downloading flight dataset -- year of 1999 started at 2022-05-29_17:38:41--------
+2022-05-29 17:38:41,016:INFO:Downloading 1999.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/IP6BL3 to /home/sshuser/aota/raw1999.csv.bz2 started...
+2022-05-29 17:38:43,487:INFO:Downloading completed.
+2022-05-29 17:38:43,491:INFO: 
+2022-05-29 17:38:43,491:INFO:-------- downloading flight dataset -- year of 2000 started at 2022-05-29_17:38:43--------
+2022-05-29 17:38:43,491:INFO:Downloading 2000.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/YGU3TD to /home/sshuser/aota/raw2000.csv.bz2 started...
+2022-05-29 17:38:46,079:INFO:Downloading completed.
+2022-05-29 17:38:46,083:INFO: 
+2022-05-29 17:38:46,083:INFO:-------- downloading flight dataset -- year of 2001 started at 2022-05-29_17:38:46--------
+2022-05-29 17:38:46,083:INFO:Downloading 2001.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CI5CEM to /home/sshuser/aota/raw2001.csv.bz2 started...
+2022-05-29 17:38:48,528:INFO:Downloading completed.
+2022-05-29 17:38:48,532:INFO: 
+2022-05-29 17:38:48,532:INFO:-------- downloading flight dataset -- year of 2002 started at 2022-05-29_17:38:48--------
+2022-05-29 17:38:48,532:INFO:Downloading 2002.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/OWJXH3 to /home/sshuser/aota/raw2002.csv.bz2 started...
+2022-05-29 17:38:50,975:INFO:Downloading completed.
+2022-05-29 17:38:50,979:INFO: 
+2022-05-29 17:38:50,979:INFO:-------- downloading flight dataset -- year of 2003 started at 2022-05-29_17:38:50--------
+2022-05-29 17:38:50,979:INFO:Downloading 2003.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/KM2QOA to /home/sshuser/aota/raw2003.csv.bz2 started...
+2022-05-29 17:38:53,921:INFO:Downloading completed.
+2022-05-29 17:38:53,925:INFO: 
+2022-05-29 17:38:53,925:INFO:-------- downloading flight dataset -- year of 2004 started at 2022-05-29_17:38:53--------
+2022-05-29 17:38:53,925:INFO:Downloading 2004.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CCAZGT to /home/sshuser/aota/raw2004.csv.bz2 started...
+2022-05-29 17:38:57,046:INFO:Downloading completed.
+2022-05-29 17:38:57,051:INFO: 
+2022-05-29 17:38:57,051:INFO:-------- downloading flight dataset -- year of 2005 started at 2022-05-29_17:38:57--------
+2022-05-29 17:38:57,051:INFO:Downloading 2005.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/JTFT25 to /home/sshuser/aota/raw2005.csv.bz2 started...
+2022-05-29 17:39:00,712:INFO:Downloading completed.
+2022-05-29 17:39:00,716:INFO: 
+2022-05-29 17:39:00,716:INFO:-------- downloading flight dataset -- year of 2006 started at 2022-05-29_17:39:00--------
+2022-05-29 17:39:00,716:INFO:Downloading 2006.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/EPIFFT to /home/sshuser/aota/raw2006.csv.bz2 started...
+2022-05-29 17:39:04,087:INFO:Downloading completed.
+2022-05-29 17:39:04,092:INFO:******************** downloadManager completed at 2022-05-29_17:39:04*********************
+2022-05-29 17:40:50,700:INFO: 
+2022-05-29 17:40:50,701:INFO:----------------------- ETL-airport started at 2022-05-29_17:40:50------------------------
+2022-05-29 17:40:50,701:INFO:Read data from raw files started...
+2022-05-29 17:41:09,110:ERROR:Spark-read-from-csv of wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv failed!
+2022-05-29 17:41:09,110:ERROR:-----------An excepiton raised at 2022-05-29_17:41:09: AnalysisException
+2022-05-29 17:41:09,126:ERROR:ETL-airport: read raw file "airport.csv" failed.
+2022-05-29 17:41:09,126:INFO:----- ETL-airport at 2022-05-29_17:41:09 aborted, due to read from raw file failure..-----
+2022-05-29 17:42:44,446:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /home/sshuser/aota/raw/airport.csv started...
+2022-05-29 17:42:44,907:INFO:Downloading completed.
+2022-05-29 17:43:29,834:INFO: 
+2022-05-29 17:43:29,834:INFO:********************* downloadManager started at 2022-05-29_17:43:29**********************
+2022-05-29 17:43:29,834:INFO: 
+2022-05-29 17:43:29,835:INFO:----------------- downloading airport.csv started at 2022-05-29_17:43:29------------------
+2022-05-29 17:43:29,835:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /home/sshuser/aota/raw/airport.csv started...
+2022-05-29 17:43:30,275:INFO:Downloading completed.
+2022-05-29 17:43:30,277:INFO: 
+2022-05-29 17:43:30,277:INFO:----------------- downloading carrier.csv started at 2022-05-29_17:43:30------------------
+2022-05-29 17:43:30,278:INFO:Downloading carrier.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/3NOQ6Q to /home/sshuser/aota/raw/carrier.csv started...
+2022-05-29 17:43:30,745:INFO:Downloading completed.
+2022-05-29 17:43:30,746:INFO: 
+2022-05-29 17:43:30,746:INFO:------------------ downloading plane.csv started at 2022-05-29_17:43:30-------------------
+2022-05-29 17:43:30,746:INFO:Downloading plane.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XXSL8A to /home/sshuser/aota/raw/plane.csv started...
+2022-05-29 17:43:31,132:INFO:Downloading completed.
+2022-05-29 17:43:31,132:INFO: 
+2022-05-29 17:43:31,133:INFO:-------- downloading flight dataset -- year of 1997 started at 2022-05-29_17:43:31--------
+2022-05-29 17:43:31,133:INFO:Downloading 1997.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/RUGDRW to /home/sshuser/aota/raw/1997.csv.bz2 started...
+2022-05-29 17:43:33,336:INFO:Downloading completed.
+2022-05-29 17:43:33,340:INFO: 
+2022-05-29 17:43:33,340:INFO:-------- downloading flight dataset -- year of 1998 started at 2022-05-29_17:43:33--------
+2022-05-29 17:43:33,340:INFO:Downloading 1998.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/H07RX8 to /home/sshuser/aota/raw/1998.csv.bz2 started...
+2022-05-29 17:43:35,682:INFO:Downloading completed.
+2022-05-29 17:43:35,686:INFO: 
+2022-05-29 17:43:35,686:INFO:-------- downloading flight dataset -- year of 1999 started at 2022-05-29_17:43:35--------
+2022-05-29 17:43:35,686:INFO:Downloading 1999.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/IP6BL3 to /home/sshuser/aota/raw/1999.csv.bz2 started...
+2022-05-29 17:43:38,180:INFO:Downloading completed.
+2022-05-29 17:43:38,183:INFO: 
+2022-05-29 17:43:38,183:INFO:-------- downloading flight dataset -- year of 2000 started at 2022-05-29_17:43:38--------
+2022-05-29 17:43:38,183:INFO:Downloading 2000.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/YGU3TD to /home/sshuser/aota/raw/2000.csv.bz2 started...
+2022-05-29 17:43:40,487:INFO:Downloading completed.
+2022-05-29 17:43:40,490:INFO: 
+2022-05-29 17:43:40,490:INFO:-------- downloading flight dataset -- year of 2001 started at 2022-05-29_17:43:40--------
+2022-05-29 17:43:40,490:INFO:Downloading 2001.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CI5CEM to /home/sshuser/aota/raw/2001.csv.bz2 started...
+2022-05-29 17:43:43,088:INFO:Downloading completed.
+2022-05-29 17:43:43,091:INFO: 
+2022-05-29 17:43:43,091:INFO:-------- downloading flight dataset -- year of 2002 started at 2022-05-29_17:43:43--------
+2022-05-29 17:43:43,091:INFO:Downloading 2002.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/OWJXH3 to /home/sshuser/aota/raw/2002.csv.bz2 started...
+2022-05-29 17:43:45,416:INFO:Downloading completed.
+2022-05-29 17:43:45,420:INFO: 
+2022-05-29 17:43:45,420:INFO:-------- downloading flight dataset -- year of 2003 started at 2022-05-29_17:43:45--------
+2022-05-29 17:43:45,420:INFO:Downloading 2003.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/KM2QOA to /home/sshuser/aota/raw/2003.csv.bz2 started...
+2022-05-29 17:43:49,709:INFO:Downloading completed.
+2022-05-29 17:43:49,712:INFO: 
+2022-05-29 17:43:49,712:INFO:-------- downloading flight dataset -- year of 2004 started at 2022-05-29_17:43:49--------
+2022-05-29 17:43:49,713:INFO:Downloading 2004.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CCAZGT to /home/sshuser/aota/raw/2004.csv.bz2 started...
+2022-05-29 17:43:52,893:INFO:Downloading completed.
+2022-05-29 17:43:52,898:INFO: 
+2022-05-29 17:43:52,898:INFO:-------- downloading flight dataset -- year of 2005 started at 2022-05-29_17:43:52--------
+2022-05-29 17:43:52,898:INFO:Downloading 2005.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/JTFT25 to /home/sshuser/aota/raw/2005.csv.bz2 started...
+2022-05-29 17:43:55,805:INFO:Downloading completed.
+2022-05-29 17:43:55,810:INFO: 
+2022-05-29 17:43:55,810:INFO:-------- downloading flight dataset -- year of 2006 started at 2022-05-29_17:43:55--------
+2022-05-29 17:43:55,810:INFO:Downloading 2006.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/EPIFFT to /home/sshuser/aota/raw/2006.csv.bz2 started...
+2022-05-29 17:43:59,264:INFO:Downloading completed.
+2022-05-29 17:43:59,268:INFO:******************** downloadManager completed at 2022-05-29_17:43:59*********************
