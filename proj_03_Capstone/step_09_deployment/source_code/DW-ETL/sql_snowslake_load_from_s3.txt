@@ -1,0 +1,116 @@
+
+use aota
+
+
+#------------------------------------------Table  dim_date, dim_plane, dim_origin_dest ----------------------------------------------------
+
+# =====================  create table =====================
+
+
+create table dim_plane
+( 
+tailnum  string,
+ type string,
+manufacturer string,
+issue_date string,
+model string,
+status string,
+aircraft_type string,
+engine_type string,
+year string,
+plane_id string
+);
+
+
+create table dim_date(
+date_id string,
+year integer,
+month integer,
+dayofmonth integer,
+dayofweek integer
+)
+;
+
+
+create table dim_origin_dest(
+orig_dest_id string, 
+ origin string, 
+ dest string, 
+ distance integer,
+ orig_airport string, 
+ orig_city string, 
+ orig_state string, 
+ orig_country string, 
+ dest_airport string, 
+ dest_city string, 
+ dest_state string, 
+ dest_country string)
+ ;
+
+
+# =====================  create stage  =====================
+
+
+CREATE STAGE stg_dim_origin_dest URL = 's3://capstone-aota/dwsource/dim_origin_dest';
+
+
+CREATE STAGE stg_dim_date URL = 's3://capstone-aota/dwsource/dim_date';
+list @stg_dim_date
+
+
+
+ 
+# =====================  copy data  =====================
+
+copy into dim_plane from @csv_dim_plane 
+file_format=csv;
+
+
+
+copy into dim_date from @stg_dim_date
+file_format=csv;
+
+
+copy into dim_origin_dest from @stg_dim_origin_dest
+file_format=csv;
+
+
+
+
+#------------------------------------------Table   fact_flight ----------------------------------------------------
+
+#4,8589934595,20020410,SDF_TPA,276,WN,N304,630,630,832,835,-3,2002
+
+
+# create table 
+
+create table fact_flight(
+month integer ,
+seq_id integer,
+date_id string ,
+orig_dest_id string ,
+flightNum string ,
+carrier_id string ,
+plane_id string ,
+deptime string ,
+scheduled_deptime string ,
+arr_time string ,
+scheduled_arrtime string ,
+arr_delay integer ,
+year integer
+);
+
+
+# create stage
+create or replace stage STG_SOURCE_FACT_FLIGHT   URL = 's3://capstone-aota/dwsource/fact_flight';
+
+list @STG_SOURCE_FACT_FLIGHT
+
+
+# copy data
+copy into fact_flight from @stg_source_fact_flight file_format =csv;
+  
+select count(*) from fact_flight
+
+
+

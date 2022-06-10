@@ -1,0 +1,76 @@
+
+s3fs:
+
+
+    folder_base ='/mnt/capaota'
+
+    #folder_dwnld='/data/aota/download/'
+    folder_dwnld= folder_base+'/raw/'
+    folder_raw = folder_base+'/raw/'
+    folder_cln = folder_base+ '/processed/'
+    folder_intgr = folder_base+ '/integrated/'
+    folder_log = '/data/aota/logs/'
+    folder_log = '/data/aota/tmp/'
+
+
+azure-- hdincite
+
+    ------old ---------
+
+    folder_base ='wasbs://aota@east8aota8blob.blob.core.windows.net'
+
+
+    folder_dwnld= '/home/sshuser/aota/raw/'
+    folder_raw = folder_base+'/raw/'
+    folder_cln = folder_base+ '/processed/'
+    folder_intgr = folder_base+ '/integrated/'
+    folder_log = '/data/aota/logs/
+    folder_tmp = folder_base+ '/tmp/'
+
+  ------------- new ------------
+    folder_base ='wasbs://aota@east8aota8blob.blob.core.windows.net'
+
+
+    folder_dwnld= '/home/sshuser/aota/raw/'
+    folder_raw = wasbs://raw@east8aota8blob.blob.core.windows.net/
+    folder_cln = folder_base+ '/processed/'
+    folder_intgr = folder_base+ '/integrated/'
+    folder_log = '/data/aota/logs/
+    folder_tmp = folder_base+ 'tmp/'
+
+
+EMR--s3
+
+
+    folder_base ='s3a://capstone-aota'
+
+    folder_dwnld='/data/aota/download/'
+    folder_raw = folder_base+'/raw/'
+    folder_cln = folder_base+ '/processed/'
+    folder_intgr = folder_base+ '/integrated/'
+    folder_log = '/data/aota/logs/'
+    folder_tmp = folder_base+ 'tmp/'
+
+
+
+
+
+Local-UBT
+
+    folder_base ='/data/aota/'
+
+    folder_dwnld=folder_base+'raw/'
+    folder_raw = folder_base+'raw/'
+    folder_cln = folder_base+ 'processed/'
+    folder_intgr = folder_base+ 'integrated/'
+    folder_log = folder_base+ 'logs/
+    folder_tmp = folder_base+ 'tmp/'
+
+
+Local-Win
+    folder_dwnld='C:/demo/capstone/raw/'
+    folder_raw='C:/demo/capstone/raw/'
+    folder_cln='C:/demo/capstone/processed/'
+    folder_intgr = 'C:/demo/capstone/integrated/'
+    folder_log =  'C:/demo/capstone/logs/'
+    folder_tmp = '/C:/demo/capstone/tmp'

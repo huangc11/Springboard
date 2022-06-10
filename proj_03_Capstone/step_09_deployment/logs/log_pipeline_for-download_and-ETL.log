@@ -1,0 +1,346 @@
+2022-05-29 16:14:58,574:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /mnt/capaota/raw/airport.csv started...
+2022-05-29 16:14:58,828:ERROR:-----------An excepiton raised at 2022-05-29_16:14:58: PermissionError
+2022-05-29 16:14:58,828:ERROR:Downloading failed.
+2022-05-29 16:16:44,519:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /mnt/capaota/raw/airport.csv started...
+2022-05-29 16:16:45,068:INFO:Downloading completed.
+2022-05-29 16:21:05,074:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /mnt/capaota/raw/airport.csv started...
+2022-05-29 16:21:05,743:INFO:Downloading completed.
+2022-05-29 16:21:37,635:INFO: 
+2022-05-29 16:21:37,635:INFO:********************* downloadManager started at 2022-05-29_16:21:37**********************
+2022-05-29 16:21:37,636:INFO: 
+2022-05-29 16:21:37,636:INFO:----------------- downloading airport.csv started at 2022-05-29_16:21:37------------------
+2022-05-29 16:21:37,636:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /mnt/capaota/raw/airport.csv started...
+2022-05-29 16:21:38,073:INFO:Downloading completed.
+2022-05-29 16:21:38,073:INFO: 
+2022-05-29 16:21:38,074:INFO:----------------- downloading carrier.csv started at 2022-05-29_16:21:38------------------
+2022-05-29 16:21:38,074:INFO:Downloading carrier.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/3NOQ6Q to /mnt/capaota/raw/carrier.csv started...
+2022-05-29 16:21:38,630:INFO:Downloading completed.
+2022-05-29 16:21:38,630:INFO: 
+2022-05-29 16:21:38,630:INFO:------------------ downloading plane.csv started at 2022-05-29_16:21:38-------------------
+2022-05-29 16:21:38,631:INFO:Downloading plane.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XXSL8A to /mnt/capaota/raw/plane.csv started...
+2022-05-29 16:21:39,229:INFO:Downloading completed.
+2022-05-29 16:21:39,229:INFO: 
+2022-05-29 16:21:39,230:INFO:-------- downloading flight dataset -- year of 1997 started at 2022-05-29_16:21:39--------
+2022-05-29 16:21:39,230:INFO:Downloading 1997.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/RUGDRW to /mnt/capaota/raw/1997.csv.bz2 started...
+2022-05-29 16:21:43,458:INFO:Downloading completed.
+2022-05-29 16:21:43,461:INFO: 
+2022-05-29 16:21:43,461:INFO:-------- downloading flight dataset -- year of 1998 started at 2022-05-29_16:21:43--------
+2022-05-29 16:21:43,461:INFO:Downloading 1998.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/H07RX8 to /mnt/capaota/raw/1998.csv.bz2 started...
+2022-05-29 16:21:51,782:INFO:Downloading completed.
+2022-05-29 16:21:51,786:INFO: 
+2022-05-29 16:21:51,786:INFO:-------- downloading flight dataset -- year of 1999 started at 2022-05-29_16:21:51--------
+2022-05-29 16:21:51,786:INFO:Downloading 1999.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/IP6BL3 to /mnt/capaota/raw/1999.csv.bz2 started...
+2022-05-29 16:22:00,616:INFO:Downloading completed.
+2022-05-29 16:22:00,623:INFO: 
+2022-05-29 16:22:00,623:INFO:-------- downloading flight dataset -- year of 2000 started at 2022-05-29_16:22:00--------
+2022-05-29 16:22:00,623:INFO:Downloading 2000.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/YGU3TD to /mnt/capaota/raw/2000.csv.bz2 started...
+2022-05-29 16:22:08,392:INFO:Downloading completed.
+2022-05-29 16:22:08,397:INFO: 
+2022-05-29 16:22:08,397:INFO:-------- downloading flight dataset -- year of 2001 started at 2022-05-29_16:22:08--------
+2022-05-29 16:22:08,397:INFO:Downloading 2001.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CI5CEM to /mnt/capaota/raw/2001.csv.bz2 started...
+2022-05-29 16:22:15,147:INFO:Downloading completed.
+2022-05-29 16:22:15,156:INFO: 
+2022-05-29 16:22:15,157:INFO:-------- downloading flight dataset -- year of 2002 started at 2022-05-29_16:22:15--------
+2022-05-29 16:22:15,158:INFO:Downloading 2002.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/OWJXH3 to /mnt/capaota/raw/2002.csv.bz2 started...
+2022-05-29 16:22:24,236:INFO:Downloading completed.
+2022-05-29 16:22:24,239:INFO: 
+2022-05-29 16:22:24,240:INFO:-------- downloading flight dataset -- year of 2003 started at 2022-05-29_16:22:24--------
+2022-05-29 16:22:24,240:INFO:Downloading 2003.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/KM2QOA to /mnt/capaota/raw/2003.csv.bz2 started...
+2022-05-29 16:22:32,195:INFO:Downloading completed.
+2022-05-29 16:22:32,200:INFO: 
+2022-05-29 16:22:32,200:INFO:-------- downloading flight dataset -- year of 2004 started at 2022-05-29_16:22:32--------
+2022-05-29 16:22:32,200:INFO:Downloading 2004.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CCAZGT to /mnt/capaota/raw/2004.csv.bz2 started...
+2022-05-29 16:22:41,992:INFO:Downloading completed.
+2022-05-29 16:22:42,001:INFO: 
+2022-05-29 16:22:42,001:INFO:-------- downloading flight dataset -- year of 2005 started at 2022-05-29_16:22:42--------
+2022-05-29 16:22:42,001:INFO:Downloading 2005.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/JTFT25 to /mnt/capaota/raw/2005.csv.bz2 started...
+2022-05-29 16:22:50,703:INFO:Downloading completed.
+2022-05-29 16:22:50,709:INFO: 
+2022-05-29 16:22:50,710:INFO:-------- downloading flight dataset -- year of 2006 started at 2022-05-29_16:22:50--------
+2022-05-29 16:22:50,710:INFO:Downloading 2006.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/EPIFFT to /mnt/capaota/raw/2006.csv.bz2 started...
+2022-05-29 16:22:59,853:INFO:Downloading completed.
+2022-05-29 16:22:59,860:INFO:******************** downloadManager completed at 2022-05-29_16:22:59*********************
+2022-05-29 16:24:41,678:INFO: 
+2022-05-29 16:24:41,678:INFO:----------------------- ETL-airport started at 2022-05-29_16:24:41------------------------
+2022-05-29 16:24:41,678:INFO:Read data from raw files started...
+2022-05-29 16:25:00,178:ERROR:Spark-read-from-csv of /mnt/capaota/raw/airport.csv failed!
+2022-05-29 16:25:00,179:ERROR:-----------An excepiton raised at 2022-05-29_16:25:00: AnalysisException
+2022-05-29 16:25:00,195:ERROR:ETL-airport: read raw file "airport.csv" failed.
+2022-05-29 16:25:00,195:INFO:----- ETL-airport at 2022-05-29_16:25:00 aborted, due to read from raw file failure..-----
+2022-05-29 17:12:13,776:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv started...
+2022-05-29 17:12:14,037:ERROR:-----------An excepiton raised at 2022-05-29_17:12:14: FileNotFoundError
+2022-05-29 17:12:14,037:ERROR:Downloading failed.
+2022-05-29 17:38:24,530:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /home/sshuser/aota/rawairport.csv started...
+2022-05-29 17:38:24,977:INFO:Downloading completed.
+2022-05-29 17:38:34,409:INFO: 
+2022-05-29 17:38:34,409:INFO:********************* downloadManager started at 2022-05-29_17:38:34**********************
+2022-05-29 17:38:34,409:INFO: 
+2022-05-29 17:38:34,409:INFO:----------------- downloading airport.csv started at 2022-05-29_17:38:34------------------
+2022-05-29 17:38:34,409:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /home/sshuser/aota/rawairport.csv started...
+2022-05-29 17:38:34,822:INFO:Downloading completed.
+2022-05-29 17:38:34,822:INFO: 
+2022-05-29 17:38:34,822:INFO:----------------- downloading carrier.csv started at 2022-05-29_17:38:34------------------
+2022-05-29 17:38:34,822:INFO:Downloading carrier.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/3NOQ6Q to /home/sshuser/aota/rawcarrier.csv started...
+2022-05-29 17:38:35,427:INFO:Downloading completed.
+2022-05-29 17:38:35,427:INFO: 
+2022-05-29 17:38:35,427:INFO:------------------ downloading plane.csv started at 2022-05-29_17:38:35-------------------
+2022-05-29 17:38:35,428:INFO:Downloading plane.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XXSL8A to /home/sshuser/aota/rawplane.csv started...
+2022-05-29 17:38:36,096:INFO:Downloading completed.
+2022-05-29 17:38:36,096:INFO: 
+2022-05-29 17:38:36,096:INFO:-------- downloading flight dataset -- year of 1997 started at 2022-05-29_17:38:36--------
+2022-05-29 17:38:36,097:INFO:Downloading 1997.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/RUGDRW to /home/sshuser/aota/raw1997.csv.bz2 started...
+2022-05-29 17:38:38,356:INFO:Downloading completed.
+2022-05-29 17:38:38,360:INFO: 
+2022-05-29 17:38:38,360:INFO:-------- downloading flight dataset -- year of 1998 started at 2022-05-29_17:38:38--------
+2022-05-29 17:38:38,360:INFO:Downloading 1998.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/H07RX8 to /home/sshuser/aota/raw1998.csv.bz2 started...
+2022-05-29 17:38:41,013:INFO:Downloading completed.
+2022-05-29 17:38:41,016:INFO: 
+2022-05-29 17:38:41,016:INFO:-------- downloading flight dataset -- year of 1999 started at 2022-05-29_17:38:41--------
+2022-05-29 17:38:41,016:INFO:Downloading 1999.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/IP6BL3 to /home/sshuser/aota/raw1999.csv.bz2 started...
+2022-05-29 17:38:43,487:INFO:Downloading completed.
+2022-05-29 17:38:43,491:INFO: 
+2022-05-29 17:38:43,491:INFO:-------- downloading flight dataset -- year of 2000 started at 2022-05-29_17:38:43--------
+2022-05-29 17:38:43,491:INFO:Downloading 2000.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/YGU3TD to /home/sshuser/aota/raw2000.csv.bz2 started...
+2022-05-29 17:38:46,079:INFO:Downloading completed.
+2022-05-29 17:38:46,083:INFO: 
+2022-05-29 17:38:46,083:INFO:-------- downloading flight dataset -- year of 2001 started at 2022-05-29_17:38:46--------
+2022-05-29 17:38:46,083:INFO:Downloading 2001.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CI5CEM to /home/sshuser/aota/raw2001.csv.bz2 started...
+2022-05-29 17:38:48,528:INFO:Downloading completed.
+2022-05-29 17:38:48,532:INFO: 
+2022-05-29 17:38:48,532:INFO:-------- downloading flight dataset -- year of 2002 started at 2022-05-29_17:38:48--------
+2022-05-29 17:38:48,532:INFO:Downloading 2002.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/OWJXH3 to /home/sshuser/aota/raw2002.csv.bz2 started...
+2022-05-29 17:38:50,975:INFO:Downloading completed.
+2022-05-29 17:38:50,979:INFO: 
+2022-05-29 17:38:50,979:INFO:-------- downloading flight dataset -- year of 2003 started at 2022-05-29_17:38:50--------
+2022-05-29 17:38:50,979:INFO:Downloading 2003.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/KM2QOA to /home/sshuser/aota/raw2003.csv.bz2 started...
+2022-05-29 17:38:53,921:INFO:Downloading completed.
+2022-05-29 17:38:53,925:INFO: 
+2022-05-29 17:38:53,925:INFO:-------- downloading flight dataset -- year of 2004 started at 2022-05-29_17:38:53--------
+2022-05-29 17:38:53,925:INFO:Downloading 2004.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CCAZGT to /home/sshuser/aota/raw2004.csv.bz2 started...
+2022-05-29 17:38:57,046:INFO:Downloading completed.
+2022-05-29 17:38:57,051:INFO: 
+2022-05-29 17:38:57,051:INFO:-------- downloading flight dataset -- year of 2005 started at 2022-05-29_17:38:57--------
+2022-05-29 17:38:57,051:INFO:Downloading 2005.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/JTFT25 to /home/sshuser/aota/raw2005.csv.bz2 started...
+2022-05-29 17:39:00,712:INFO:Downloading completed.
+2022-05-29 17:39:00,716:INFO: 
+2022-05-29 17:39:00,716:INFO:-------- downloading flight dataset -- year of 2006 started at 2022-05-29_17:39:00--------
+2022-05-29 17:39:00,716:INFO:Downloading 2006.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/EPIFFT to /home/sshuser/aota/raw2006.csv.bz2 started...
+2022-05-29 17:39:04,087:INFO:Downloading completed.
+2022-05-29 17:39:04,092:INFO:******************** downloadManager completed at 2022-05-29_17:39:04*********************
+2022-05-29 17:40:50,700:INFO: 
+2022-05-29 17:40:50,701:INFO:----------------------- ETL-airport started at 2022-05-29_17:40:50------------------------
+2022-05-29 17:40:50,701:INFO:Read data from raw files started...
+2022-05-29 17:41:09,110:ERROR:Spark-read-from-csv of wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv failed!
+2022-05-29 17:41:09,110:ERROR:-----------An excepiton raised at 2022-05-29_17:41:09: AnalysisException
+2022-05-29 17:41:09,126:ERROR:ETL-airport: read raw file "airport.csv" failed.
+2022-05-29 17:41:09,126:INFO:----- ETL-airport at 2022-05-29_17:41:09 aborted, due to read from raw file failure..-----
+2022-05-29 17:42:44,446:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /home/sshuser/aota/raw/airport.csv started...
+2022-05-29 17:42:44,907:INFO:Downloading completed.
+2022-05-29 17:43:29,834:INFO: 
+2022-05-29 17:43:29,834:INFO:********************* downloadManager started at 2022-05-29_17:43:29**********************
+2022-05-29 17:43:29,834:INFO: 
+2022-05-29 17:43:29,835:INFO:----------------- downloading airport.csv started at 2022-05-29_17:43:29------------------
+2022-05-29 17:43:29,835:INFO:Downloading airport.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XTPZZY to /home/sshuser/aota/raw/airport.csv started...
+2022-05-29 17:43:30,275:INFO:Downloading completed.
+2022-05-29 17:43:30,277:INFO: 
+2022-05-29 17:43:30,277:INFO:----------------- downloading carrier.csv started at 2022-05-29_17:43:30------------------
+2022-05-29 17:43:30,278:INFO:Downloading carrier.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/3NOQ6Q to /home/sshuser/aota/raw/carrier.csv started...
+2022-05-29 17:43:30,745:INFO:Downloading completed.
+2022-05-29 17:43:30,746:INFO: 
+2022-05-29 17:43:30,746:INFO:------------------ downloading plane.csv started at 2022-05-29_17:43:30-------------------
+2022-05-29 17:43:30,746:INFO:Downloading plane.csv from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/XXSL8A to /home/sshuser/aota/raw/plane.csv started...
+2022-05-29 17:43:31,132:INFO:Downloading completed.
+2022-05-29 17:43:31,132:INFO: 
+2022-05-29 17:43:31,133:INFO:-------- downloading flight dataset -- year of 1997 started at 2022-05-29_17:43:31--------
+2022-05-29 17:43:31,133:INFO:Downloading 1997.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/RUGDRW to /home/sshuser/aota/raw/1997.csv.bz2 started...
+2022-05-29 17:43:33,336:INFO:Downloading completed.
+2022-05-29 17:43:33,340:INFO: 
+2022-05-29 17:43:33,340:INFO:-------- downloading flight dataset -- year of 1998 started at 2022-05-29_17:43:33--------
+2022-05-29 17:43:33,340:INFO:Downloading 1998.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/H07RX8 to /home/sshuser/aota/raw/1998.csv.bz2 started...
+2022-05-29 17:43:35,682:INFO:Downloading completed.
+2022-05-29 17:43:35,686:INFO: 
+2022-05-29 17:43:35,686:INFO:-------- downloading flight dataset -- year of 1999 started at 2022-05-29_17:43:35--------
+2022-05-29 17:43:35,686:INFO:Downloading 1999.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/IP6BL3 to /home/sshuser/aota/raw/1999.csv.bz2 started...
+2022-05-29 17:43:38,180:INFO:Downloading completed.
+2022-05-29 17:43:38,183:INFO: 
+2022-05-29 17:43:38,183:INFO:-------- downloading flight dataset -- year of 2000 started at 2022-05-29_17:43:38--------
+2022-05-29 17:43:38,183:INFO:Downloading 2000.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/YGU3TD to /home/sshuser/aota/raw/2000.csv.bz2 started...
+2022-05-29 17:43:40,487:INFO:Downloading completed.
+2022-05-29 17:43:40,490:INFO: 
+2022-05-29 17:43:40,490:INFO:-------- downloading flight dataset -- year of 2001 started at 2022-05-29_17:43:40--------
+2022-05-29 17:43:40,490:INFO:Downloading 2001.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CI5CEM to /home/sshuser/aota/raw/2001.csv.bz2 started...
+2022-05-29 17:43:43,088:INFO:Downloading completed.
+2022-05-29 17:43:43,091:INFO: 
+2022-05-29 17:43:43,091:INFO:-------- downloading flight dataset -- year of 2002 started at 2022-05-29_17:43:43--------
+2022-05-29 17:43:43,091:INFO:Downloading 2002.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/OWJXH3 to /home/sshuser/aota/raw/2002.csv.bz2 started...
+2022-05-29 17:43:45,416:INFO:Downloading completed.
+2022-05-29 17:43:45,420:INFO: 
+2022-05-29 17:43:45,420:INFO:-------- downloading flight dataset -- year of 2003 started at 2022-05-29_17:43:45--------
+2022-05-29 17:43:45,420:INFO:Downloading 2003.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/KM2QOA to /home/sshuser/aota/raw/2003.csv.bz2 started...
+2022-05-29 17:43:49,709:INFO:Downloading completed.
+2022-05-29 17:43:49,712:INFO: 
+2022-05-29 17:43:49,712:INFO:-------- downloading flight dataset -- year of 2004 started at 2022-05-29_17:43:49--------
+2022-05-29 17:43:49,713:INFO:Downloading 2004.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/CCAZGT to /home/sshuser/aota/raw/2004.csv.bz2 started...
+2022-05-29 17:43:52,893:INFO:Downloading completed.
+2022-05-29 17:43:52,898:INFO: 
+2022-05-29 17:43:52,898:INFO:-------- downloading flight dataset -- year of 2005 started at 2022-05-29_17:43:52--------
+2022-05-29 17:43:52,898:INFO:Downloading 2005.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/JTFT25 to /home/sshuser/aota/raw/2005.csv.bz2 started...
+2022-05-29 17:43:55,805:INFO:Downloading completed.
+2022-05-29 17:43:55,810:INFO: 
+2022-05-29 17:43:55,810:INFO:-------- downloading flight dataset -- year of 2006 started at 2022-05-29_17:43:55--------
+2022-05-29 17:43:55,810:INFO:Downloading 2006.csv.bz2 from https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/HG7NV7/EPIFFT to /home/sshuser/aota/raw/2006.csv.bz2 started...
+2022-05-29 17:43:59,264:INFO:Downloading completed.
+2022-05-29 17:43:59,268:INFO:******************** downloadManager completed at 2022-05-29_17:43:59*********************
+2022-05-29 17:44:40,491:INFO: 
+2022-05-29 17:44:40,491:INFO:----------------------- ETL-airport started at 2022-05-29_17:44:40------------------------
+2022-05-29 17:44:40,491:INFO:Read data from raw files started...
+2022-05-29 17:45:18,341:INFO:ETL-airport,05/29/2022-17:45:18,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv,csv,7,3376,ETL-airport_20220529_174440
+2022-05-29 17:45:24,342:INFO:Write cleaned data to file started...
+2022-05-29 17:45:27,651:INFO:Write cleaned data succeeded.
+2022-05-29 17:45:27,966:INFO:ETL-airport,05/29/2022-17:45:27,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/airport,parquet,8,3376,ETL-airport_20220529_174440
+2022-05-29 17:45:27,966:INFO:---------------------- ETL-airport completed at 2022-05-29_17:45:27-----------------------
+2022-05-29 17:47:18,966:INFO: 
+2022-05-29 17:47:18,967:INFO:*********************** ETL Process started at 2022-05-29_17:47:18************************
+2022-05-29 17:47:37,027:INFO: 
+2022-05-29 17:47:37,027:INFO:----------------------- ETL-airport started at 2022-05-29_17:47:37------------------------
+2022-05-29 17:47:37,027:INFO:Read data from raw files started...
+2022-05-29 17:47:49,772:INFO:ETL-airport,05/29/2022-17:47:49,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv,csv,7,3376,ETL-airport_20220529_174737
+2022-05-29 17:47:56,113:INFO:Write cleaned data to file started...
+2022-05-29 17:47:58,903:INFO:Write cleaned data succeeded.
+2022-05-29 17:47:59,253:INFO:ETL-airport,05/29/2022-17:47:59,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/airport,parquet,8,3376,ETL-airport_20220529_174737
+2022-05-29 17:47:59,253:INFO:---------------------- ETL-airport completed at 2022-05-29_17:47:59-----------------------
+2022-05-29 17:47:59,254:INFO: 
+2022-05-29 17:47:59,254:INFO:------------------------ ETL-plane started at 2022-05-29_17:47:59-------------------------
+2022-05-29 17:47:59,254:INFO:Read data from raw files started...
+2022-05-29 17:48:02,425:INFO:ETL-plane,05/29/2022-17:48:02,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/plane.csv,csv,9,5029,ETL-plane_20220529_174759
+2022-05-29 17:48:02,766:INFO:Write cleaned data to file started...
+2022-05-29 17:48:04,076:INFO:Write cleaned data succeeded.
+2022-05-29 17:48:04,548:INFO:ETL-plane,05/29/2022-17:48:04,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/plane,parquet,9,4480,ETL-plane_20220529_174759
+2022-05-29 17:48:04,549:INFO:----------------------- ETL-plane completed at 2022-05-29_17:48:04------------------------
+2022-05-29 17:48:04,550:INFO: 
+2022-05-29 17:48:04,550:INFO:----------------------- ETL-carrier started at 2022-05-29_17:48:04------------------------
+2022-05-29 17:48:04,550:INFO:Read data from raw files started...
+2022-05-29 17:48:05,551:INFO:ETL-carrier,05/29/2022-17:48:05,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/carrier.csv,csv,2,1491,ETL-carrier_20220529_174804
+2022-05-29 17:48:05,741:INFO:Write cleaned data to file started...
+2022-05-29 17:48:06,915:INFO:Write cleaned data succeeded.
+2022-05-29 17:48:07,102:INFO:ETL-carrier,05/29/2022-17:48:07,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/carrier,parquet,2,1491,ETL-carrier_20220529_174804
+2022-05-29 17:48:07,102:INFO:---------------------- ETL-carrier completed at 2022-05-29_17:48:07-----------------------
+2022-05-29 17:48:07,104:INFO: 
+2022-05-29 17:48:07,104:INFO:------------------------ ETL-flight started at 2022-05-29_17:48:07------------------------
+2022-05-29 17:48:07,104:INFO:Read data from raw files started...
+2022-05-29 17:48:16,531:INFO:ETL-flight,05/29/2022-17:48:16,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2000.csv.bz2,csv,29,5683047,ETL-flight_20220529_174807
+2022-05-29 17:48:17,090:INFO:Write cleaned data to file started...
+2022-05-29 17:48:43,244:INFO:Write cleaned data succeeded.
+2022-05-29 17:48:53,965:INFO:ETL-flight,05/29/2022-17:48:53,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5481303,ETL-flight_20220529_174807
+2022-05-29 17:48:53,966:INFO:----------------------- ETL-flight completed at 2022-05-29_17:48:53-----------------------
+2022-05-29 17:48:53,966:INFO:********************** ETL Process completed at 2022-05-29_17:48:53***********************
+2022-05-29 17:56:22,257:INFO: 
+2022-05-29 17:56:22,257:INFO:*********************** ETL Process started at 2022-05-29_17:56:22************************
+2022-05-29 17:56:40,213:INFO: 
+2022-05-29 17:56:40,213:INFO:----------------------- ETL-airport started at 2022-05-29_17:56:40------------------------
+2022-05-29 17:56:40,213:INFO:Read data from raw files started...
+2022-05-29 17:56:55,454:INFO:ETL-airport,05/29/2022-17:56:55,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/airport.csv,csv,7,3376,ETL-airport_20220529_175640
+2022-05-29 17:57:00,720:INFO:Write cleaned data to file started...
+2022-05-29 17:57:03,604:INFO:Write cleaned data succeeded.
+2022-05-29 17:57:03,929:INFO:ETL-airport,05/29/2022-17:57:03,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/airport,parquet,8,3376,ETL-airport_20220529_175640
+2022-05-29 17:57:03,931:INFO:---------------------- ETL-airport completed at 2022-05-29_17:57:03-----------------------
+2022-05-29 17:57:03,931:INFO: 
+2022-05-29 17:57:03,931:INFO:------------------------ ETL-plane started at 2022-05-29_17:57:03-------------------------
+2022-05-29 17:57:03,931:INFO:Read data from raw files started...
+2022-05-29 17:57:06,800:INFO:ETL-plane,05/29/2022-17:57:06,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/plane.csv,csv,9,5029,ETL-plane_20220529_175703
+2022-05-29 17:57:07,082:INFO:Write cleaned data to file started...
+2022-05-29 17:57:08,328:INFO:Write cleaned data succeeded.
+2022-05-29 17:57:08,617:INFO:ETL-plane,05/29/2022-17:57:08,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/plane,parquet,9,4480,ETL-plane_20220529_175703
+2022-05-29 17:57:08,617:INFO:----------------------- ETL-plane completed at 2022-05-29_17:57:08------------------------
+2022-05-29 17:57:08,618:INFO: 
+2022-05-29 17:57:08,618:INFO:----------------------- ETL-carrier started at 2022-05-29_17:57:08------------------------
+2022-05-29 17:57:08,618:INFO:Read data from raw files started...
+2022-05-29 17:57:09,440:INFO:ETL-carrier,05/29/2022-17:57:09,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/carrier.csv,csv,2,1491,ETL-carrier_20220529_175708
+2022-05-29 17:57:09,612:INFO:Write cleaned data to file started...
+2022-05-29 17:57:11,965:INFO:Write cleaned data succeeded.
+2022-05-29 17:57:12,144:INFO:ETL-carrier,05/29/2022-17:57:12,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/carrier,parquet,2,1491,ETL-carrier_20220529_175708
+2022-05-29 17:57:12,145:INFO:---------------------- ETL-carrier completed at 2022-05-29_17:57:12-----------------------
+2022-05-29 17:57:12,146:INFO: 
+2022-05-29 17:57:12,147:INFO:------------------------ ETL-flight started at 2022-05-29_17:57:12------------------------
+2022-05-29 17:57:12,147:INFO:Read data from raw files started...
+2022-05-29 17:57:20,889:INFO:ETL-flight,05/29/2022-17:57:20,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/1997.csv.bz2,csv,29,5411843,ETL-flight_20220529_175712
+2022-05-29 17:57:21,469:INFO:Write cleaned data to file started...
+2022-05-29 17:57:45,993:INFO:Write cleaned data succeeded.
+2022-05-29 17:57:56,354:INFO:ETL-flight,05/29/2022-17:57:56,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5301999,ETL-flight_20220529_175712
+2022-05-29 17:57:56,354:INFO:----------------------- ETL-flight completed at 2022-05-29_17:57:56-----------------------
+2022-05-29 17:57:56,354:INFO: 
+2022-05-29 17:57:56,354:INFO:------------------------ ETL-flight started at 2022-05-29_17:57:56------------------------
+2022-05-29 17:57:56,355:INFO:Read data from raw files started...
+2022-05-29 17:58:04,477:INFO:ETL-flight,05/29/2022-17:58:04,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/1998.csv.bz2,csv,29,5384721,ETL-flight_20220529_175756
+2022-05-29 17:58:04,862:INFO:Write cleaned data to file started...
+2022-05-29 17:58:27,540:INFO:Write cleaned data succeeded.
+2022-05-29 17:58:37,868:INFO:ETL-flight,05/29/2022-17:58:37,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5227051,ETL-flight_20220529_175756
+2022-05-29 17:58:37,869:INFO:----------------------- ETL-flight completed at 2022-05-29_17:58:37-----------------------
+2022-05-29 17:58:37,869:INFO: 
+2022-05-29 17:58:37,869:INFO:------------------------ ETL-flight started at 2022-05-29_17:58:37------------------------
+2022-05-29 17:58:37,869:INFO:Read data from raw files started...
+2022-05-29 17:58:46,243:INFO:ETL-flight,05/29/2022-17:58:46,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/1999.csv.bz2,csv,29,5527884,ETL-flight_20220529_175837
+2022-05-29 17:58:46,591:INFO:Write cleaned data to file started...
+2022-05-29 17:59:09,542:INFO:Write cleaned data succeeded.
+2022-05-29 17:59:20,118:INFO:ETL-flight,05/29/2022-17:59:20,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5360018,ETL-flight_20220529_175837
+2022-05-29 17:59:20,118:INFO:----------------------- ETL-flight completed at 2022-05-29_17:59:20-----------------------
+2022-05-29 17:59:20,118:INFO: 
+2022-05-29 17:59:20,119:INFO:------------------------ ETL-flight started at 2022-05-29_17:59:20------------------------
+2022-05-29 17:59:20,119:INFO:Read data from raw files started...
+2022-05-29 17:59:28,617:INFO:ETL-flight,05/29/2022-17:59:28,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2000.csv.bz2,csv,29,5683047,ETL-flight_20220529_175920
+2022-05-29 17:59:29,202:INFO:Write cleaned data to file started...
+2022-05-29 17:59:54,090:INFO:Write cleaned data succeeded.
+2022-05-29 18:00:05,124:INFO:ETL-flight,05/29/2022-18:00:05,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5481303,ETL-flight_20220529_175920
+2022-05-29 18:00:05,124:INFO:----------------------- ETL-flight completed at 2022-05-29_18:00:05-----------------------
+2022-05-29 18:00:05,125:INFO: 
+2022-05-29 18:00:05,125:INFO:------------------------ ETL-flight started at 2022-05-29_18:00:05------------------------
+2022-05-29 18:00:05,125:INFO:Read data from raw files started...
+2022-05-29 18:00:14,012:INFO:ETL-flight,05/29/2022-18:00:14,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2001.csv.bz2,csv,29,5967780,ETL-flight_20220529_180005
+2022-05-29 18:00:14,323:INFO:Write cleaned data to file started...
+2022-05-29 18:00:40,173:INFO:Write cleaned data succeeded.
+2022-05-29 18:00:51,679:INFO:ETL-flight,05/29/2022-18:00:51,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5723673,ETL-flight_20220529_180005
+2022-05-29 18:00:51,679:INFO:----------------------- ETL-flight completed at 2022-05-29_18:00:51-----------------------
+2022-05-29 18:00:51,681:INFO: 
+2022-05-29 18:00:51,681:INFO:------------------------ ETL-flight started at 2022-05-29_18:00:51------------------------
+2022-05-29 18:00:51,682:INFO:Read data from raw files started...
+2022-05-29 18:00:59,596:INFO:ETL-flight,05/29/2022-18:00:59,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2002.csv.bz2,csv,29,5271359,ETL-flight_20220529_180051
+2022-05-29 18:00:59,886:INFO:Write cleaned data to file started...
+2022-05-29 18:01:22,167:INFO:Write cleaned data succeeded.
+2022-05-29 18:01:32,455:INFO:ETL-flight,05/29/2022-18:01:32,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,5197860,ETL-flight_20220529_180051
+2022-05-29 18:01:32,455:INFO:----------------------- ETL-flight completed at 2022-05-29_18:01:32-----------------------
+2022-05-29 18:01:32,456:INFO: 
+2022-05-29 18:01:32,456:INFO:------------------------ ETL-flight started at 2022-05-29_18:01:32------------------------
+2022-05-29 18:01:32,456:INFO:Read data from raw files started...
+2022-05-29 18:01:42,193:INFO:ETL-flight,05/29/2022-18:01:42,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2003.csv.bz2,csv,29,6488540,ETL-flight_20220529_180132
+2022-05-29 18:01:42,555:INFO:Write cleaned data to file started...
+2022-05-29 18:02:08,911:INFO:Write cleaned data succeeded.
+2022-05-29 18:02:21,372:INFO:ETL-flight,05/29/2022-18:02:21,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,6375690,ETL-flight_20220529_180132
+2022-05-29 18:02:21,373:INFO:----------------------- ETL-flight completed at 2022-05-29_18:02:21-----------------------
+2022-05-29 18:02:21,373:INFO: 
+2022-05-29 18:02:21,373:INFO:------------------------ ETL-flight started at 2022-05-29_18:02:21------------------------
+2022-05-29 18:02:21,373:INFO:Read data from raw files started...
+2022-05-29 18:02:31,863:INFO:ETL-flight,05/29/2022-18:02:31,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2004.csv.bz2,csv,29,7129270,ETL-flight_20220529_180221
+2022-05-29 18:02:32,214:INFO:Write cleaned data to file started...
+2022-05-29 18:03:01,866:INFO:Write cleaned data succeeded.
+2022-05-29 18:03:15,397:INFO:ETL-flight,05/29/2022-18:03:15,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,6987729,ETL-flight_20220529_180221
+2022-05-29 18:03:15,397:INFO:----------------------- ETL-flight completed at 2022-05-29_18:03:15-----------------------
+2022-05-29 18:03:15,398:INFO: 
+2022-05-29 18:03:15,398:INFO:------------------------ ETL-flight started at 2022-05-29_18:03:15------------------------
+2022-05-29 18:03:15,398:INFO:Read data from raw files started...
+2022-05-29 18:03:26,028:INFO:ETL-flight,05/29/2022-18:03:26,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2005.csv.bz2,csv,29,7140596,ETL-flight_20220529_180315
+2022-05-29 18:03:26,315:INFO:Write cleaned data to file started...
+2022-05-29 18:03:56,562:INFO:Write cleaned data succeeded.
+2022-05-29 18:04:10,226:INFO:ETL-flight,05/29/2022-18:04:10,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,6992838,ETL-flight_20220529_180315
+2022-05-29 18:04:10,226:INFO:----------------------- ETL-flight completed at 2022-05-29_18:04:10-----------------------
+2022-05-29 18:04:10,228:INFO: 
+2022-05-29 18:04:10,228:INFO:------------------------ ETL-flight started at 2022-05-29_18:04:10------------------------
+2022-05-29 18:04:10,228:INFO:Read data from raw files started...
+2022-05-29 18:04:20,911:INFO:ETL-flight,05/29/2022-18:04:20,read,wasbs://aota@east8aota8blob.blob.core.windows.net/raw/2006.csv.bz2,csv,29,7141922,ETL-flight_20220529_180410
+2022-05-29 18:04:21,225:INFO:Write cleaned data to file started...
+2022-05-29 18:04:50,634:INFO:Write cleaned data succeeded.
+2022-05-29 18:05:04,416:INFO:ETL-flight,05/29/2022-18:05:04,write,wasbs://aota@east8aota8blob.blob.core.windows.net/processed/flight,parquet,18,7003802,ETL-flight_20220529_180410
+2022-05-29 18:05:04,416:INFO:----------------------- ETL-flight completed at 2022-05-29_18:05:04-----------------------
+2022-05-29 18:05:04,416:INFO:********************** ETL Process completed at 2022-05-29_18:05:04***********************
+2022-05-29 18:14:42,917:INFO: 
+2022-05-29 18:14:42,918:INFO:-------------------- create-dim_carrier started at 2022-05-29_18:14:42--------------------
+2022-05-29 18:15:17,171:INFO:Intgr-dim_carrier,05/29/2022-18:15:17,write,wasbs://aota@east8aota8blob.blob.core.windows.net/integrated/dim_carrier,None,3,1491,2022-05-29_18:15:15
