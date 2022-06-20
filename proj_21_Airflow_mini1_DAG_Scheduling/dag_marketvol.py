@@ -11,8 +11,8 @@ import yfinance as yf
 default_args = {
     'owner':'airflow',
     'depends_on_past':False,
-    'start_date':datetime(2022,6,19),
-    'retries':2
+    'start_date':datetime(2022,6,18),
+    'retries':2,
     'retry_delay': timedelta(minutes=5)
 }
 
@@ -21,7 +21,7 @@ dag = DAG(
     dag_id='dag_marketvol',
     default_args=default_args,
     description='A simple DAG',
-    schedule_interval=timedelta(days=1),
+    schedule_interval='0 18 * * *',
 )
 
 
