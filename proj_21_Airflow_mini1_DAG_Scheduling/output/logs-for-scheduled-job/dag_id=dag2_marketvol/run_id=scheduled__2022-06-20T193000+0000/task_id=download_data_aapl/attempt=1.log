@@ -1,0 +1,25 @@
+[2022-06-21 18:56:40,734] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag2_marketvol.download_data_aapl scheduled__2022-06-20T19:30:00+00:00 [queued]>
+[2022-06-21 18:56:40,744] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag2_marketvol.download_data_aapl scheduled__2022-06-20T19:30:00+00:00 [queued]>
+[2022-06-21 18:56:40,744] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-21 18:56:40,744] {taskinstance.py:1357} INFO - Starting attempt 1 of 3
+[2022-06-21 18:56:40,745] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-21 18:56:40,763] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): download_data_aapl> on 2022-06-20 19:30:00+00:00
+[2022-06-21 18:56:40,769] {standard_task_runner.py:52} INFO - Started process 1911 to run task
+[2022-06-21 18:56:40,773] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag2_marketvol', 'download_data_aapl', 'scheduled__2022-06-20T19:30:00+00:00', '--job-id', '712', '--raw', '--subdir', 'DAGS_FOLDER/dag2_marketvol.py', '--cfg-path', '/tmp/tmpdou33l29', '--error-file', '/tmp/tmpm64o059o']
+[2022-06-21 18:56:40,773] {standard_task_runner.py:80} INFO - Job 712: Subtask download_data_aapl
+[2022-06-21 18:56:40,830] {task_command.py:370} INFO - Running <TaskInstance: dag2_marketvol.download_data_aapl scheduled__2022-06-20T19:30:00+00:00 [running]> on host 208c06f6f3c7
+[2022-06-21 18:56:40,910] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag2_marketvol
+AIRFLOW_CTX_TASK_ID=download_data_aapl
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-20T19:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-20T19:30:00+00:00
+[2022-06-21 18:56:41,055] {logging_mixin.py:115} INFO - [*********************100%***********************]  1 of 1 completed
+[2022-06-21 18:56:41,055] {logging_mixin.py:115} INFO - /tmp/data/20220621/AAPL_20220621.csv
+[2022-06-21 18:56:41,065] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-21 18:56:41,078] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag2_marketvol, task_id=download_data_aapl, execution_date=20220620T193000, start_date=20220621T185640, end_date=20220621T185641
+[2022-06-21 18:56:41,107] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-21 18:56:41,151] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

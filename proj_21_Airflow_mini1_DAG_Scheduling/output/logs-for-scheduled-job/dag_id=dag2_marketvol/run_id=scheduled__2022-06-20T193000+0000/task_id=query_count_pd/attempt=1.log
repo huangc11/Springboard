@@ -1,0 +1,43 @@
+[2022-06-21 18:56:44,020] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag2_marketvol.query_count_pd scheduled__2022-06-20T19:30:00+00:00 [queued]>
+[2022-06-21 18:56:44,028] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag2_marketvol.query_count_pd scheduled__2022-06-20T19:30:00+00:00 [queued]>
+[2022-06-21 18:56:44,028] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-21 18:56:44,028] {taskinstance.py:1357} INFO - Starting attempt 1 of 3
+[2022-06-21 18:56:44,028] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-21 18:56:44,043] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): query_count_pd> on 2022-06-20 19:30:00+00:00
+[2022-06-21 18:56:44,048] {standard_task_runner.py:52} INFO - Started process 1927 to run task
+[2022-06-21 18:56:44,051] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag2_marketvol', 'query_count_pd', 'scheduled__2022-06-20T19:30:00+00:00', '--job-id', '715', '--raw', '--subdir', 'DAGS_FOLDER/dag2_marketvol.py', '--cfg-path', '/tmp/tmpxaqngppl', '--error-file', '/tmp/tmpl2927kev']
+[2022-06-21 18:56:44,051] {standard_task_runner.py:80} INFO - Job 715: Subtask query_count_pd
+[2022-06-21 18:56:44,108] {task_command.py:370} INFO - Running <TaskInstance: dag2_marketvol.query_count_pd scheduled__2022-06-20T19:30:00+00:00 [running]> on host 208c06f6f3c7
+[2022-06-21 18:56:44,185] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag2_marketvol
+AIRFLOW_CTX_TASK_ID=query_count_pd
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-20T19:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-20T19:30:00+00:00
+[2022-06-21 18:56:44,186] {logging_mixin.py:115} INFO - File to be read:/tmp/query/AAPL_20220621.csv
+[2022-06-21 18:56:44,200] {logging_mixin.py:115} INFO - Read data file succeeded
+[2022-06-21 18:56:44,200] {logging_mixin.py:115} INFO - File to be read:/tmp/query/TSLA_20220621.csv
+[2022-06-21 18:56:44,203] {logging_mixin.py:115} INFO - Read data file succeeded
+[2022-06-21 18:56:44,203] {logging_mixin.py:115} INFO - ---------avrage of AAPL open -------------
+[2022-06-21 18:56:44,210] {logging_mixin.py:115} INFO - date
+2022-06-21    136.097509
+Name: open, dtype: float64
+[2022-06-21 18:56:44,210] {logging_mixin.py:115} INFO - ---------count of AAPL-------------
+[2022-06-21 18:56:44,212] {logging_mixin.py:115} INFO - date
+2022-06-21    326
+Name: open, dtype: int64
+[2022-06-21 18:56:44,212] {logging_mixin.py:115} INFO - ---------avrage of TSLA open -------------
+[2022-06-21 18:56:44,213] {logging_mixin.py:115} INFO - date
+2022-06-21    718.322806
+Name: open, dtype: float64
+[2022-06-21 18:56:44,213] {logging_mixin.py:115} INFO - ---------count of TSLA-------------
+[2022-06-21 18:56:44,214] {logging_mixin.py:115} INFO - date
+2022-06-21    326
+Name: open, dtype: int64
+[2022-06-21 18:56:44,214] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-21 18:56:44,226] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag2_marketvol, task_id=query_count_pd, execution_date=20220620T193000, start_date=20220621T185644, end_date=20220621T185644
+[2022-06-21 18:56:44,263] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-21 18:56:44,298] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

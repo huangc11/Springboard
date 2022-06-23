@@ -1,0 +1,29 @@
+[2022-06-22 18:00:24,304] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag2_marketvol.mv_file1 scheduled__2022-06-21T18:00:00+00:00 [queued]>
+[2022-06-22 18:00:24,313] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag2_marketvol.mv_file1 scheduled__2022-06-21T18:00:00+00:00 [queued]>
+[2022-06-22 18:00:24,313] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-22 18:00:24,313] {taskinstance.py:1357} INFO - Starting attempt 1 of 3
+[2022-06-22 18:00:24,313] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-22 18:00:24,330] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): mv_file1> on 2022-06-21 18:00:00+00:00
+[2022-06-22 18:00:24,335] {standard_task_runner.py:52} INFO - Started process 29579 to run task
+[2022-06-22 18:00:24,338] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag2_marketvol', 'mv_file1', 'scheduled__2022-06-21T18:00:00+00:00', '--job-id', '745', '--raw', '--subdir', 'DAGS_FOLDER/dag2_marketvol.py', '--cfg-path', '/tmp/tmpk17f8uii', '--error-file', '/tmp/tmpqzm146ax']
+[2022-06-22 18:00:24,339] {standard_task_runner.py:80} INFO - Job 745: Subtask mv_file1
+[2022-06-22 18:00:24,397] {task_command.py:370} INFO - Running <TaskInstance: dag2_marketvol.mv_file1 scheduled__2022-06-21T18:00:00+00:00 [running]> on host 208c06f6f3c7
+[2022-06-22 18:00:24,481] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag2_marketvol
+AIRFLOW_CTX_TASK_ID=mv_file1
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-21T18:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-21T18:00:00+00:00
+[2022-06-22 18:00:24,482] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-06-22 18:00:24,483] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'bash /opt/***/dags/mv_file1.sh ']
+[2022-06-22 18:00:24,498] {subprocess.py:85} INFO - Output:
+[2022-06-22 18:00:24,503] {subprocess.py:92} INFO - /tmp/data/20220622
+[2022-06-22 18:00:24,503] {subprocess.py:92} INFO - /tmp/data/20220622
+[2022-06-22 18:00:24,505] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-06-22 18:00:24,540] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag2_marketvol, task_id=mv_file1, execution_date=20220621T180000, start_date=20220622T180024, end_date=20220622T180024
+[2022-06-22 18:00:24,591] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-22 18:00:24,631] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
