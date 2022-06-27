@@ -1,0 +1,787 @@
+<class 'list'>
+Here are all the errors:
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-11T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 468 for task query_count_pd (local variable 'df2' referenced before assignment; 196)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-20T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 453 for task query_count_pd (local variable 'df2' referenced before assignment; 143)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-14T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 471 for task query_count_pd (local variable 'df2' referenced before assignment; 219)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-25T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 440 for task query_count_pd (local variable 'df2' referenced before assignment; 134)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-15T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 472 for task query_count_pd (local variable 'df2' referenced before assignment; 220)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-26T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 444 for task query_count_pd (local variable 'df2' referenced before assignment; 130)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-27T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 452 for task query_count_pd (local variable 'df2' referenced before assignment; 142)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-16T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 443 for task query_count_pd (local variable 'df2' referenced before assignment; 135)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-18T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 450 for task query_count_pd (local variable 'df2' referenced before assignment; 140)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-08T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 434 for task query_count_pd (local variable 'df2' referenced before assignment; 370)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-30T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 456 for task query_count_pd (local variable 'df2' referenced before assignment; 164)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-20T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 666 for task query_count_pd (local variable 'df2' referenced before assignment; 6907)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-10T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 435 for task query_count_pd (local variable 'df2' referenced before assignment; 375)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-17T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 474 for task query_count_pd (local variable 'df2' referenced before assignment; 222)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-18T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 520 for task query_count_pd (local variable 'df2' referenced before assignment; 2662)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-05T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 462 for task query_count_pd (local variable 'df2' referenced before assignment; 177)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-08T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 465 for task query_count_pd (local variable 'df2' referenced before assignment; 193)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-19T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 446 for task query_count_pd (local variable 'df2' referenced before assignment; 139)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-29T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 455 for task query_count_pd (local variable 'df2' referenced before assignment; 156)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-13T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 445 for task query_count_pd (local variable 'df2' referenced before assignment; 129)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-03T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 460 for task query_count_pd (local variable 'df2' referenced before assignment; 175)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-04T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 461 for task query_count_pd (local variable 'df2' referenced before assignment; 176)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-12T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 469 for task query_count_pd (local variable 'df2' referenced before assignment; 205)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-11T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 436 for task query_count_pd (local variable 'df2' referenced before assignment; 376)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-02T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 459 for task query_count_pd (local variable 'df2' referenced before assignment; 172)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-01T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 458 for task query_count_pd (local variable 'df2' referenced before assignment; 171)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-23T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 449 for task query_count_pd (local variable 'df2' referenced before assignment; 137)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-15T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 442 for task query_count_pd (local variable 'df2' referenced before assignment; 132)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-21T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 451 for task query_count_pd (local variable 'df2' referenced before assignment; 141)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-31T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 457 for task query_count_pd (local variable 'df2' referenced before assignment; 168)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-10T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 467 for task query_count_pd (local variable 'df2' referenced before assignment; 195)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-19T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 551 for task query_count_pd (local variable 'df2' referenced before assignment; 2701)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-22T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 448 for task query_count_pd (local variable 'df2' referenced before assignment; 138)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-17T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 447 for task query_count_pd (local variable 'df2' referenced before assignment; 136)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-09T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 466 for task query_count_pd (local variable 'df2' referenced before assignment; 197)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-13T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 470 for task query_count_pd (local variable 'df2' referenced before assignment; 217)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-24T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 454 for task query_count_pd (local variable 'df2' referenced before assignment; 144)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-14T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 439 for task query_count_pd (local variable 'df2' referenced before assignment; 133)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-16T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 473 for task query_count_pd (local variable 'df2' referenced before assignment; 221)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-06T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 463 for task query_count_pd (local variable 'df2' referenced before assignment; 187)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-06-07T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 464 for task query_count_pd (local variable 'df2' referenced before assignment; 188)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_query_pd/run_id=scheduled__2022-05-28T00:00:00+00:00/task_id=query_count_pd/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 441 for task query_count_pd (local variable 'df2' referenced before assignment; 131)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:22:09.158223+00:00/task_id=run_this/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 647 for task run_this (Exeption; 3416)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:22:14.537156+00:00/task_id=run_this/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 650 for task run_this (Exeption; 3422)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:22:18.486912+00:00/task_id=run_this/attempt=5.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 661 for task run_this (Exeption; 3453)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:22:18.486912+00:00/task_id=run_this/attempt=2.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 657 for task run_this (Exeption; 3445)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:22:18.486912+00:00/task_id=run_this/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 655 for task run_this (Exeption; 3439)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:22:18.486912+00:00/task_id=run_this/attempt=3.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 659 for task run_this (Exeption; 3449)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:22:18.486912+00:00/task_id=run_this/attempt=4.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 660 for task run_this (Exeption; 3451)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:21:14.356564+00:00/task_id=run_this/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 636 for task run_this (Exeption; 3349)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:20:28.868096+00:00/task_id=run_this/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 623 for task run_this (Exeption; 3287)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:20:20.045434+00:00/task_id=run_this/attempt=2.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 613 for task run_this (Exeption; 3258)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:20:20.045434+00:00/task_id=run_this/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 611 for task run_this (Exeption; 3254)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:21:12.387622+00:00/task_id=run_this/attempt=2.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 638 for task run_this (Exeption; 3354)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_retry/run_id=manual__2022-06-20T22:21:12.387622+00:00/task_id=run_this/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 633 for task run_this (Exeption; 3344)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-11T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 95 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1761)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-07T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 64 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1616)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-20T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 74 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1669)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-14T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 98 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1767)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-25T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 77 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1679)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-15T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 99 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1774)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-26T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 80 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1684)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-06T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 60 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1603)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-27T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 81 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1691)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-16T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 71 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1663)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-03T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 56 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1599)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-18T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 70 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1662)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-08T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 61 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1606)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-30T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 83 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1714)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=manual__2022-06-17T19:06:15.814832+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 101 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1789)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-10T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 62 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1605)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-04-30T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 53 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1562)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-05T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 57 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1598)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-05T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 89 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1734)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-01T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 54 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1579)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-08T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 92 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1751)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-19T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 72 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1665)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-29T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 82 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1711)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-13T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 55 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1600)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-02T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 58 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1601)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-09T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 63 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1613)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-03T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 87 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1730)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-04T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 59 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1602)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-04T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 88 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1731)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-12T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 96 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1764)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-11T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 65 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1620)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-02T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 86 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1726)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-12T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 66 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1622)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-01T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 85 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1722)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-23T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 76 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1680)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-15T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 68 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1653)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-21T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 73 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1667)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-31T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 84 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1720)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-10T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 94 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1759)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-22T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 75 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1678)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-17T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 69 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1660)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-09T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 93 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1754)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-13T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 97 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1765)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-24T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 78 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1681)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-14T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 67 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1651)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-16T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 100 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1775)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-06T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 90 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1735)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-06-07T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 91 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1747)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_genfile1/run_id=scheduled__2022-05-28T00:00:00+00:00/task_id=download_data_aapl/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 79 for task download_data_aapl ([Errno 2] No such file or directory: '/tmp/data/20220617/AAPL_20220617.csv'; 1683)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-11T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 390 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5444)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-07T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 252 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4649)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-20T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 308 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4989)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-20T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 310 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4991)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=manual__2022-06-17T22:13:33.728364+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 271 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4754)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-14T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 396 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5487)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-14T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 395 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5483)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-25T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 297 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 4932)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=manual__2022-06-18T23:22:54.809623+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 496 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 1882)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-15T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 400 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5497)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-15T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 397 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5493)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-26T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 303 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 4948)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-06T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 250 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4645)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-06T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 253 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4652)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-27T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 304 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 4950)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-03T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 244 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4590)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-03T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 241 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4594)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-18T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 305 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4949)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-18T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 306 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4953)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-08T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 258 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4681)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-08T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 256 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4680)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-30T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 347 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5195)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-30T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 341 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5191)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-10T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 259 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4710)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-10T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 261 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4714)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-04-30T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 245 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4591)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-17T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 420 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 89)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-05T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 251 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4646)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-05T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 327 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 5112)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-01T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 198 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 4361)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-19T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 309 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4990)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-29T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 343 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5194)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-13T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 263 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4730)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-13T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 267 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4735)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-02T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 248 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4598)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-02T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 262 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4712)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-09T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 257 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4685)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-09T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 255 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4679)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-03T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 354 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5259)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-03T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 353 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5256)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-04T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 246 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4595)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-04T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 242 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4592)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-04T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 356 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5272)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-04T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 359 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5275)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-12T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 394 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5474)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-12T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 393 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5468)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-11T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 260 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4711)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-11T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 268 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4753)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-02T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 355 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5260)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-02T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 350 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5198)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-12T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 264 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4736)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-12T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 265 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4731)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-01T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 352 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5241)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-01T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 351 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5234)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-23T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 290 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 4889)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-15T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 275 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4779)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-21T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 312 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5005)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-21T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 311 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5004)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=manual__2022-06-18T15:47:25.056068+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 421 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 423)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-31T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 344 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5192)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-31T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 349 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5196)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-10T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 389 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5445)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-22T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 289 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 4878)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-09T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 363 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5306)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-09T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 365 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5308)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-13T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 391 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5462)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-13T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 392 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5467)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-24T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 294 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 4911)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-14T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 272 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 4751)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-14T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 266 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 4732)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-16T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 399 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5496)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-16T00:00:00+00:00/task_id=mv_file2/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 398 for task mv_file2 (Bash command failed. The command returned a non-zero exit code 1.; 5492)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=manual__2022-06-18T23:22:50.964448+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 498 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 1901)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-06T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 332 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 5141)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-06-07T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 337 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 5145)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini_main/run_id=scheduled__2022-05-28T00:00:00+00:00/task_id=mv_file1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 342 for task mv_file1 (Bash command failed. The command returned a non-zero exit code 1.; 5193)
+---------------log name: /home/chu/airflow_docker/logs/dag_processor_manager/dag_processor_manager.log-----------------------
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_1.py with PID 4229 started at 2022-06-18T16:07:27.432455+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_minimain.py with PID 520 started at 2022-06-18T17:04:17.053199+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_2.py with PID 521 started at 2022-06-18T17:04:40.947424+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_1.py with PID 522 started at 2022-06-18T17:05:12.104411+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile2.py with PID 523 started at 2022-06-18T17:05:36.181130+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile1.py with PID 524 started at 2022-06-18T17:06:04.804300+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py with PID 117 started at 2022-06-18T17:51:13.677802+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py with PID 118 started at 2022-06-18T17:51:15.076171+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py with PID 119 started at 2022-06-18T17:52:10.342300+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py with PID 120 started at 2022-06-18T17:52:18.408974+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py with PID 128 started at 2022-06-18T17:53:19.991692+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_minimain.py with PID 127 started at 2022-06-18T18:04:01.455405+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_2.py with PID 128 started at 2022-06-18T18:04:17.966910+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_1.py with PID 129 started at 2022-06-18T18:04:57.278207+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile2.py with PID 130 started at 2022-06-18T18:05:10.924084+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile1.py with PID 131 started at 2022-06-18T18:05:48.615870+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_crfolder.py with PID 132 started at 2022-06-18T18:06:02.140890+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py with PID 133 started at 2022-06-18T18:06:49.138091+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py with PID 89 started at 2022-06-18T20:43:21.145482+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py with PID 97 started at 2022-06-18T20:43:49.487319+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_minimain.py with PID 198 started at 2022-06-18T20:46:11.903240+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_2.py with PID 199 started at 2022-06-18T20:46:18.690515+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_1.py with PID 200 started at 2022-06-18T20:47:03.553113+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile2.py with PID 201 started at 2022-06-18T20:47:10.256750+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_1.py with PID 564 started at 2022-06-18T21:00:15.045532+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile1.py with PID 576 started at 2022-06-18T21:01:09.631168+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_crfolder.py with PID 577 started at 2022-06-18T21:01:13.462825+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile1.py with PID 993 started at 2022-06-18T21:06:27.078729+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_crfolder.py with PID 994 started at 2022-06-18T21:06:27.767628+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py with PID 1005 started at 2022-06-18T21:07:20.261695+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py with PID 1006 started at 2022-06-18T21:07:20.264927+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py with PID 1018 started at 2022-06-18T21:08:15.412368+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py with PID 1019 started at 2022-06-18T21:08:15.420065+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py with PID 1026 started at 2022-06-18T21:09:07.097312+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py with PID 1027 started at 2022-06-18T21:09:07.271355+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_query.py with PID 1028 started at 2022-06-18T21:10:20.038180+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_minimain.py with PID 1030 started at 2022-06-18T21:10:36.943110+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_2.py with PID 1031 started at 2022-06-18T21:11:38.056090+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_1.py with PID 1032 started at 2022-06-18T21:11:39.091031+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py with PID 1055 started at 2022-06-18T21:14:02.316274+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py with PID 1057 started at 2022-06-18T21:14:19.449820+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py with PID 1058 started at 2022-06-18T21:15:07.965050+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py with PID 1059 started at 2022-06-18T21:15:12.410795+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py with PID 1060 started at 2022-06-18T21:16:02.895820+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py with PID 1061 started at 2022-06-18T21:16:08.130288+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_minimain2.py with PID 4884 started at 2022-06-18T23:14:44.338708+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_query3.py with PID 6768 started at 2022-06-18T23:31:07.278397+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_minimain.py with PID 8055 started at 2022-06-19T03:06:02.856924+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile1.py with PID 8056 started at 2022-06-19T03:06:03.489947+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_minimain2.py with PID 8082 started at 2022-06-19T03:06:56.186530+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_query.py with PID 8083 started at 2022-06-19T03:06:56.221256+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_minimain.py with PID 15283 started at 2022-06-19T13:54:17.491896+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile1.py with PID 15284 started at 2022-06-19T13:54:17.496807+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py with PID 6232 started at 2022-06-19T22:13:17.711720+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py with PID 6233 started at 2022-06-19T22:13:17.733153+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile2.py with PID 7059 started at 2022-06-19T22:20:08.410656+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_crfolder.py with PID 7060 started at 2022-06-19T22:20:08.513304+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_mvfile_1.py with PID 14774 started at 2022-06-20T02:37:33.086282+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_genfile2.py with PID 14775 started at 2022-06-20T02:37:33.159047+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_marketvol.py with PID 23023 started at 2022-06-20T04:37:07.820939+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_minimain.py with PID 23024 started at 2022-06-20T04:37:07.830456+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py with PID 22034 started at 2022-06-21T21:36:20.219122+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py with PID 31346 started at 2022-06-22T01:06:05.040225+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py with PID 31347 started at 2022-06-22T01:06:05.059187+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag2_marketvol.py with PID 64 started at 2022-06-22T23:53:52.437961+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/d_marketvol.py with PID 65 started at 2022-06-22T23:53:56.321546+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag2_marketvol.py with PID 64 started at 2022-06-22T23:58:54.780185+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/d_marketvol.py with PID 65 started at 2022-06-22T23:58:54.786468+00:00 has timed out, killing it.
+ ERROR - Processor for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py with PID 70 started at 2022-06-23T00:00:49.926856+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag_retry.py with PID 127 started at 2022-06-23T00:02:01.524257+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/dag2_marketvol.py with PID 1382 started at 2022-06-23T01:34:45.200738+00:00 has timed out, killing it.
+ ERROR - Processor for /opt/airflow/dags/d_marketvol.py with PID 1383 started at 2022-06-23T01:34:45.205608+00:00 has timed out, killing it.
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-11T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 46 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1052)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-07T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 7 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 772)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-20T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 24 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 881)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-14T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 49 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1086)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-25T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 29 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 922)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-15T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 50 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1087)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-26T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 28 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 921)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-06T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 5 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 750)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-27T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 31 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 956)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-16T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 22 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 883)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-03T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 12 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 792)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-18T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 19 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 868)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-08T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 15 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 803)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-30T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 34 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 975)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-10T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 10 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 789)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-04-30T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 4 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 739)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-18T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 522 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 2681)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-05T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 6 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 751)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-05T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 40 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1017)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-01T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 18 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 830)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-08T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 43 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1034)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-19T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 23 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 880)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-29T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 33 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 960)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=manual__2022-06-17T18:54:22.974022+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 3 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 738)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-13T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 11 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 790)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=manual__2022-06-17T20:53:02.297075+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 105 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 174)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-02T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 17 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 818)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-09T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 9 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 791)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=manual__2022-06-17T21:04:28.976014+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 106 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 703)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=manual__2022-06-17T21:05:25.502223+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 107 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 755)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-03T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 38 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 994)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-04T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 16 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 816)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-04T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 39 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1003)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-12T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 47 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1057)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-11T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 8 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 788)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-02T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 37 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 989)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=manual__2022-06-17T21:05:36.025194+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 108 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 771)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-12T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 14 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 798)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-01T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 36 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 984)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=manual__2022-06-17T19:04:48.772968+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 52 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1536)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-23T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 30 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 923)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-15T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 21 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 882)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-21T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 25 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 902)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-31T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 35 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 978)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-10T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 45 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1047)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-22T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 26 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 903)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=manual__2022-06-17T20:44:01.707100+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 102 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 6252)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-17T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 20 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 867)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-09T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 44 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1041)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-13T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 48 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1062)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-24T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 27 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 916)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-14T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 13 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 793)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-16T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 51 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1092)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-06T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 41 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1020)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-06-07T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 42 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 1027)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=dag_mini1_crfolder/run_id=scheduled__2022-05-28T00:00:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 32 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 957)
+---------------log name: /home/chu/airflow_docker/logs/dag_id=d_marketvol/run_id=scheduled__2022-06-20T18:30:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 717 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 4158)
+Total number of errors: 546

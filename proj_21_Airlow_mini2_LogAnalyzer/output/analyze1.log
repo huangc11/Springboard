@@ -1,0 +1,6 @@
+<class 'list'>
+Here are all the errors:
+---------------log name: /home/chu/airflow_docker/logs/dag_id=d_marketvol/run_id=scheduled__2022-06-20T18:30:00+00:00/task_id=make_dir_1/attempt=1.log-----------------------
+ ERROR - Task failed with exception
+ ERROR - Failed to execute job 717 for task make_dir_1 (Bash command failed. The command returned a non-zero exit code 1.; 4158)
+Total number of errors: 2
