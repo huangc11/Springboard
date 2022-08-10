@@ -1,0 +1,18 @@
+# docker-compose.yml
+version: "3"
+services:
+    generator:
+        build: ./generator
+        #image: generator:latest
+        environment:
+          KAFKA_BROKER_URL: broker:9092
+          TRANSACTIONS_TOPIC: queueing.transactions
+          TRANSACTIONS_PER_SECOND: 1000
+
+
+
+# Give this composition access to the Kafka network
+networks:
+  default:
+    external:
+       name: kafka-network
