@@ -1,0 +1,178 @@
+
+https://www.mysqltutorial.org/mysql-index/mysql-show-indexes/
+
+
+--------
+https://www.tutorialspoint.com/mysql/mysql_explain_statement.htm
+
+EXPLAIN and ANALYZE
+If used with ANALYZE the EXPLAIN statement gives additional information such as timing of the execution and iterator-based, information like −
+
+Estimated execution cost.
+Estimated number of returned rows.
+Time to return first row.
+Time to return all rows (actual cost), in milliseconds.
+Number of rows returned by the iterator.
+Number of loops.
+
+--------------
+EXPLAIN FORMAT = TRADITIONAL
+ explain format =json SELECT name FROM Student WHERE id IN (SELECT studId FROM Transcript WHERE crsCode = @v4);
+
+
+-------------------
+
+SELECT COUNT(*) FROM Student;
+SELECT COUNT(*) FROM Professor;
+SELECT COUNT(*) FROM Course;
+SELECT COUNT(*) FROM Teaching;
+SELECT COUNT(*) FROM Transcript;
+
+----------
+CREATE INDEX index_name ON table_name (column1, column2, ...);
+
+
+CREATE INDEX student_id  on student(id);
+
+drop index student_name on student;
+
+
+drop index student_id on student;
+
+
+
+show indexes from student;
+
+show indexes from professor;
+
+show indexes from course;
+
+show indexes from transcript;
+
+show indexes from teaching;
+
+---------------
+
+-- -------------------------------------
+SET @v1 = 1612521;
+SET @v2 = 1145072;
+SET @v3 = 1828467;
+SET @v4 = 'MGT382';
+SET @v5 = 'Amber Hill';
+SET @v6 = 'MGT';
+SET @v7 = 'EE';			  
+SET @v8 = 'MAT';
+
+-------- q1
+
+
+create index student_id on student (id);
+
+
+-- 1. List the name of the student with id equal to v1 (id).
+SELECT name FROM Student WHERE id = @v1;
+
+-----------  q2
+-- 2. List the names of students with id in the range of v2 (id) to v3 (inclusive).
+SELECT name FROM Student WHERE id BETWEEN @v2 AND @v3;
+
+
+-----------  q 3
+explain analyze 
+SELECT name FROM Student  s,   Transcript t
+WHERE s.id = t.studId  and t.crsCode = @v4;
+
+
+explain analyze 
+SELECT name FROM Student WHERE id IN (SELECT studId FROM Transcript WHERE crsCode = @v4);
+
+create index trans_crscode on Transcript ( crsCode);
+
+
+create index Student_id on Student( id);
+ 
+drop  index Student_id on student;
+
+
+------------  q4'
+
+4. List the names of students who have taken a course taught by professor v5 (name).
+
+create index professor_name on Professor(name);
+
+create index trans_crs_sem on Transcript ( crsCode, semester);
+
+create index student_id on student (id);
+
+create teaching_profid on teaching(profid);
+
+--
+drop index  teaching_profid on teaching;
+drop index student_id on student;
+
+drop  index professor_name on Professor;
+drop index  trans_crs_sem on Transcript ;
+
+
+-- 
+EXPLAIN analyze
+SELECT name FROM Student,
+	(SELECT studId FROM Transcript,
+		(SELECT crsCode, semester FROM Professor
+			JOIN Teaching
+			WHERE Professor.name = @v5 AND Professor.id = Teaching.profId) as alias1
+	WHERE Transcript.crsCode = alias1.crsCode AND Transcript.semester = alias1.semester) as alias2
+WHERE Student.id = alias2.studId;
+
+
+professor->
+
+
+------------  q 5
+
+-- 5. List the names of students who have taken a course from department v6 (deptId), but not v7.
+SELECT * FROM Student, 
+	(SELECT studId FROM Transcript, Course WHERE deptId = @v6 AND Course.crsCode = Transcript.crsCode
+	AND studId NOT IN
+	(SELECT studId FROM Transcript, Course WHERE deptId = @v7 AND Course.crsCode = Transcript.crsCode)) as alias
+WHERE Student.id = alias.studId;
+
+
+--------------  q6  --------------
+-- 6. List the names of students who have taken all courses offered by department v8 (deptId).
+SELECT name FROM Student,
+	(SELECT studId
+	FROM Transcript
+		WHERE crsCode IN
+		(SELECT crsCode FROM Course WHERE deptId = @v8 AND crsCode IN (SELECT crsCode FROM Teaching))
+		GROUP BY studId
+		HAVING COUNT(*) = 
+			(SELECT COUNT(*) FROM Course WHERE deptId = @v8 AND crsCode IN (SELECT crsCode FROM Teaching))
+                                       ) as alias
+WHERE id = alias.studId;
+
+--
+create temporary table tmp_course  as SELECT crsCode FROM Course WHERE deptId = @v8 AND crsCode IN (SELECT crsCode FROM Teaching);
+
+explain analyze
+SELECT name FROM Student,
+	(SELECT studId
+	FROM Transcript
+		WHERE crsCode IN
+		(SELECT crsCode FROM tmp_course )
+		GROUP BY studId
+		HAVING COUNT(*) = 19)
+			as alias
+WHERE id = alias.studId;
+
+--
+
+
+SELECT co.crsCode FROM Course co,  teaching te WHERE deptId = @v8 AND co.crsCode=te.crsCode;
+
+
+SELECT studId,count(*)
+	FROM Transcript
+		WHERE crsCode IN
+		(SELECT crsCode FROM Course WHERE deptId = @v8 AND crsCode IN (SELECT crsCode FROM Teaching))
+		GROUP BY studId
