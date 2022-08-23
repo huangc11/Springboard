@@ -46,7 +46,9 @@ CREATE INDEX    Course_deptId ON Course(deptId);
 CREATE INDEX  Teaching_crsCode on Teaching(crsCode);
 
 
-2.  As two subqueries are the same,  I rewrite the query by using CTE to replace this subquery. New code:
+2.  As two subqueries are the same,  I tried rewriting the query using two  different appraches:
+
+(1)  Using CTE to replace this subquery. New code:
 
 with  Tmp_course  as 
 (
@@ -63,6 +65,19 @@ SELECT name FROM Student,
                      ) as alias
 WHERE id = alias.studId;
 
+
+(2) use a temp table to replace the query.  New code;
+
+.create temp table
+create table tmp_q6_course as  SELECT * FROM Course WHERE deptId = @v8 AND crsCode IN (SELECT crsCode FROM Teaching);
+
+.create index on temp table 
+create index  tmp_q6_course_crs on  tmp_q6_course(crscode);
+
+
+
+
+
 ************************************************
 *  Explanations
 ************************************************
@@ -71,11 +86,16 @@ WHERE id = alias.studId;
 
 As an improvement measure,  4 indexes were created.  As an result, in  execution plan, all table scan on the tables are eliminated.  
 
-2. As there are two subqueries that the same, I rewrote the query by using a CTE to replace this subquery. 
-The excution plans generated  before or after  CTE introduced (in both cases, indexes are present), are quite similar.  I noticed on some items, 
+2. As there are two subqueries that the same, I rewrote the query by using a CTE  or  temp table to replace this subquery. 
+The excution plans generated  for following 3 scarios are quite similar.  The last one seems to have the lowest cost;
+ index 
+ index +  CTE
+ index +temp table
+
+.I noticed on some items, 
 the one using CTE has has smaller cost, such as 'Aggregate using temporary table'.  On other items, the one using subquery(original query) has smaller cost.
 
-Perhaps the pros and cons will be obsersved by experimenting with a large amount of data.
+Perhaps by experimenting with a large amount of data,  we will know which one works best.
 
 --------------------------------------------------------------------------
 - Old execution plan
@@ -158,7 +178,7 @@ Perhaps the pros and cons will be obsersved by experimenting with a large amount
  
 
 ----------------------------------------------------------------------
-- 3. Execution plan after indexes being created and  CTE introduced
+- 3. Execution plan for index +  CTE introduced
 ------------------------------------------------------------------------
  -> Nested loop inner join  (cost=3.43 rows=2) (actual time=0.579..0.579 rows=0 loops=1)
     -> Filter: (alias.studId is not null)  (cost=1.36..2.73 rows=2) (actual time=0.578..0.578 rows=0 loops=1)
@@ -189,3 +209,24 @@ Perhaps the pros and cons will be obsersved by experimenting with a large amount
                             -> Materialize CTE tmp_course if needed (query plan printed elsewhere)  (cost=13.68..16.35 rows=24) (never executed)
     -> Index lookup on Student using Student_id (id=alias.studId)  (cost=0.30 rows=1) (never executed)
  |
+
+
+
+----------------------------------------------------------------------
+- 4. Execution plan for index +  temp table
+------------------------------------------------------------------------
+| -> Nested loop inner join  (cost=3.43 rows=2) (actual time=13.190..13.190 rows=0 loops=1)
+    -> Filter: (alias.studId is not null)  (cost=1.36..2.73 rows=2) (actual time=13.185..13.185 rows=0 loops=1)
+        -> Table scan on alias  (cost=2.50..2.50 rows=0) (actual time=0.002..0.002 rows=0 loops=1)
+            -> Materialize  (cost=2.50..2.50 rows=0) (actual time=13.184..13.184 rows=0 loops=1)
+                -> Filter: (count(0) = (select #4))  (actual time=12.954..12.954 rows=0 loops=1)
+                    -> Table scan on <temporary>  (actual time=0.004..0.031 rows=23 loops=1)
+                        -> Aggregate using temporary table  (actual time=2.061..2.098 rows=23 loops=1)
+                            -> Nested loop inner join  (cost=11.62 rows=24) (actual time=1.431..1.944 rows=23 loops=1)
+                                -> Remove duplicates from input sorted on tmp_q6_course_crs  (cost=3.24 rows=23) (actual time=0.568..0.777 rows=23 loops=1)
+                                    -> Filter: (tmp_q6_course.crsCode is not null)  (cost=3.24 rows=23) (actual time=0.564..0.702 rows=23 loops=1)
+                                        -> Covering index scan on tmp_q6_course using tmp_q6_course_crs  (cost=3.24 rows=23) (actual time=0.558..0.686 rows=23 loops=1)
+                                -> Index lookup on Transcript using Transcript_crs (crsCode=tmp_q6_course.crsCode)  (cost=6.09 rows=1) (actual time=0.046..0.049 rows=1 loops=23)
+                    -> Select #4 (subquery in condition; run only once)
+                        -> Count rows in tmp_q6_course  (actual time=10.819..10.819 rows=1 loops=1)
+    -> Index lookup on Student using Student_id (id=alias.studId)  (cost=0.30 rows=1) (never executed)
