@@ -59,8 +59,16 @@ This Video includes:
      user/hduser
   - upload souce data ile 'data.csv'
      
-2. Login to sandbox as 'hduser', navigate to /home/hduser, create following python scripts by copying and paste (note: uploading the scripts created at Windows may not work):
- mapper1.py, reducer1.py, mapper2.py, reducer2.py
+2.  For running  map reduce locally
+Login to sandbox as 'hduser', create folder /home/hduser/mapreduce_autoinc and naviate into it
+1) Create following python scripts by copying and paste (note: uploading the scripts that were created at Windows may not be working):
+autoinc_mapper1.py
+autoinc_reducer1.py, 
+autoinc_mapper2.py,
+autoinc_reducer2.py
+
+2) Upload  file 'data_carinc.csv' to this folder
+
 
 3. At /home/hduser,  create following shell scripts:
   - **map_reduce1.sh**, which includes following content (it will read  hdfs file: /user/hduser/data.csv and write to intermidiate files on hdfs under /user/hduser/output/all_inc)
@@ -74,7 +82,7 @@ This Video includes:
 
 #### Test the code locally
 
-Login inRun the following command to  test the scripts locally:
+Login to sandbox as 'hduser', navigate to folder /home/hduser/mapreduce_autoinc.Type
 
 cat data.csv|./mapper1.py|sort|./reducer1.py|./mapper2.py|sort|./reducer2.py
  

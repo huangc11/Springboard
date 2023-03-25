@@ -1,0 +1,21 @@
+
+------------ 1------------
+Input: origin record
+output:   (vin,  (make, year, inc_type))
+
+------------ 2-------------
+input: (vin,  (make, year, inc_type))
+Processing:
+.Within a group of vin_number, we need to iterate through all the records and find the one that
+has the make and year available and capture it in group level master info. 
+. Populate   make and year of master to all recors in the group
+.filter and output accident records,
+output:  (vin,  (make, year))
+
+---------- 3------------ 
+input:  (vin,  (make, year))
+output:  (  (make, year), 1 )
+
+--------- 4--------------
+input:  (  (make, year), 1 )
+output:  (  (make, year), n )

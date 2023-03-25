@@ -1,0 +1,52 @@
+C:\data-projects\aota2\venv\Scripts\python.exe C:\data-projects\aota2\src\main\python\bin\intgr_flight_processor.py 
+master= local
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/02/10 23:17:38 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+----Integration Process started...----
+----Reading data from processed tier for year 1997...----
+C:/data/aota2/processed/flight/year=1997
+  Elapsed:      2.50
+*--The DataFrame count of df_fl is 5303170.
+----Saving formatted flight data to local drive...----
+---- Starting 'df_to_local' on dataframe 'df_fl_base' :C:/data/aota2/tmp/tmp_df_fl_base_1997----
+23/02/10 23:17:43 WARN package: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+23/02/10 23:17:51 WARN ProcfsMetricsGetter: Exception when trying to compute pagesize, as a result reporting of ProcessTree metrics is stopped
+----'df_to_local' on dataframe 'df_fl_base completed.' :C:/data/aota2/tmp/tmp_df_fl_base_1997----
+  Elapsed:     29.68
+----"read_processed_flights" completed.----
+*** "read_processed_flights " time elapsed:   33.58
+tdf_fl_base.is_cached:False
+*** "tdf_fl_base.cache " time elapsed:   33.58
+*--The DataFrame count of tbf_fl_base is 5303170.
+*--The DataFrame count of df_date is 365.
+----stg_dim_date generation completed.----
+input file_path:C:/data/aota2/processed/gen/airport
+input file_format:parquet
+*--The DataFrame count of processed airport data is 3376.
+----df_od2 count:3153----
+----stg_dim_origin_dest generation completed.----
+----"process_stg_dim_table" completed.----
+*** "process_stg_dim_table " time elapsed:   42.46
++--------------------+-------+
+|SPARK_PARTITION_ID()|  count|
++--------------------+-------+
+|                   0|5303170|
++--------------------+-------+
+
+----repartition df_fact_flt to 8...----
++--------------------+-------+
+|SPARK_PARTITION_ID()|  count|
++--------------------+-------+
+|                   0|5303170|
++--------------------+-------+
+
+----Started writing fact_flight to storage... ----
+----fact_flight table created.----
+  Elapsed:     22.25
+----"generate_fact_flight" completed.----
+*** "generate_fact_flight " time elapsed:   64.71
+----Integration Process completed successfully----
+
+Process finished with exit code 0
